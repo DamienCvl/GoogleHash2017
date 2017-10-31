@@ -1,3 +1,7 @@
+import Void
+import Target
+import Wall
+
 def lectureFichier(path):
     lineNumber = 0
     rowCount = 0
@@ -13,7 +17,14 @@ def lectureFichier(path):
             else:
                 columnCount = 0
                 for char in line:
-                    tableauPoint.append((rowCount,columnCount,char))
+                    if char == '-':
+                        tableauPoint.append((rowCount,columnCount,Void()))
+                    elif char == '#':
+                        tableauPoint.append((rowCount,columnCount,Wall()))
+                    elif char == '.':
+                        tableauPoint.append((rowCount,columnCount,Target()))
+                    else:
+                        tableauPoint.append((rowCount,columnCount,char))
                     columnCount += 1
                 rowCount += 1
             lineNumber += 1
