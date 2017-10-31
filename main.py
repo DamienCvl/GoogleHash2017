@@ -16,15 +16,15 @@ def lectureFichier(path):
                 line3 = line.split()
             else:
                 columnCount = 0
-                for char in line:
+                for char in line: 
+                    #necessite une classe Matrice pour la position des objets Void, Wall, Target
+                    #qui remplacera la classe Point et le tableau d'objet
                     if char == '-':
                         tableauPoint.append((rowCount,columnCount,Void()))
                     elif char == '#':
                         tableauPoint.append((rowCount,columnCount,Wall()))
                     elif char == '.':
                         tableauPoint.append((rowCount,columnCount,Target()))
-                    else:
-                        tableauPoint.append((rowCount,columnCount,char))
                     columnCount += 1
                 rowCount += 1
             lineNumber += 1
