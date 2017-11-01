@@ -1,6 +1,4 @@
-import Point
-
-class Wall(Point):
+class Wall:
     def __init__(self):
-        super.__init__()
-
+        pass
+    #comportement d un Wall a definir
