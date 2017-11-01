@@ -1,4 +1,5 @@
-class Point:
+#obsolete car les coordonnees sont stockes dans la class Matrice
+'''class Point:
     """ Class qui défini un point avec :
             - une coordonnée en x
             - une coordonnée en y
@@ -22,4 +23,4 @@ class Point:
         self.y = value
 
     def getPosition(self):
-        return (self.x,self.y)
+        return (self.x,self.y)'''
