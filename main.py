@@ -1,11 +1,12 @@
-import Void
-import Target
-import Wall
+from Void import Void
+from Wall import Wall
+from Target import Target
+from Matrice import Matrice
 
 def lectureFichier(path):
     lineNumber = 0
     rowCount = 0
-    tableauPoint = []
+    matrice = Matrice() 
     with open(path) as f:
         for line in f:
             if(lineNumber == 0):
@@ -16,17 +17,16 @@ def lectureFichier(path):
                 line3 = line.split()
             else:
                 columnCount = 0
-                for char in line: 
-                    #necessite une classe Matrice pour la position des objets Void, Wall, Target
-                    #qui remplacera la classe Point et le tableau d'objet
+                for char in line:
                     if char == '-':
-                        tableauPoint.append((rowCount,columnCount,Void()))
+                        matrice.setPoint(rowCount,Void())
                     elif char == '#':
-                        tableauPoint.append((rowCount,columnCount,Wall()))
+                        matrice.setPoint(rowCount,Wall())
                     elif char == '.':
-                        tableauPoint.append((rowCount,columnCount,Target()))
+                        matrice.setPoint(rowCount,Target())
                     columnCount += 1
                 rowCount += 1
+                matrice.setLine()
             lineNumber += 1
 
     rows = line1[0]
@@ -38,6 +38,5 @@ def lectureFichier(path):
     budget = line2[2]
 
     backboneInit = (line3[0],line3[1])
-    print(tableauPoint)
 
 lectureFichier("maps/charleston_road.in")
