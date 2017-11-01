@@ -1,6 +1,5 @@
-import Point
-
-class Void(Point):
+class Void:
 
     def __init__(self):
-        super.__init__()    
+        pass
+    #comportement d un Void a definir
