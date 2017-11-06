@@ -2,12 +2,12 @@ from Void import Void
 from Wall import Wall
 from Target import Target
 from Matrice import Matrice
+from Point import Point
 
 def lectureFichier(path):
     lineNumber = 0
     rowCount = 0
     matrice = Matrice()
-    trouveTarget = False #permet de connaitre la premiere target rencontrée
     with open(path) as f:
         for line in f:
             if(lineNumber == 0):
@@ -20,14 +20,11 @@ def lectureFichier(path):
                 columnCount = 0
                 for char in line:
                     if char == '-':
-                        matrice.setPoint(rowCount,Void())
+                        matrice.setPoint(rowCount,Point("-"))
                     elif char == '#':
-                        matrice.setPoint(rowCount,Wall())
+                        matrice.setPoint(rowCount,Point("#"))
                     elif char == '.':
-
-                        matrice.setPoint(rowCount,Target())
-                        if(not trouveTarget): #tant qu'on ne la pas trouvée
-                            premiereTarget = [rowCount, columnCount] #coordonnées de la premiere target
+                        matrice.setPoint(rowCount,Target("."))
                     columnCount += 1
                 rowCount += 1
                 matrice.setLine()
@@ -43,46 +40,78 @@ def lectureFichier(path):
 
     backboneInit = (line3[0],line3[1])
 
-    return matrice, premiereTarget
+    return matrice
 
- def covering(matrice, rayon, posX, posY):
+def covering(matrice, rayon, posX, posY):
      #parcours Ouest > Est afin de passer isCovered a True
-     for i in range(posX - rayon, posX + rayon):
-         for j in range(posY - rayon, posY + rayon):
-             if not matrice(i, j) == 1 or not matrice(i, j) == 2:
-                 matrice(i, j).isCovered = True
-            else:
+     for i in range(posX - rayon, posX + rayon + 1):
+         for j in range(posY - rayon, posY + rayon + 1):
+             if not matrice.getPoint(i, j) == "-" or not matrice.getPoint(i, j) == "#":
+                 matrice.getPoint(i, j).isCovered = True
+             else:
                 j = posY + rayon
 
     #parcours Nord > Sud afin de passer isCovered a True
-     for b in range(posY - rayon, posY + rayon):
-         for a in range(posX - rayon, posX + rayon):
-             if not matrice(a, b) == 1 or not matrice(a, b) == 2:
-                 matrice(a, b).isCovered = True
+     for b in range(posY - rayon, posY + rayon + 1):
+         for a in range(posX - rayon, posX + rayon + 1):
+             if not matrice.getPoint(a, b) == "-" or not matrice.getPoint(a, b) == "#":
+                 matrice.getPoint(a, b).isCovered = True
              else:
                  a = posX + rayon
 
- def positionnerRouteur(matrice, premiereTarget):
-     rowCount = premiereTarget[0]  #ligne du premier router
-     columnCount = premiereTarget[1] #colomne du premier router
+def positionnerRouteur(matrice):
      compteurDeTarget = 0 #Permet de placer le router
      routers = [] #liste des positions des routeurs
-     premiereExec =false #Premier passage pour partir du premier target
-
+     cptRouteurs = 0
      for compteurLignes in range(240):
          for compteurColonnes in range(180):
-             if not premiereExec: #premier passage
-                 compteurLignes = rowCount
-                 compteurColonnes = colomnCount
-                 premiereExec = True
+             if(cptRouteurs<290):
+                 if compteurDeTarget < 20 and not (matrice.getPoint(compteurLignes,compteurColonnes).typePoint == "-" or matrice.getPoint(compteurLignes,compteurColonnes).typePoint == "#"):
+                    if not matrice.getPoint(compteurLignes,compteurColonnes).isCovered :
+                        compteurDeTarget = compteurDeTarget + 1 #incrément de la zone à couvrir
 
-             if compteurDeTarget != 20 or not matrice[compteurLignes, compteurColonnes].getType() == 1 or not matrice[compteurLignes, compteurColonnes].getType() == 2:
-                if not matrice[compteurLignes, compteurColonnes].isCovered :
-                    compteurDeTarget = compteurDeTarget + 1
-                    matrice[compteurLignes, compteurColonnes].isCovered = True
-            else:
-                if compteurDeTarget != 0:
-                    routers.append(compteurLignes, compteurColonnes - compteurDeTarget/2)
+                    elif compteurDeTarget !=0: #Dans le cas où il y a des zones difficiles d'accès
+                        matrice.getPoint(compteurLignes,compteurColonnes  - (compteurDeTarget // 2)).isRouter = True #Le point devient Router (Juste pour le visuel)
+                        routers.append([compteurLignes, compteurColonnes - (compteurDeTarget // 2)]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
+                        covering(matrice,10,compteurLignes,compteurColonnes  - (compteurDeTarget // 2)) # On change les cellules concernées en Covered
+                        compteurDeTarget = 0 #Réinialisation de la taille de la zone
+                        cptRouteurs +=1
+
+                 else:
+                    if compteurDeTarget != 0:
+                        matrice.getPoint(compteurLignes,compteurColonnes  - (compteurDeTarget // 2)).isRouter = True
+                        routers.append([compteurLignes, compteurColonnes - (compteurDeTarget // 2)]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
+                        covering(matrice,10,compteurLignes,compteurColonnes  - (compteurDeTarget // 2))# On change les cellules concernées en Covered
+                        cptRouteurs +=1
                     compteurDeTarget = 0
+     print(cptRouteurs)
+     return matrice,routers
 
-print(lectureFichier("maps/charleston_road.in"))
+#Méthode a finir pour creer les fichiers out
+def ecrireFichier(routers):
+    print(0)
+    print(len(routers))
+    for i in (routers):
+        print (str(i[0])+" "+str(i[1]))
+
+if __name__ == '__main__':
+
+    mat=lectureFichier("maps/charleston_road.in")
+    mat,routeurs=positionnerRouteur(mat)
+    #print(routeurs)
+    '''for compteurLignes in range(240):
+         for compteurColonnes in range(180):
+                if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
+                    if(mat.getPoint(compteurLignes,compteurColonnes).isCovered):
+                        if mat.getPoint(compteurLignes,compteurColonnes).isRouter:
+                            #print("R",end='')
+                        else:
+                            #print("-",end='')
+                    else:
+                        #print("X",end='')
+                elif(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "#"):
+                    #print("#",end='')
+                else:
+                    #print("_",end='')
+         #print()'''
+    ecrireFichier(routeurs)

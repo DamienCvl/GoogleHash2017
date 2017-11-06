@@ -1,6 +1,8 @@
-class Target:
+from Point import Point
 
-    def __init__(self):
+class Target(Point):
+    #La classe Target hérite de point en y rajoutant les attributs isCovered pour la connexion et isRouter pour passer une cellule en router. 
+    def __init__(self,type):
+        Point.__init__(self,type)
         self.isCovered = False #Etat de la cible : True si couverte, False sinon
-    def getType(self): #retourne le type, 0 pour Target, 1 pour Wall, 2 pour Void
-        return 0
+        self.isRouter = False

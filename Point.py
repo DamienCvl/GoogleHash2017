@@ -1,26 +1,4 @@
-#obsolete car les coordonnees sont stockes dans la class Matrice
-'''class Point:
-    """ Class qui défini un point avec :
-            - une coordonnée en x
-            - une coordonnée en y
-    """
-
-    def __init__(self,x,y):
-        self.x = x
-        self.y = y
-
-
-    def getX(self):
-        return self.x
-
-    def getY(self):
-        return self.y
-
-    def setX(self,value):
-        self.x = value
-
-    def setY(self,value):
-        self.y = value
-
-    def getPosition(self):
-        return (self.x,self.y)'''
+class Point:
+    #Classe Point qui est en réalité un type de point "#" pour le wall,"." pour la target et "-" pour le void
+    def __init__(self,typePoint):
+        self.typePoint = typePoint
