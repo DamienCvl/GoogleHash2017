@@ -4,12 +4,14 @@ from Target import Target
 from Matrice import Matrice
 
 def lectureFichier(path):
-    lineNumber = 0
-    rowCount = 0
+    lineNumber = 0 # Numero de la ligne
+    rowCount = 0 # Nombre de ligne
     matrice = Matrice()
     trouveTarget = False #permet de connaitre la premiere target rencontrée
-    with open(path) as f:
+    with open(path) as f: # On ouvre le fichier et on traite ligne par ligne
         for line in f:
+            #On split les lignes dans les 3 premiers cas pour recuperer toutes les informations nécessaires tel
+            #que le budget, le rayon,le cout,etc...
             if(lineNumber == 0):
                 line1 = line.split()
             elif(lineNumber == 1):
@@ -18,20 +20,19 @@ def lectureFichier(path):
                 line3 = line.split()
             else:
                 columnCount = 0
-                for char in line:
-                    if char == '-':
+                for char in line: #Pour chaque char dans la ligne, on le traite en fonction de ce qu'il est
+                    if char == '-': #Si c'est un tiret un crée un void
                         matrice.setPoint(rowCount,Void())
-                    elif char == '#':
-                        matrice.setPoint(rowCount,Wall())
+                    elif char == '#': #si c'est un hashtag on crée un wall
+                        matrice.setPoint(rowCount,Wall()) #Sinon si c'est un point on crée un target
                     elif char == '.':
-
                         matrice.setPoint(rowCount,Target())
                         if(not trouveTarget): #tant qu'on ne la pas trouvée
                             premiereTarget = [rowCount, columnCount] #coordonnées de la premiere target
-                    columnCount += 1
-                rowCount += 1
+                    columnCount += 1 #On incrémente le nombre de colonne
+                rowCount += 1 #On incrémente le nombre de ligne
                 matrice.setLine()
-            lineNumber += 1
+            lineNumber += 1 #On incrémente le numéro de ligne
 
     rows = line1[0]
     columns = line1[1]
