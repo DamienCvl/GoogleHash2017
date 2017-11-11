@@ -6,3 +6,4 @@ class Target(TypePoint):
         TypePoint.__init__(self,".")
         self.isCovered = False #Etat de la cible : True si couverte, False sinon
         self.isRouter = False
+        self.weight = 0

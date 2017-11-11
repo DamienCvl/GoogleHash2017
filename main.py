@@ -4,6 +4,8 @@ from Target import Target
 from Matrice import Matrice
 from Point import Point
 from TypePoint import TypePoint
+import math
+import time
 
 def lectureFichier(path):
     lineNumber = 0 # Numero de la ligne
@@ -91,12 +93,60 @@ def positionnerRouteur(matrice):
      print(cptRouteurs)
      return matrice,routers
 
-#Méthode a finir pour creer les fichiers out
-def ecrireFichier(routers):
-    print(0)
-    print(len(routers))
-    for i in (routers):
-        print (str(i[0])+" "+str(i[1]))
+def ecrireFichier(router = [], backbone = [], cables = []):
+
+    filename = "output" + time.strftime("%d_%m_%y__%H_%M") + ".txt"
+
+    f = open("output/" + filename,'a')
+
+    retourChar = "\n"
+
+    if (backbone != []):
+        line = "backbone : [" + str(backbone[0]) + ";" + str(backbone[1]) + "]\n"
+    else: line = "backbone : n/a\n"
+    f.writelines(line)
+
+    f.writelines(retourChar)
+
+    if (router != []):
+        for i in range(len(router)):
+            line = "routeur " + str(i+1) + " : [" + str(router[i][0]) + ";" + str(router[i][1]) + "]\n"
+            f.writelines(line)
+    else:
+        f.writelines("router : n/a\n")
+
+    f.writelines(retourChar)
+
+    if (cables != []):
+        for i in range(len(cables)):
+            line = "cables " + str(i+1) + " : [" + str(cables[i][0]) + ";" + str(cables[i][1]) + "]\n"
+            f.writelines(line)
+    else:
+        f.writelines("cables : n/a\n")
+
+    f.close()
+
+
+def calculPoids(murs, target, multDistance = 100, multCoverage = 100):
+
+    for case in target:
+        distances = []
+        for mur in murs:
+            dist = math.sqrt((case[0] - mur [0])**2 + (case[1] - mur [1])**2)
+            distances.append(dist)
+
+        if (case.isCovered):
+            couverture = multCoverage
+        else:
+            couverture = 0
+        poids = (min(distances) * multDistance) / (1 + couverture)
+        case.weight = poids
+
+
+
+
+
+
 
 if __name__ == '__main__':
 
