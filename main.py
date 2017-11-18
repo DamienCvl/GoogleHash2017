@@ -3,7 +3,6 @@ from Wall import Wall
 from Target import Target
 from Matrice import Matrice
 from Point import Point
-from TypePoint import TypePoint
 import math
 import time
 
@@ -26,9 +25,9 @@ def lectureFichier(path):
                 columnCount = 0
                 for char in line: #Pour chaque char dans la ligne, on le traite en fonction de ce qu'il est
                     if char == '-': #Si c'est un tiret un crée un void
-                        matrice.setPoint(rowCount,TypePoint("-"))
+                        matrice.setPoint(rowCount,Point("-"))
                     elif char == '#': #si c'est un hashtag on crée un wall
-                        matrice.setPoint(rowCount,TypePoint("#")) #Sinon si c'est un point on crée un target
+                        matrice.setPoint(rowCount,Point("#")) #Sinon si c'est un point on crée un target
                     elif char == '.':
                         matrice.setPoint(rowCount,Target())
                         if(not trouveTarget): #tant qu'on ne la pas trouvée
