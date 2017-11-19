@@ -67,28 +67,28 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
     edgeToLink = []
     numTree = 0
     for edge in ListEdgeSorted: # permet de placer les aretes et les routeurs dans des arbres sans faire de boucle
-        numtree1 = edge.router1.tree
-        numtree2 = edge.router2.tree
+        numtree1 = edge.router1.inWhichTree 
+        numtree2 = edge.router2.inWhichTree 
         if numtree1 != None and numtree2 != None: # si les routeurs de l'arete sont associé à des arbres
             if numtree1 == numtree2: # et qu'ils sont dans le même arbre, on passe à l'arete suivante
                 continue
             elif len(trees[numtree1].routerIn) < len(trees[numtree2].routerIn): # (optimisation, on choisit l'arbre 1 comme celui qui a le moins de routeur)
                 trees[numtree2].routerIn += trees[numtree1].routerIn # sinon on ajoute la liste des routeurs de l'arbres 1 à l'arbre 2
                 for r in trees[numtree1].routerIn: # et on reassocie chaque routeur de l'arbre 1 à son nouvel arbre 2
-                    r.tree = numtree2
+                    r.inWhichTree = numtree2
             else:
                 trees[numtree1].routerIn += trees[numtree2].routerIn
                 for r in trees[numtree2].routerIn:
-                    r.tree = numtree1
+                    r.inWhichTree  = numtree1
         elif numtree1 != None: # un routeur n'a pas d'arbre, on l'associe à l'arbre de l'autre routeur
-            edge.router2.tree = numtree1
+            edge.router2.inWhichTree = numtree1
             trees[numtree1].routerIn.append(edge.router2)
         elif numtree2 != None:
-            edge.router1.tree = numtree2
+            edge.router1.inWhichTree = numtree2
             trees[numtree2].routerIn.append(edge.router1)
         else: # si aucun des routeurs n'a d'arbre, on crée un arbre et on lui ajoute les 2 routeurs
-            edge.router1.tree = numTree
-            edge.router2.tree = numTree
+            edge.router1.inWhichTree = numTree
+            edge.router2.inWhichTree = numTree
             trees.append(Tree())
             trees[numTree].routerIn.append(edge.router1)
             trees[numTree].routerIn.append(edge.router2)
