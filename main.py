@@ -10,41 +10,39 @@ def lectureFichier(path):
     lineNumber = 0 # Numero de la ligne
     rowCount = 0 # Nombre de ligne
     matrice = Matrice()
-    trouveTarget = False #permet de connaitre la premiere target rencontrée
     with open(path) as f: # On ouvre le fichier et on traite ligne par ligne
         for line in f:
-            #On split les lignes dans les 3 premiers cas pour recuperer toutes les informations nécessaires tel
-            #que le budget, le rayon,le cout,etc...
+            #On split les Vertical dans les 3 premiers cas pour recuperer toutes les informations nécessaires tel
+            #que le budget, le rayon, le cout, etc...
             if(lineNumber == 0):
                 line1 = line.split()
+                matrice.rows = int(line1[0])
+                matrice.columns = int(line1[1])
+                matrice.routerRange = int(line1[2])
+                matrice.inialisation()
             elif(lineNumber == 1):
                 line2 = line.split()
+                matrice.backboneCost = int(line2[0])
+                matrice.routerCost = int(line2[1])
+                matrice.budget = int(line2[2])
             elif(lineNumber == 2):
                 line3 = line.split()
+                matrice.backboneInit = (int(line3[0]),int(line3[1]))
             else:
                 columnCount = 0
                 for char in line: #Pour chaque char dans la ligne, on le traite en fonction de ce qu'il est
+                    #print("Ligne {} | Colonne : {}".format(rowCount, columnCount))
                     if char == '-': #Si c'est un tiret un crée un void
-                        matrice.setPoint(rowCount,Point("-"))
+                        matrice.setPoint(rowCount, columnCount, TypePoint("-"))
                     elif char == '#': #si c'est un hashtag on crée un wall
-                        matrice.setPoint(rowCount,Point("#")) #Sinon si c'est un point on crée un target
+                        matrice.setPoint(rowCount, columnCount, TypePoint("#")) #Sinon si c'est un point on crée un target
                     elif char == '.':
-                        matrice.setPoint(rowCount,Target())
-                        if(not trouveTarget): #tant qu'on ne la pas trouvée
-                            premiereTarget = [rowCount, columnCount] #coordonnées de la premiere target
+                        matrice.setPoint(rowCount, columnCount, Target())
                     columnCount += 1 #On incrémente le nombre de colonne
                 rowCount += 1 #On incrémente le nombre de ligne
-                matrice.setLine()
+                #matrice.setLine()
             lineNumber += 1 #On incrémente le numéro de ligne
-
-    matrice.rows = int(line1[0])
-    matrice.columns = int(line1[1])
-    matrice.routerRange = int(line1[2])
-    matrice.backboneCost = int(line2[0])
-    matrice.routerCost = int(line2[1])
-    matrice.budget = int(line2[2])
-    matrice.backboneInit = (int(line3[0]),int(line3[1]))
-
+    #matrice.toString()
     return matrice
 
 def covering(matrice, rayon, posX, posY):

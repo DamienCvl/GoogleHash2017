@@ -1,7 +1,9 @@
+from Point import Point
+
 class Matrice:
 
-    def __init__(self): # le tableau = une liste de liste
-        self.matrice = [[]]
+    def __init__(self):
+        self.matrice = []
 
         self.rows = -1
         self.columns = -1
@@ -10,11 +12,21 @@ class Matrice:
         self.routerCost = -1
         self.budget = -1
         self.backboneInit = []
-    def setLine(self): # ajout d une liste pour representer une nouvelle ligne
-        self.matrice.append([])
 
-    def setPoint(self,line,objet): # ajout d un objet sur la ligne = line
-        self.matrice[line].append(objet)
+    def inialisation(self):
+        for i in range(self.rows):
+            self.matrice.append([0] * self.columns) #Ajoute 10 lignes de 10 entiers(int) ayant pour valeurs 0
 
-    def getPoint(self,x,y): #getPoint(45,60) retournera l'objet de la ligne 45 colonne 60
-        return self.matrice[x][y]
+    def setPoint(self, line, column, objet): # ajout d un objet a la suite de la 'column'
+        self.matrice[line][column] = objet
+
+    def getPoint(self, line, column): #getPoint(45,60) retournera l'objet de la ligne 45 colonne 60
+        return self.matrice[line][column]
+
+    def toString(self):
+        print(self.rows)
+        print(self.columns)
+        for ligne in range(self.rows):
+            for colonne in range(self.columns):
+                print(self.matrice[ligne][colonne].typePoint, end='')
+            print()
