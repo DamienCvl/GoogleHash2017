@@ -12,6 +12,8 @@ class Matrice:
         self.routerCost = -1
         self.budget = -1
         self.backboneInit = []
+        self.wallList = []
+        self.targetList = []
 
     def inialisation(self):
         for i in range(self.rows):

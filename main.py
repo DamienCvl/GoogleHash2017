@@ -9,6 +9,8 @@ import time
 def lectureFichier(path):
     lineNumber = 0 # Numero de la ligne
     rowCount = 0 # Nombre de ligne
+    wallList = []
+    TargetList = []
     matrice = Matrice()
     with open(path) as f: # On ouvre le fichier et on traite ligne par ligne
         for line in f:
@@ -35,9 +37,11 @@ def lectureFichier(path):
                     if char == '-': #Si c'est un tiret un crée un void
                         matrice.setPoint(rowCount, columnCount, Point("-"))
                     elif char == '#': #si c'est un hashtag on crée un wall
-                        matrice.setPoint(rowCount, columnCount, Point("#")) #Sinon si c'est un point on crée un target
+                        matrice.setPoint(rowCount, columnCount, Point("#"))
+                        matrice.wallList.append((rowCount,columnCount))
                     elif char == '.':
-                        matrice.setPoint(rowCount, columnCount, Target())
+                        matrice.setPoint(rowCount, columnCount, Target())#Sinon si c'est un point on crée un target
+                        matrice.targetList.append((rowCount,columnCount,Target()))
                     columnCount += 1 #On incrémente le nombre de colonne
                 rowCount += 1 #On incrémente le nombre de ligne
                 #matrice.setLine()
@@ -66,6 +70,7 @@ def positionnerRouteur(matrice):
      compteurDeTarget = 0 #Permet de placer le router
      routers = [] #liste des positions des routeurs
      cptRouteurs = 0
+     calculPoids(matrice.wallList,matrice.targetList)
      for compteurLignes in range(matrice.rows):
          for compteurColonnes in range(matrice.columns):
              if(cptRouteurs<(matrice.budget // matrice.routerCost)):
@@ -124,20 +129,21 @@ def ecrireFichier(router = [], backbone = [], cables = []):
     f.close()
 
 
-def calculPoids(murs, target, multDistance = 100, multCoverage = 100):
-
+def calculPoids(wall, target, multDistance = 100, multCoverage = 100):
     for case in target:
+        print(1)
         distances = []
-        for mur in murs:
-            dist = math.sqrt((case[0] - mur [0])**2 + (case[1] - mur [1])**2)
+        for mur in wall:
+            dist = math.sqrt((case[0] - mur[0])**2 + (case[1] - mur[1])**2)
             distances.append(dist)
 
-        if (case.isCovered):
+        if (case[2].isCovered):
             couverture = multCoverage
         else:
             couverture = 0
         poids = (min(distances) * multDistance) / (1 + couverture)
-        case.weight = poids
+        case[2].weight = poids #Plus le poids est grand mieu c'est
+        print("x : " + str(case[0]) + " y : " + str(case[1]) + " à un poid de : " + str(poids))
 
 
 
