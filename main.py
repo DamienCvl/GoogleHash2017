@@ -33,9 +33,9 @@ def lectureFichier(path):
                 for char in line: #Pour chaque char dans la ligne, on le traite en fonction de ce qu'il est
                     #print("Ligne {} | Colonne : {}".format(rowCount, columnCount))
                     if char == '-': #Si c'est un tiret un crée un void
-                        matrice.setPoint(rowCount, columnCount, TypePoint("-"))
+                        matrice.setPoint(rowCount, columnCount, Point("-"))
                     elif char == '#': #si c'est un hashtag on crée un wall
-                        matrice.setPoint(rowCount, columnCount, TypePoint("#")) #Sinon si c'est un point on crée un target
+                        matrice.setPoint(rowCount, columnCount, Point("#")) #Sinon si c'est un point on crée un target
                     elif char == '.':
                         matrice.setPoint(rowCount, columnCount, Target())
                     columnCount += 1 #On incrémente le nombre de colonne
