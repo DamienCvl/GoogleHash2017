@@ -1,0 +1,5 @@
+backbone : n/a
+
+routeur 1 : [23;42]
+
+cables : n/a

@@ -3,6 +3,7 @@ from Wall import Wall
 from Target import Target
 from Matrice import Matrice
 from Point import Point
+from constante import Constante
 import math
 import time
 import os
@@ -42,7 +43,7 @@ def lectureFichier(path):
                         matrice.wallList.append((rowCount,columnCount))
                     elif char == '.':
                         matrice.setPoint(rowCount, columnCount, Target())#Sinon si c'est un point on crée un target
-                        matrice.targetList.append((rowCount,columnCount,Target()))
+                        matrice.targetList.append([rowCount,columnCount,False])
                     columnCount += 1 #On incrémente le nombre de colonne
                 rowCount += 1 #On incrémente le nombre de ligne
                 #matrice.setLine()
@@ -162,7 +163,63 @@ def positionnerRouteur(matrice):
      compteurDeTarget = 0 #Permet de placer le router
      routers = [] #liste des positions des routeurs
      cptRouteurs = 0
-     #calculPoids(matrice.wallList,matrice.targetList)
+
+     tabPoids = calculPoids(matrice.wallList, matrice.targetList)
+
+     # création d'un tableau avec tous les poids (sans les coordonnées)
+     poidsOnly = []
+     for i in range(len(tabPoids)):
+         poidsOnly.append(tabPoids[i][3])
+
+     placement = True
+
+     # On prend le poids max et on place un routeur
+     # On décrémente la zone environnante du routeur placé et on réitère
+
+     while (placement):
+
+         if (cptRouteurs < (matrice.budget // matrice.routerCost)):
+
+             iPoidsMax = poidsOnly.index(max(poidsOnly))  # index du poids maximal
+
+             if ([tabPoids[iPoidsMax][0], tabPoids[iPoidsMax][1]] not in routers):
+                 routers.append([tabPoids[iPoidsMax][0], tabPoids[iPoidsMax][1]])  # ajout du routeur
+                 cptRouteurs += 1
+
+             # mise à jour du tableau de poids
+
+             for i in range(len(tabPoids)):
+
+                 if ((((tabPoids[iPoidsMax][0] - (matrice.routerRange))) < tabPoids[i][0] < (
+                     tabPoids[iPoidsMax][0] + (matrice.routerRange)))
+                     and (((tabPoids[iPoidsMax][1] - (matrice.routerRange))) < tabPoids[i][1] < (
+                         tabPoids[iPoidsMax][1] + (matrice.routerRange)))):
+
+                     tabPoids[i][2] = True
+
+                     poidsOnly[i] = int(poidsOnly[i] - Constante.MULTI_POIDS_COUVERTURE)
+                     tabPoids[i][3] = int(tabPoids[i][3] - Constante.MULTI_POIDS_COUVERTURE)
+
+
+                 elif ((((tabPoids[iPoidsMax][0] - (2 * matrice.routerRange))) < tabPoids[i][0] < (
+                     tabPoids[iPoidsMax][0] + (2 * matrice.routerRange)))
+                       and (((tabPoids[iPoidsMax][1] - (2 * matrice.routerRange))) < tabPoids[i][1] < (
+                         tabPoids[iPoidsMax][1] + (2 * matrice.routerRange)))):
+
+                     poidsOnly[i] = int(poidsOnly[i] * Constante.MULTI_POIDS_NEIGH)
+                     tabPoids[i][3] = int(tabPoids[i][3] * Constante.MULTI_POIDS_NEIGH)
+
+             # test si on continue de placer
+
+             if (testCoverage(tabPoids) == 0):
+                 placement = False
+             else:
+                 print(((len(tabPoids) - testCoverage(tabPoids)) / len(tabPoids)), " %")
+
+         else:
+             placement = False
+
+     '''
      for compteurLignes in range(matrice.rows):
          for compteurColonnes in range(matrice.columns):
              if(cptRouteurs < (matrice.budget // matrice.routerCost)):
@@ -203,7 +260,11 @@ def positionnerRouteur(matrice):
                         covering(matrice, matrice.routerRange, compteurLignes, compteurColonnes  - (compteurDeTarget // 2))# On change les cellules concernées en Covered
                         cptRouteurs +=1
                     compteurDeTarget = 0
-     #print(cptRouteurs)
+     '''
+
+     print("nbRouteurs = ", cptRouteurs)
+     print("nbTargets = ", len(matrice.targetList))
+     print("nbRouteursBudget = ", (matrice.budget // matrice.routerCost))
      return matrice,routers
 
 def ecrireFichier(router = [], backbone = [], cables = []):
@@ -240,7 +301,8 @@ def ecrireFichier(router = [], backbone = [], cables = []):
     f.close()
 
 
-def calculPoids(wall, target, multDistance = 100, multCoverage = 100):
+def calculPoids(wall, target, multDistance = Constante.MULTI_POIDS_DISTANCE, multCoverage = Constante.MULTI_POIDS_COUVERTURE):
+    tabPoids = []
     for case in target:
         print(1)
         distances = []
@@ -248,13 +310,26 @@ def calculPoids(wall, target, multDistance = 100, multCoverage = 100):
             dist = math.sqrt((case[0] - mur[0])**2 + (case[1] - mur[1])**2)
             distances.append(dist)
 
-        if (case[2].isCovered):
+        if (case[2]):
             couverture = multCoverage
         else:
             couverture = 0
-        poids = (min(distances) * multDistance) / (1 + couverture)
-        case[2].weight = poids #Plus le poids est grand mieu c'est
-        print("x : " + str(case[0]) + " y : " + str(case[1]) + " à un poid de : " + str(poids))
+        poids = int((min(distances) * multDistance) / (1 + couverture))
+        case.append(poids) #Plus le poids est grand mieux c'est
+
+        print("x : " + str(case[0]) + " y : " + str(case[1]) + " à un poid de : " + str(case[3]))
+        tabPoids.append(case)
+    return tabPoids
+
+def testCoverage(tabPoids):
+
+    nonCouverts = 0
+    for i in range(len(tabPoids)):
+        if (tabPoids[i][2] == False):
+            nonCouverts += 1
+    return (nonCouverts)
+
+
 
 def ecrireLog(logs):
     fichier = open("log.txt", "a")
@@ -263,7 +338,9 @@ def ecrireLog(logs):
 
 
 if __name__ == '__main__':
-    os.remove("log.txt")
+
+    start = time.time()
+    #os.remove("log.txt")
     mat=lectureFichier("maps/charleston_road.in")
     mat,routeurs=positionnerRouteur(mat)
     #print(routeurs)
@@ -283,3 +360,5 @@ if __name__ == '__main__':
                     print("_",end='')
          print()
     ecrireFichier(routeurs)
+    end = time.time()
+    print("Executed smoothly in ", end - start, " seconds")
