@@ -66,7 +66,7 @@ def redWeight(target, x, y):
 
 
 
-def covering(matrice, rayon, posLignes, posColonnes):
+def covering(matrice, rayon, posLignes, posColonnes, near=False):
 
     rayonNord = rayon
     rayonEst = rayon
@@ -85,8 +85,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
                 target = matrice.getPoint(posLignes - i, posColonnes)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
 
 
@@ -99,8 +101,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
                 target = matrice.getPoint(posLignes, posColonnes + i)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == "#": 
                 murEst = True
@@ -111,8 +115,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
                 target = matrice.getPoint(posLignes + i, posColonnes)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#": 
                 murSud = True
@@ -123,8 +129,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
                 target = matrice.getPoint(posLignes, posColonnes - i)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#": 
                 murOuest = True
@@ -144,8 +152,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
 
             if (matrice.getPoint(i, j).typePoint == "."):
                 target = matrice.getPoint(i, j)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             elif matrice.getPoint(i, j).typePoint == "#":
                 rayonE = posColonnes - j
@@ -157,8 +167,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
 
             if (matrice.getPoint(i, j).typePoint == "."):
                 target = matrice.getPoint(i, j)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             elif matrice.getPoint(i, j).typePoint == "#":
                 rayonS = i - posLignes
@@ -170,8 +182,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
 
             if (matrice.getPoint(i, j).typePoint == "."):
                 target = matrice.getPoint(i, j)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             elif matrice.getPoint(i, j).typePoint == "#":
                 #print("WALL")
@@ -184,15 +198,19 @@ def covering(matrice, rayon, posLignes, posColonnes):
 
             if (matrice.getPoint(i, j).typePoint == "."):
                 target = matrice.getPoint(i, j)
-                target.isCovered = True
-                redWeight(target, posLignes, posColonnes)
+                if (near):
+                    target.isCovered = True
+                else:
+                    redWeight(target, posLignes, posColonnes)
 
             elif matrice.getPoint(i, j).typePoint == "#":
                 rayonN = posLignes - i
                 break
 
-    matrice.getPoint(posLignes, posColonnes).isCovered = True
-    matrice.getPoint(posLignes, posColonnes).weight *= Constante.MULTI_POIDS_NEIGH
+    if (near):
+        matrice.getPoint(posLignes, posColonnes).isCovered = True
+    else:
+        matrice.getPoint(posLignes, posColonnes).weight *= Constante.MULTI_POIDS_NEIGH
 
 
 
@@ -227,6 +245,7 @@ def positionnerRouteur(matrice):
                  routers.append([maxTarget.posX,maxTarget.posY])  # ajout du routeur
                  cptRouteurs += 1
                  maxTarget.isRouter = True
+                 covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY, True)
                  covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY)
                  #print(maxTarget.posX, maxTarget.posY, maxTarget.weight)
                  #print("nbrouter = ",cptRouteurs)
@@ -334,7 +353,7 @@ if __name__ == '__main__':
 
     start = time.time()
     #os.remove("log.txt")
-    mat=lectureFichier("maps/rue_de_londres.in")
+    mat=lectureFichier("maps/charleston_road.in")
     mat,routeurs=positionnerRouteur(mat)
     #print(routeurs)
     map = []

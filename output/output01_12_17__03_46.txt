@@ -1,0 +1,546 @@
+######01_12_17__03_46######
+nombre routeurs = 299
+temps d'execution = 104.98595380783081
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________################################################################################################___________________________________________
+_________________________________________################################################################################################___________________________________________
+_________________________________________################################################################################################___________________________________________
+_________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#___________________________________________
+_________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#___________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#__________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#__________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+_______________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#_________________________________________
+______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________________________
+______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________________________
+_____________________________________##XXXXXXXXXXXXX##########################################################################XXXXXXXXXXXXX##_______________________________________
+_____________________________________##XXXXXXXXXXXXX##########################################################################XXXXXXXXXXXXX##_______________________________________
+____________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_______________________________________
+____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##______________________________________
+____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##______________________________________
+___________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_____________________________________
+__________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###____________________________________
+_________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##____________________________________
+_________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###___________________________________
+________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###__________________________________
+_______________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###_________________________________
+_____________________________####XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###________________________________
+____________________________####XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX####______________________________
+_________________________######XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX######___________________________
+______________________########XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX########________________________
+______________________######XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX######________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX----------RRRRRR----------XXXXX#XXXXXXXXXXXXXX#XXXXX----------RRRRR-----------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXX--------------------------XXXXX#XXXXXXXXXXXXXX#XXXXX-------------------------XXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXX######################################XXXXXXXXXXXXXX######################################XXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________
+______________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX####________________________
+______________________######XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX######________________________
+______________________########XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#######_________________________
+__________________________#####XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#####____________________________
+____________________________####XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX####_______________________________
+______________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX####________________________________
+_______________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###_________________________________
+________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###__________________________________
+_________________________________###XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX###___________________________________
+__________________________________##XXXXXXXXXXXXXXXX##########################################################################XXXXXXXXXXXXXXXX##____________________________________
+__________________________________###XXXXXXXXXXXXXXX##########################################################################XXXXXXXXXXXXXXX##_____________________________________
+___________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_____________________________________
+____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##______________________________________
+____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##______________________________________
+_____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_______________________________________
+_____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_______________________________________
+_____________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________________________
+______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________________________
+______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##________________________________________
+_______________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#_________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##_________________________________________
+_______________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#__________________________________________
+________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+________________________________________##XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX##__________________________________________
+_________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#___________________________________________
+_________________________________________#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#___________________________________________
+_________________________________________################################################################################################___________________________________________
+_________________________________________################################################################################################___________________________________________
+_________________________________________################################################################################################___________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________
+backbone : n/a
+
+routeur 1 : [78;63]
+routeur 2 : [78;64]
+routeur 3 : [78;115]
+routeur 4 : [78;116]
+routeur 5 : [79;63]
+routeur 6 : [79;64]
+routeur 7 : [79;115]
+routeur 8 : [79;116]
+routeur 9 : [80;63]
+routeur 10 : [80;64]
+routeur 11 : [80;115]
+routeur 12 : [80;116]
+routeur 13 : [81;63]
+routeur 14 : [81;64]
+routeur 15 : [81;115]
+routeur 16 : [81;116]
+routeur 17 : [82;63]
+routeur 18 : [82;64]
+routeur 19 : [82;115]
+routeur 20 : [82;116]
+routeur 21 : [83;63]
+routeur 22 : [83;64]
+routeur 23 : [83;115]
+routeur 24 : [83;116]
+routeur 25 : [84;63]
+routeur 26 : [84;64]
+routeur 27 : [84;115]
+routeur 28 : [84;116]
+routeur 29 : [85;63]
+routeur 30 : [85;64]
+routeur 31 : [85;115]
+routeur 32 : [85;116]
+routeur 33 : [86;63]
+routeur 34 : [86;64]
+routeur 35 : [86;115]
+routeur 36 : [86;116]
+routeur 37 : [143;63]
+routeur 38 : [143;64]
+routeur 39 : [143;115]
+routeur 40 : [143;116]
+routeur 41 : [144;63]
+routeur 42 : [144;64]
+routeur 43 : [144;115]
+routeur 44 : [144;116]
+routeur 45 : [145;63]
+routeur 46 : [145;64]
+routeur 47 : [145;115]
+routeur 48 : [145;116]
+routeur 49 : [146;63]
+routeur 50 : [146;64]
+routeur 51 : [146;115]
+routeur 52 : [146;116]
+routeur 53 : [147;63]
+routeur 54 : [147;64]
+routeur 55 : [147;115]
+routeur 56 : [147;116]
+routeur 57 : [148;63]
+routeur 58 : [148;64]
+routeur 59 : [148;115]
+routeur 60 : [148;116]
+routeur 61 : [149;63]
+routeur 62 : [149;64]
+routeur 63 : [149;115]
+routeur 64 : [149;116]
+routeur 65 : [150;63]
+routeur 66 : [150;64]
+routeur 67 : [150;115]
+routeur 68 : [150;116]
+routeur 69 : [151;63]
+routeur 70 : [151;64]
+routeur 71 : [151;115]
+routeur 72 : [151;116]
+routeur 73 : [77;62]
+routeur 74 : [77;63]
+routeur 75 : [77;64]
+routeur 76 : [77;65]
+routeur 77 : [77;114]
+routeur 78 : [77;115]
+routeur 79 : [77;116]
+routeur 80 : [77;117]
+routeur 81 : [78;62]
+routeur 82 : [78;65]
+routeur 83 : [78;114]
+routeur 84 : [78;117]
+routeur 85 : [79;62]
+routeur 86 : [79;65]
+routeur 87 : [79;114]
+routeur 88 : [79;117]
+routeur 89 : [80;62]
+routeur 90 : [80;65]
+routeur 91 : [80;114]
+routeur 92 : [80;117]
+routeur 93 : [81;62]
+routeur 94 : [81;65]
+routeur 95 : [81;114]
+routeur 96 : [81;117]
+routeur 97 : [82;62]
+routeur 98 : [82;65]
+routeur 99 : [82;114]
+routeur 100 : [82;117]
+routeur 101 : [83;62]
+routeur 102 : [83;65]
+routeur 103 : [83;114]
+routeur 104 : [83;117]
+routeur 105 : [84;62]
+routeur 106 : [84;65]
+routeur 107 : [84;114]
+routeur 108 : [84;117]
+routeur 109 : [85;62]
+routeur 110 : [85;65]
+routeur 111 : [85;114]
+routeur 112 : [85;117]
+routeur 113 : [86;62]
+routeur 114 : [86;65]
+routeur 115 : [86;114]
+routeur 116 : [86;117]
+routeur 117 : [87;62]
+routeur 118 : [87;63]
+routeur 119 : [87;64]
+routeur 120 : [87;65]
+routeur 121 : [87;114]
+routeur 122 : [87;115]
+routeur 123 : [87;116]
+routeur 124 : [87;117]
+routeur 125 : [142;62]
+routeur 126 : [142;63]
+routeur 127 : [142;64]
+routeur 128 : [142;65]
+routeur 129 : [142;114]
+routeur 130 : [142;115]
+routeur 131 : [142;116]
+routeur 132 : [142;117]
+routeur 133 : [143;62]
+routeur 134 : [143;65]
+routeur 135 : [143;114]
+routeur 136 : [143;117]
+routeur 137 : [144;62]
+routeur 138 : [144;65]
+routeur 139 : [144;114]
+routeur 140 : [144;117]
+routeur 141 : [145;62]
+routeur 142 : [145;65]
+routeur 143 : [145;114]
+routeur 144 : [145;117]
+routeur 145 : [146;62]
+routeur 146 : [146;65]
+routeur 147 : [146;114]
+routeur 148 : [146;117]
+routeur 149 : [147;62]
+routeur 150 : [147;65]
+routeur 151 : [147;114]
+routeur 152 : [147;117]
+routeur 153 : [148;62]
+routeur 154 : [148;65]
+routeur 155 : [148;114]
+routeur 156 : [148;117]
+routeur 157 : [149;62]
+routeur 158 : [149;65]
+routeur 159 : [149;114]
+routeur 160 : [149;117]
+routeur 161 : [150;62]
+routeur 162 : [150;65]
+routeur 163 : [150;114]
+routeur 164 : [150;117]
+routeur 165 : [151;62]
+routeur 166 : [151;65]
+routeur 167 : [151;114]
+routeur 168 : [151;117]
+routeur 169 : [152;62]
+routeur 170 : [152;63]
+routeur 171 : [152;64]
+routeur 172 : [152;65]
+routeur 173 : [152;114]
+routeur 174 : [152;115]
+routeur 175 : [152;116]
+routeur 176 : [152;117]
+routeur 177 : [76;61]
+routeur 178 : [76;62]
+routeur 179 : [76;63]
+routeur 180 : [76;64]
+routeur 181 : [76;65]
+routeur 182 : [76;66]
+routeur 183 : [76;113]
+routeur 184 : [76;114]
+routeur 185 : [76;115]
+routeur 186 : [76;116]
+routeur 187 : [76;117]
+routeur 188 : [76;118]
+routeur 189 : [77;61]
+routeur 190 : [77;66]
+routeur 191 : [77;113]
+routeur 192 : [77;118]
+routeur 193 : [78;61]
+routeur 194 : [78;66]
+routeur 195 : [78;113]
+routeur 196 : [78;118]
+routeur 197 : [79;61]
+routeur 198 : [79;66]
+routeur 199 : [79;113]
+routeur 200 : [79;118]
+routeur 201 : [80;61]
+routeur 202 : [80;66]
+routeur 203 : [80;113]
+routeur 204 : [80;118]
+routeur 205 : [81;61]
+routeur 206 : [81;66]
+routeur 207 : [81;113]
+routeur 208 : [81;118]
+routeur 209 : [82;61]
+routeur 210 : [82;66]
+routeur 211 : [82;113]
+routeur 212 : [82;118]
+routeur 213 : [83;61]
+routeur 214 : [83;66]
+routeur 215 : [83;113]
+routeur 216 : [83;118]
+routeur 217 : [84;61]
+routeur 218 : [84;66]
+routeur 219 : [84;113]
+routeur 220 : [84;118]
+routeur 221 : [85;61]
+routeur 222 : [85;66]
+routeur 223 : [85;113]
+routeur 224 : [85;118]
+routeur 225 : [86;61]
+routeur 226 : [86;66]
+routeur 227 : [86;113]
+routeur 228 : [86;118]
+routeur 229 : [87;61]
+routeur 230 : [87;66]
+routeur 231 : [87;113]
+routeur 232 : [87;118]
+routeur 233 : [88;61]
+routeur 234 : [88;62]
+routeur 235 : [88;63]
+routeur 236 : [88;64]
+routeur 237 : [88;65]
+routeur 238 : [88;66]
+routeur 239 : [88;113]
+routeur 240 : [88;114]
+routeur 241 : [88;115]
+routeur 242 : [88;116]
+routeur 243 : [88;117]
+routeur 244 : [88;118]
+routeur 245 : [141;61]
+routeur 246 : [141;62]
+routeur 247 : [141;63]
+routeur 248 : [141;64]
+routeur 249 : [141;65]
+routeur 250 : [141;66]
+routeur 251 : [141;113]
+routeur 252 : [141;114]
+routeur 253 : [141;115]
+routeur 254 : [141;116]
+routeur 255 : [141;117]
+routeur 256 : [141;118]
+routeur 257 : [142;61]
+routeur 258 : [142;66]
+routeur 259 : [142;113]
+routeur 260 : [142;118]
+routeur 261 : [143;61]
+routeur 262 : [143;66]
+routeur 263 : [143;113]
+routeur 264 : [143;118]
+routeur 265 : [144;61]
+routeur 266 : [144;66]
+routeur 267 : [144;113]
+routeur 268 : [144;118]
+routeur 269 : [145;61]
+routeur 270 : [145;66]
+routeur 271 : [145;113]
+routeur 272 : [145;118]
+routeur 273 : [146;61]
+routeur 274 : [146;66]
+routeur 275 : [146;113]
+routeur 276 : [146;118]
+routeur 277 : [147;61]
+routeur 278 : [147;66]
+routeur 279 : [147;113]
+routeur 280 : [147;118]
+routeur 281 : [148;61]
+routeur 282 : [148;66]
+routeur 283 : [148;113]
+routeur 284 : [148;118]
+routeur 285 : [149;61]
+routeur 286 : [149;66]
+routeur 287 : [149;113]
+routeur 288 : [149;118]
+routeur 289 : [150;61]
+routeur 290 : [150;66]
+routeur 291 : [150;113]
+routeur 292 : [150;118]
+routeur 293 : [151;61]
+routeur 294 : [151;66]
+routeur 295 : [151;113]
+routeur 296 : [151;118]
+routeur 297 : [152;61]
+routeur 298 : [152;66]
+routeur 299 : [152;113]
+
+cables : n/a
