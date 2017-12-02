@@ -100,6 +100,21 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
             break
 
     return edgeToLink
+    
+                                                                                                                                  # |
+"""def clearRightAngle():  # à pour but d'optimiser le nombre de backbones en enlevant les angles droits (ex de liaison possible   B - b - B où b est inutiles (à cause des diagonales), l'enlever réduit le budjet
+    listeBB = pathBackBone()  # liste qui contient la position des backbones pré-placé
+    finalListeBB = []
+
+    for l in listeBB:
+        nbBackboneVoisin = 0
+        x=l[0]
+        y=l[1]
+
+        if ((type(Matrice.getPoint(x+1,y)) == type(Backbone())) or (type(Matrice.getPoint(x-1,y)) == type(Backbone()))) and ((type(Matrice.getPoint(x,y+1)) == type(Backbone())) or (type(Matrice.getPoint(x,y-1)) == type(Backbone()))):
+            finalListeBB.append(l)  # l'ajoute à la liste final optimisé
+
+    return finalListeBB"""
 
 def main(ListRouter, initBackbone):
     AllRouter = ListRouter[:]
