@@ -212,11 +212,12 @@ def ecrireFichier(router = [], backbone = []):
     filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".out"
 
     try:
-        os.chdir("output/")
-    except:
         os.mkdir("output")
-
-    f = open("output/" + filename,'a')
+    except:
+        pass
+    
+    os.chdir("output/")
+    f = open(filename,'a')
 
     if (backbone != []):
         line =  str(len(backbone)) + "\n"
