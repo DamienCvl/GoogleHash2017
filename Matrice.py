@@ -14,7 +14,8 @@ class Matrice:
         self.backboneInit = []
         self.wallList = []
         self.targetList = []
-        self.backbones = []
+        self.routerList = []
+        self.backboneList = []
 
     def inialisation(self):
         for i in range(self.rows):

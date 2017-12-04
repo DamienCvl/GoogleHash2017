@@ -3,7 +3,7 @@ from Wall import Wall
 from Target import Target
 from Matrice import Matrice
 from Point import Point
-from backbone_path import backbone as BB_search
+from backbone_path import BB_search
 import math
 import time
 import os
@@ -209,18 +209,14 @@ def positionnerRouteur(matrice):
 
 def ecrireFichier(router = [], backbone = []):
 
-    filename = "output" + time.strftime("%d_%m_%y__%H_%M") + ".txt"
-
+    filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".txt"
+    
+    try:
+        os.chdir("output/")
+    except:
+        os.mkdir("output")
+        
     f = open("output/" + filename,'a')
-
-
-    if (backbone != []):
-        line =  str(len(backbone)) + "\n"
-        f.writelines(line)
-
-        for b in backbone:
-            line = str(b[0]) + " " + str(b[1]) + "\n"
-            f.writelines(line)
 
     if (router != []):
         line =  str(len(router)) + "\n"
@@ -230,6 +226,13 @@ def ecrireFichier(router = [], backbone = []):
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
 
+    if (backbone != []):
+        line =  str(len(backbone)) + "\n"
+        f.writelines(line)
+
+        for b in backbone:
+            line = str(b[0]) + " " + str(b[1]) + "\n"
+            f.writelines(line)
 
     f.close()
 
@@ -257,11 +260,13 @@ def ecrireLog(logs):
 
 
 if __name__ == '__main__':
-    os.remove("log.txt")
+    try:
+        os.remove("log.txt")
+    except: pass
     mat=lectureFichier("maps/charleston_road.in")
-    mat,routeurs=positionnerRouteur(mat)
+    mat,mat.routerList=positionnerRouteur(mat)
     #print(routeurs)
-    mat.backbones = BB_search.main(routeurs,mat.backboneInit)
+    mat.backboneList = BB_search.main(mat)
     for compteurLignes in range(mat.rows):
          for compteurColonnes in range(mat.columns):
                 if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
@@ -277,4 +282,4 @@ if __name__ == '__main__':
                 else:
                     print("_",end='')
          print()
-    ecrireFichier(routeurs,backbones)
+    ecrireFichier(mat.routerList,mat.backboneList)

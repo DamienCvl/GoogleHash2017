@@ -1,0 +1,517 @@
+
+Routeur : . | CompteurLignes : 23 | CompteurColonnes : 52 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+24 - 53
+Routeur : . | CompteurLignes : 23 | CompteurColonnes : 73 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+24 - 74
+Routeur : . | CompteurLignes : 23 | CompteurColonnes : 94 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+24 - 95
+Routeur : . | CompteurLignes : 23 | CompteurColonnes : 115 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+24 - 116
+Routeur : . | CompteurLignes : 23 | CompteurColonnes : 131 | Compteur de Targets : 5
+10 - 0 - 4 - 10 - 10
+24 - 132
+Routeur : . | CompteurLignes : 31 | CompteurColonnes : 41 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+32 - 42
+Routeur : . | CompteurLignes : 31 | CompteurColonnes : 136 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+32 - 137
+Routeur : . | CompteurLignes : 34 | CompteurColonnes : 62 | Compteur de Targets : 10
+10 - 10 - 10 - 4 - 10
+35 - 63
+Routeur : . | CompteurLignes : 34 | CompteurColonnes : 83 | Compteur de Targets : 10
+10 - 10 - 10 - 4 - 10
+35 - 84
+Routeur : . | CompteurLignes : 34 | CompteurColonnes : 104 | Compteur de Targets : 10
+10 - 10 - 10 - 4 - 10
+35 - 105
+Routeur : . | CompteurLignes : 34 | CompteurColonnes : 121 | Compteur de Targets : 5
+10 - 10 - 10 - 4 - 10
+35 - 122
+Routeur : . | CompteurLignes : 35 | CompteurColonnes : 40 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+36 - 41
+Routeur : . | CompteurLignes : 36 | CompteurColonnes : 137 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+37 - 138
+Routeur : . | CompteurLignes : 39 | CompteurColonnes : 39 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+40 - 40
+Routeur : . | CompteurLignes : 39 | CompteurColonnes : 138 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+40 - 139
+Routeur : . | CompteurLignes : 41 | CompteurColonnes : 62 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+42 - 63
+Routeur : . | CompteurLignes : 41 | CompteurColonnes : 83 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+42 - 84
+Routeur : . | CompteurLignes : 41 | CompteurColonnes : 104 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+42 - 105
+Routeur : . | CompteurLignes : 41 | CompteurColonnes : 121 | Compteur de Targets : 5
+10 - 0 - 10 - 10 - 10
+42 - 122
+Routeur : . | CompteurLignes : 42 | CompteurColonnes : 38 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+43 - 39
+Routeur : . | CompteurLignes : 42 | CompteurColonnes : 51 | Compteur de Targets : 1
+10 - 10 - 10 - 10 - 10
+43 - 52
+Routeur : . | CompteurLignes : 42 | CompteurColonnes : 139 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+43 - 140
+Routeur : . | CompteurLignes : 44 | CompteurColonnes : 37 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+45 - 38
+Routeur : . | CompteurLignes : 44 | CompteurColonnes : 140 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+45 - 141
+Routeur : . | CompteurLignes : 46 | CompteurColonnes : 36 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+47 - 37
+Routeur : . | CompteurLignes : 46 | CompteurColonnes : 141 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+47 - 142
+Routeur : . | CompteurLignes : 47 | CompteurColonnes : 35 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+48 - 36
+Routeur : . | CompteurLignes : 48 | CompteurColonnes : 142 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+49 - 143
+Routeur : . | CompteurLignes : 49 | CompteurColonnes : 34 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+50 - 35
+Routeur : . | CompteurLignes : 49 | CompteurColonnes : 143 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+50 - 144
+Routeur : . | CompteurLignes : 50 | CompteurColonnes : 33 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+51 - 34
+Routeur : . | CompteurLignes : 50 | CompteurColonnes : 144 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+51 - 145
+Routeur : . | CompteurLignes : 51 | CompteurColonnes : 32 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+52 - 33
+Routeur : . | CompteurLignes : 51 | CompteurColonnes : 145 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+52 - 146
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 31 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+53 - 32
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 72 | Compteur de Targets : 10
+10 - 10 - 10 - 6 - 10
+53 - 73
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 93 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+53 - 94
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 114 | Compteur de Targets : 10
+10 - 10 - 10 - 6 - 10
+53 - 115
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 127 | Compteur de Targets : 2
+10 - 10 - 10 - 6 - 10
+53 - 128
+Routeur : . | CompteurLignes : 52 | CompteurColonnes : 146 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+53 - 147
+Routeur : . | CompteurLignes : 53 | CompteurColonnes : 30 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 0
+54 - 31
+Routeur : . | CompteurLignes : 53 | CompteurColonnes : 55 | Compteur de Targets : 7
+10 - 10 - 10 - 5 - 10
+54 - 56
+Routeur : . | CompteurLignes : 53 | CompteurColonnes : 147 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+54 - 148
+Routeur : . | CompteurLignes : 54 | CompteurColonnes : 29 | Compteur de Targets : 1
+10 - 0 - 10 - 10 - 1
+55 - 30
+Routeur : . | CompteurLignes : 54 | CompteurColonnes : 149 | Compteur de Targets : 1
+10 - 0 - 0 - 10 - 10
+55 - 150
+Routeur : . | CompteurLignes : 55 | CompteurColonnes : 26 | Compteur de Targets : 2
+10 - 0 - 10 - 10 - 2
+56 - 27
+Routeur : . | CompteurLignes : 55 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 0 - 1 - 10 - 10
+56 - 153
+Routeur : . | CompteurLignes : 60 | CompteurColonnes : 44 | Compteur de Targets : 1
+10 - 10 - 0 - 10 - 10
+61 - 45
+Routeur : . | CompteurLignes : 61 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+62 - 57
+Routeur : . | CompteurLignes : 61 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 0 - 6 - 10 - 10
+62 - 76
+Routeur : . | CompteurLignes : 61 | CompteurColonnes : 114 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+62 - 115
+Routeur : . | CompteurLignes : 61 | CompteurColonnes : 130 | Compteur de Targets : 4
+10 - 0 - 3 - 10 - 10
+62 - 131
+Routeur : . | CompteurLignes : 62 | CompteurColonnes : 135 | Compteur de Targets : 1
+10 - 10 - 10 - 10 - 0
+63 - 136
+Routeur : . | CompteurLignes : 63 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+64 - 91
+Routeur : . | CompteurLignes : 63 | CompteurColonnes : 101 | Compteur de Targets : 3
+10 - 2 - 10 - 10 - 3
+64 - 102
+Routeur : . | CompteurLignes : 66 | CompteurColonnes : 29 | Compteur de Targets : 5
+10 - 10 - 10 - 10 - 5
+67 - 30
+Routeur : . | CompteurLignes : 66 | CompteurColonnes : 150 | Compteur de Targets : 4
+10 - 10 - 3 - 10 - 10
+67 - 151
+Routeur : . | CompteurLignes : 71 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+72 - 44
+Routeur : . | CompteurLignes : 72 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+73 - 57
+Routeur : . | CompteurLignes : 72 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+73 - 76
+Routeur : . | CompteurLignes : 72 | CompteurColonnes : 122 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+73 - 123
+Routeur : . | CompteurLignes : 72 | CompteurColonnes : 133 | Compteur de Targets : 1
+10 - 10 - 0 - 10 - 10
+73 - 134
+Routeur : . | CompteurLignes : 73 | CompteurColonnes : 138 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 3
+74 - 139
+Routeur : . | CompteurLignes : 74 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+75 - 91
+Routeur : . | CompteurLignes : 74 | CompteurColonnes : 105 | Compteur de Targets : 7
+10 - 10 - 10 - 10 - 7
+75 - 106
+Routeur : . | CompteurLignes : 77 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+78 - 30
+Routeur : . | CompteurLignes : 77 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+78 - 153
+Routeur : . | CompteurLignes : 82 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+83 - 44
+Routeur : . | CompteurLignes : 83 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+84 - 57
+Routeur : . | CompteurLignes : 83 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+84 - 76
+Routeur : . | CompteurLignes : 83 | CompteurColonnes : 125 | Compteur de Targets : 9
+10 - 10 - 8 - 10 - 10
+84 - 126
+Routeur : . | CompteurLignes : 84 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+85 - 140
+Routeur : . | CompteurLignes : 85 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+86 - 91
+Routeur : . | CompteurLignes : 85 | CompteurColonnes : 107 | Compteur de Targets : 8
+10 - 10 - 10 - 10 - 9
+86 - 108
+Routeur : . | CompteurLignes : 88 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+89 - 30
+Routeur : . | CompteurLignes : 88 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+89 - 153
+Routeur : . | CompteurLignes : 93 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+94 - 44
+Routeur : . | CompteurLignes : 94 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 9 - 10
+95 - 57
+Routeur : . | CompteurLignes : 94 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 9 - 10
+95 - 76
+Routeur : . | CompteurLignes : 94 | CompteurColonnes : 126 | Compteur de Targets : 8
+10 - 10 - 7 - 9 - 10
+95 - 127
+Routeur : . | CompteurLignes : 95 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+96 - 140
+Routeur : . | CompteurLignes : 96 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+97 - 91
+Routeur : . | CompteurLignes : 96 | CompteurColonnes : 107 | Compteur de Targets : 9
+10 - 10 - 10 - 7 - 9
+97 - 108
+Routeur : . | CompteurLignes : 99 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+100 - 30
+Routeur : . | CompteurLignes : 99 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+100 - 153
+Routeur : . | CompteurLignes : 104 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+105 - 44
+Routeur : . | CompteurLignes : 106 | CompteurColonnes : 55 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+107 - 56
+Routeur : . | CompteurLignes : 106 | CompteurColonnes : 75 | Compteur de Targets : 8
+10 - 0 - 10 - 10 - 10
+107 - 76
+Routeur : . | CompteurLignes : 106 | CompteurColonnes : 107 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+107 - 108
+Routeur : . | CompteurLignes : 106 | CompteurColonnes : 128 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+107 - 129
+Routeur : . | CompteurLignes : 106 | CompteurColonnes : 141 | Compteur de Targets : 1
+10 - 10 - 10 - 10 - 10
+107 - 142
+Routeur : . | CompteurLignes : 107 | CompteurColonnes : 92 | Compteur de Targets : 5
+10 - 10 - 10 - 10 - 10
+108 - 93
+Routeur : . | CompteurLignes : 110 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+111 - 30
+Routeur : . | CompteurLignes : 110 | CompteurColonnes : 153 | Compteur de Targets : 1
+10 - 10 - 0 - 10 - 10
+111 - 154
+Routeur : . | CompteurLignes : 115 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 10
+116 - 44
+Routeur : . | CompteurLignes : 117 | CompteurColonnes : 64 | Compteur de Targets : 10
+10 - 10 - 10 - 5 - 10
+118 - 65
+Routeur : . | CompteurLignes : 117 | CompteurColonnes : 79 | Compteur de Targets : 3
+10 - 10 - 10 - 5 - 10
+118 - 80
+Routeur : . | CompteurLignes : 117 | CompteurColonnes : 113 | Compteur de Targets : 10
+10 - 10 - 10 - 5 - 10
+118 - 114
+Routeur : . | CompteurLignes : 117 | CompteurColonnes : 134 | Compteur de Targets : 9
+10 - 10 - 10 - 5 - 10
+118 - 135
+Routeur : . | CompteurLignes : 118 | CompteurColonnes : 97 | Compteur de Targets : 6
+10 - 10 - 10 - 4 - 10
+119 - 98
+Routeur : . | CompteurLignes : 121 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+122 - 30
+Routeur : . | CompteurLignes : 121 | CompteurColonnes : 150 | Compteur de Targets : 4
+10 - 10 - 3 - 10 - 10
+122 - 151
+Routeur : . | CompteurLignes : 123 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+124 - 91
+Routeur : . | CompteurLignes : 123 | CompteurColonnes : 138 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 3
+124 - 139
+Routeur : . | CompteurLignes : 126 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+127 - 44
+Routeur : . | CompteurLignes : 126 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+127 - 57
+Routeur : . | CompteurLignes : 126 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 0 - 6 - 10 - 10
+127 - 76
+Routeur : . | CompteurLignes : 126 | CompteurColonnes : 108 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+127 - 109
+Routeur : . | CompteurLignes : 126 | CompteurColonnes : 127 | Compteur de Targets : 7
+10 - 0 - 6 - 10 - 10
+127 - 128
+Routeur : . | CompteurLignes : 132 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+133 - 30
+Routeur : . | CompteurLignes : 132 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+133 - 153
+Routeur : . | CompteurLignes : 134 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+135 - 91
+Routeur : . | CompteurLignes : 134 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+135 - 140
+Routeur : . | CompteurLignes : 137 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+138 - 44
+Routeur : . | CompteurLignes : 137 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+138 - 57
+Routeur : . | CompteurLignes : 137 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+138 - 76
+Routeur : . | CompteurLignes : 137 | CompteurColonnes : 108 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+138 - 109
+Routeur : . | CompteurLignes : 137 | CompteurColonnes : 127 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+138 - 128
+Routeur : . | CompteurLignes : 143 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+144 - 30
+Routeur : . | CompteurLignes : 143 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+144 - 153
+Routeur : . | CompteurLignes : 145 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+146 - 91
+Routeur : . | CompteurLignes : 145 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+146 - 140
+Routeur : . | CompteurLignes : 148 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+149 - 44
+Routeur : . | CompteurLignes : 148 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+149 - 57
+Routeur : . | CompteurLignes : 148 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+149 - 76
+Routeur : . | CompteurLignes : 148 | CompteurColonnes : 108 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+149 - 109
+Routeur : . | CompteurLignes : 148 | CompteurColonnes : 127 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 10
+149 - 128
+Routeur : . | CompteurLignes : 154 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+155 - 30
+Routeur : . | CompteurLignes : 154 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+155 - 153
+Routeur : . | CompteurLignes : 156 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+157 - 91
+Routeur : . | CompteurLignes : 156 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+157 - 140
+Routeur : . | CompteurLignes : 159 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+160 - 44
+Routeur : . | CompteurLignes : 159 | CompteurColonnes : 56 | Compteur de Targets : 10
+10 - 10 - 10 - 9 - 10
+160 - 57
+Routeur : . | CompteurLignes : 159 | CompteurColonnes : 75 | Compteur de Targets : 7
+10 - 10 - 6 - 9 - 10
+160 - 76
+Routeur : . | CompteurLignes : 159 | CompteurColonnes : 108 | Compteur de Targets : 10
+10 - 10 - 10 - 9 - 10
+160 - 109
+Routeur : . | CompteurLignes : 159 | CompteurColonnes : 127 | Compteur de Targets : 7
+10 - 10 - 6 - 9 - 10
+160 - 128
+Routeur : . | CompteurLignes : 165 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 10 - 5
+166 - 30
+Routeur : . | CompteurLignes : 165 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+166 - 153
+Routeur : . | CompteurLignes : 167 | CompteurColonnes : 90 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 7
+168 - 91
+Routeur : . | CompteurLignes : 167 | CompteurColonnes : 139 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 4
+168 - 140
+Routeur : . | CompteurLignes : 170 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+171 - 44
+Routeur : . | CompteurLignes : 171 | CompteurColonnes : 55 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+172 - 56
+Routeur : . | CompteurLignes : 171 | CompteurColonnes : 75 | Compteur de Targets : 8
+10 - 0 - 10 - 10 - 10
+172 - 76
+Routeur : . | CompteurLignes : 171 | CompteurColonnes : 107 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+172 - 108
+Routeur : . | CompteurLignes : 171 | CompteurColonnes : 127 | Compteur de Targets : 8
+10 - 0 - 10 - 10 - 10
+172 - 128
+Routeur : . | CompteurLignes : 176 | CompteurColonnes : 29 | Compteur de Targets : 4
+10 - 10 - 10 - 8 - 5
+177 - 30
+Routeur : . | CompteurLignes : 176 | CompteurColonnes : 152 | Compteur de Targets : 2
+10 - 10 - 1 - 6 - 10
+177 - 153
+Routeur : . | CompteurLignes : 178 | CompteurColonnes : 92 | Compteur de Targets : 5
+10 - 10 - 10 - 10 - 10
+179 - 93
+Routeur : . | CompteurLignes : 178 | CompteurColonnes : 140 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 10
+179 - 141
+Routeur : . | CompteurLignes : 181 | CompteurColonnes : 43 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 10
+182 - 44
+Routeur : . | CompteurLignes : 182 | CompteurColonnes : 64 | Compteur de Targets : 10
+10 - 10 - 10 - 9 - 10
+183 - 65
+Routeur : . | CompteurLignes : 182 | CompteurColonnes : 79 | Compteur de Targets : 3
+10 - 10 - 10 - 9 - 10
+183 - 80
+Routeur : . | CompteurLignes : 182 | CompteurColonnes : 113 | Compteur de Targets : 10
+10 - 10 - 10 - 9 - 10
+183 - 114
+Routeur : . | CompteurLignes : 182 | CompteurColonnes : 127 | Compteur de Targets : 3
+10 - 10 - 10 - 10 - 10
+183 - 128
+Routeur : . | CompteurLignes : 183 | CompteurColonnes : 151 | Compteur de Targets : 1
+10 - 10 - 0 - 0 - 10
+184 - 152
+Routeur : . | CompteurLignes : 185 | CompteurColonnes : 32 | Compteur de Targets : 1
+10 - 10 - 10 - 2 - 2
+186 - 33
+Routeur : . | CompteurLignes : 189 | CompteurColonnes : 97 | Compteur de Targets : 6
+10 - 10 - 10 - 2 - 10
+190 - 98
+Routeur : . | CompteurLignes : 189 | CompteurColonnes : 141 | Compteur de Targets : 3
+10 - 10 - 2 - 3 - 10
+190 - 142
+Routeur : . | CompteurLignes : 192 | CompteurColonnes : 44 | Compteur de Targets : 8
+10 - 10 - 7 - 10 - 8
+193 - 45
+Routeur : . | CompteurLignes : 193 | CompteurColonnes : 134 | Compteur de Targets : 7
+10 - 10 - 6 - 10 - 8
+194 - 135
+Routeur : . | CompteurLignes : 194 | CompteurColonnes : 62 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+195 - 63
+Routeur : . | CompteurLignes : 194 | CompteurColonnes : 83 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+195 - 84
+Routeur : . | CompteurLignes : 194 | CompteurColonnes : 104 | Compteur de Targets : 10
+10 - 0 - 10 - 10 - 10
+195 - 105
+Routeur : . | CompteurLignes : 194 | CompteurColonnes : 121 | Compteur de Targets : 5
+10 - 0 - 10 - 10 - 10
+195 - 122
+Routeur : . | CompteurLignes : 203 | CompteurColonnes : 47 | Compteur de Targets : 5
+10 - 10 - 10 - 10 - 6
+204 - 48
+Routeur : . | CompteurLignes : 204 | CompteurColonnes : 135 | Compteur de Targets : 2
+10 - 10 - 1 - 10 - 10
+205 - 136
+Routeur : . | CompteurLignes : 205 | CompteurColonnes : 68 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+206 - 69
+Routeur : . | CompteurLignes : 205 | CompteurColonnes : 89 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+206 - 90
+Routeur : . | CompteurLignes : 205 | CompteurColonnes : 110 | Compteur de Targets : 10
+10 - 10 - 10 - 10 - 10
+206 - 111
+Routeur : . | CompteurLignes : 205 | CompteurColonnes : 123 | Compteur de Targets : 2
+10 - 10 - 10 - 10 - 10
+206 - 124
+Routeur : . | CompteurLignes : 214 | CompteurColonnes : 50 | Compteur de Targets : 8
+10 - 10 - 10 - 1 - 8
+215 - 51
+Routeur : . | CompteurLignes : 215 | CompteurColonnes : 135 | Compteur de Targets : 1
+10 - 10 - 0 - 0 - 10
+216 - 136
