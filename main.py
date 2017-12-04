@@ -210,27 +210,27 @@ def positionnerRouteur(matrice):
 def ecrireFichier(router = [], backbone = []):
 
     filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".out"
-    
+
     try:
         os.chdir("output/")
     except:
         os.mkdir("output")
-        
+
     f = open("output/" + filename,'a')
-
-    if (router != []):
-        line =  str(len(router)) + "\n"
-        f.writelines(line)
-
-        for b in router:
-            line = str(b[0]) + " " + str(b[1]) + "\n"
-            f.writelines(line)
 
     if (backbone != []):
         line =  str(len(backbone)) + "\n"
         f.writelines(line)
 
         for b in backbone:
+            line = str(b[0]) + " " + str(b[1]) + "\n"
+            f.writelines(line)
+
+    if (router != []):
+        line =  str(len(router)) + "\n"
+        f.writelines(line)
+
+        for b in router:
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
 
