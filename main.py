@@ -3,6 +3,7 @@ from Wall import Wall
 from Target import Target
 from Matrice import Matrice
 from Point import Point
+import backbone_path/backbone as BB_path
 import math
 import time
 import os
@@ -70,8 +71,8 @@ def covering(matrice, rayon, posLignes, posColonnes):
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
                 matrice.getPoint(posLignes - i, posColonnes).isCovered = True
 
-            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "#": 
-                murNord = True  
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "#":
+                murNord = True
                 rayonNord = i - 1
 
         if(not murEst):
@@ -80,7 +81,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
                 matrice.getPoint(posLignes, posColonnes + i).isCovered = True
 
-            if matrice.getPoint(posLignes, posColonnes + i).typePoint == "#": 
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == "#":
                 murEst = True
                 rayonEst = i - 1
 
@@ -90,7 +91,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
                 matrice.getPoint(posLignes + i, posColonnes).isCovered = True
 
-            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#": 
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#":
                 murSud = True
                 rayonSud = i - 1
 
@@ -100,7 +101,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
                 matrice.getPoint(posLignes, posColonnes - i).isCovered = True
 
-            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#": 
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#":
                 murOuest = True
                 rayonOuest = i - 1
 
@@ -216,7 +217,7 @@ def ecrireFichier(router = [], backbone = []):
     if (backbone != []):
         line =  str(len(backbone[])) + "\n"
         f.writelines(line)
-        
+
         for b in backbone[]:
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
@@ -224,7 +225,7 @@ def ecrireFichier(router = [], backbone = []):
     if (router != []):
         line =  str(len(router[])) + "\n"
         f.writelines(line)
-        
+
         for b in router[]:
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
@@ -260,6 +261,7 @@ if __name__ == '__main__':
     mat=lectureFichier("maps/charleston_road.in")
     mat,routeurs=positionnerRouteur(mat)
     #print(routeurs)
+    mat.backbones = BB_path.main(routeurs,mat.backboneInit)
     for compteurLignes in range(mat.rows):
          for compteurColonnes in range(mat.columns):
                 if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
@@ -275,4 +277,4 @@ if __name__ == '__main__':
                 else:
                     print("_",end='')
          print()
-    ecrireFichier(routeurs)
+    ecrireFichier(routeurs,backbones)
