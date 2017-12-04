@@ -67,8 +67,8 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
     edgeToLink = []
     numTree = 0
     for edge in ListEdgeSorted: # permet de placer les aretes et les routeurs dans des arbres sans faire de boucle
-        numtree1 = edge.router1.inWhichTree 
-        numtree2 = edge.router2.inWhichTree 
+        numtree1 = edge.router1.inWhichTree
+        numtree2 = edge.router2.inWhichTree
         if numtree1 != None and numtree2 != None: # si les routeurs de l'arete sont associé à des arbres
             if numtree1 == numtree2: # et qu'ils sont dans le même arbre, on passe à l'arete suivante
                 continue
@@ -100,7 +100,7 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
             break
 
     return edgeToLink
-    
+
                                                                                                                                   # |
 def clearRightAngle(path):  # à pour but d'optimiser le nombre de backbones en enlevant les angles droits (ex de liaison possible   B - b - B où b est inutiles (à cause des diagonales), l'enlever réduit le budjet
     listeBB = path[:]  # liste qui contient la position des backbones pré-placé
@@ -117,16 +117,17 @@ def clearRightAngle(path):  # à pour but d'optimiser le nombre de backbones en 
     return finalListeBB
 
 def main(ListRouter, initBackbone):
-    AllRouter = ListRouter[:]
-    AllRouter.append(initBackbone)
+    AllPoint = []
+    AllCoord = ListRouter[:]
+    AllCoord.append(initBackbone)
+    for c in AllCoord:
+        AllPoint.append(Routeur(c[0],c[1]))
     paths = []
-    edges = edgePlacement(AllRouter)
+    edges = edgePlacement(AllPoint)
 
     for edge in edges:
         paths += link2Points(edge.router1.pos,edge.router2.pos)
-    
+
     paths=clearRightAngle(paths)
-    posRouters = []
-    for r in ListRouter: posRouters.append(r.pos)
-    backbones = posRouters + paths
+    backbones = ListRouter + paths
     return backbones
