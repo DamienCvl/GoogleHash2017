@@ -209,7 +209,7 @@ def positionnerRouteur(matrice):
 
 def ecrireFichier(router = [], backbone = []):
 
-    filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".txt"
+    filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".out"
     
     try:
         os.chdir("output/")
