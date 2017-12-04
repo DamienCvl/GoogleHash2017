@@ -1,6 +1,6 @@
-from Edge import Edge
-from Tree import Tree
-from Router import Router
+from backbone_path import Edge
+from backbone_path import Tree
+from backbone_path import Router
 from operator import attrgetter
 
 def link2Points(p1,p2): #cherche le chemin le plus court entre 2 points, return une liste de coordonnées

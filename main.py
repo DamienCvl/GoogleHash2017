@@ -3,7 +3,7 @@ from Wall import Wall
 from Target import Target
 from Matrice import Matrice
 from Point import Point
-import backbone_path/backbone as BB_path
+from backbone_path import backbone as BB_search
 import math
 import time
 import os
@@ -215,18 +215,18 @@ def ecrireFichier(router = [], backbone = []):
 
 
     if (backbone != []):
-        line =  str(len(backbone[])) + "\n"
+        line =  str(len(backbone)) + "\n"
         f.writelines(line)
 
-        for b in backbone[]:
+        for b in backbone:
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
 
     if (router != []):
-        line =  str(len(router[])) + "\n"
+        line =  str(len(router)) + "\n"
         f.writelines(line)
 
-        for b in router[]:
+        for b in router:
             line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
 
@@ -261,7 +261,7 @@ if __name__ == '__main__':
     mat=lectureFichier("maps/charleston_road.in")
     mat,routeurs=positionnerRouteur(mat)
     #print(routeurs)
-    mat.backbones = BB_path.main(routeurs,mat.backboneInit)
+    mat.backbones = BB_search.main(routeurs,mat.backboneInit)
     for compteurLignes in range(mat.rows):
          for compteurColonnes in range(mat.columns):
                 if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
