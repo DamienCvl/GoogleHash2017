@@ -103,7 +103,7 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
     
                                                                                                                                   # |
 def clearRightAngle(path):  # à pour but d'optimiser le nombre de backbones en enlevant les angles droits (ex de liaison possible   B - b - B où b est inutiles (à cause des diagonales), l'enlever réduit le budjet
-    listeBB = path  # liste qui contient la position des backbones pré-placé
+    listeBB = path[:]  # liste qui contient la position des backbones pré-placé
     finalListeBB = []
 
     for l in listeBB:
@@ -125,7 +125,7 @@ def main(ListRouter, initBackbone):
     for edge in edges:
         paths += link2Points(edge.router1.pos,edge.router2.pos)
     
-    clearRightAngle(paths)
+    paths=clearRightAngle(paths)
     posRouters = []
     for r in ListRouter: posRouters.append(r.pos)
     backbones = posRouters + paths
