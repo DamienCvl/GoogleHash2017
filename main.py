@@ -206,36 +206,29 @@ def positionnerRouteur(matrice):
      #print(cptRouteurs)
      return matrice,routers
 
-def ecrireFichier(router = [], backbone = [], cables = []):
+def ecrireFichier(router = [], backbone = []):
 
     filename = "output" + time.strftime("%d_%m_%y__%H_%M") + ".txt"
 
     f = open("output/" + filename,'a')
 
-    retourChar = "\n"
 
     if (backbone != []):
-        line = "backbone : [" + str(backbone[0]) + ";" + str(backbone[1]) + "]\n"
-    else: line = "backbone : n/a\n"
-    f.writelines(line)
-
-    f.writelines(retourChar)
+        line =  str(len(backbone[])) + "\n"
+        f.writelines(line)
+        
+        for b in backbone[]:
+            line = str(b[0]) + " " + str(b[1]) + "\n"
+            f.writelines(line)
 
     if (router != []):
-        for i in range(len(router)):
-            line = "routeur " + str(i+1) + " : [" + str(router[i][0]) + ";" + str(router[i][1]) + "]\n"
+        line =  str(len(router[])) + "\n"
+        f.writelines(line)
+        
+        for b in router[]:
+            line = str(b[0]) + " " + str(b[1]) + "\n"
             f.writelines(line)
-    else:
-        f.writelines("router : n/a\n")
 
-    f.writelines(retourChar)
-
-    if (cables != []):
-        for i in range(len(cables)):
-            line = "cables " + str(i+1) + " : [" + str(cables[i][0]) + ";" + str(cables[i][1]) + "]\n"
-            f.writelines(line)
-    else:
-        f.writelines("cables : n/a\n")
 
     f.close()
 
