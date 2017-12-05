@@ -68,17 +68,19 @@ def redWeight(target, x, y):
 
 def covering(matrice, rayon, posLignes, posColonnes, near=False):
 
-    rayonNord = rayon
-    rayonEst = rayon
-    rayonSud = rayon
-    rayonOuest = rayon
+    rayonInt = int(rayon)
+
+    rayonNord = rayonInt
+    rayonEst = rayonInt
+    rayonSud = rayonInt
+    rayonOuest = rayonInt
 
     murNord = False
     murEst = False
     murSud = False
     murOuest = False
 
-    for i in range(1, rayon + 1):
+    for i in range(1, rayonInt + 1):
 
         if(not murNord):
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == "-":
@@ -143,7 +145,7 @@ def covering(matrice, rayon, posLignes, posColonnes, near=False):
     rayonS = rayonSud
     rayonO = rayonOuest
 
-    ecrireLog("\n{} - {} - {} - {} - {}".format(rayon, rayonN, rayonE, rayonS, rayonO))
+    ecrireLog("\n{} - {} - {} - {} - {}".format(rayonInt, rayonN, rayonE, rayonS, rayonO))
     ecrireLog("\n{} - {}".format(posLignes + 1, posColonnes + 1))
 
     #Nord
@@ -227,6 +229,7 @@ def getMaxWeight(targetList):
 def positionnerRouteur(matrice):
      routers = [] #liste des positions des routeurs
      cptRouteurs = 0
+     cptRouteursMap = 0
 
      calculPoids(matrice)
 
@@ -244,9 +247,10 @@ def positionnerRouteur(matrice):
              if ([maxTarget.posX,maxTarget.posY] not in routers):
                  routers.append([maxTarget.posX,maxTarget.posY])  # ajout du routeur
                  cptRouteurs += 1
+                 cptRouteursMap += 1
                  maxTarget.isRouter = True
                  covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY, True)
-                 covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY)
+                 covering(matrice,2 * matrice.routerRange, maxTarget.posX, maxTarget.posY)
                  #print(maxTarget.posX, maxTarget.posY, maxTarget.weight)
                  #print("nbrouter = ",cptRouteurs)
              else:
@@ -256,7 +260,13 @@ def positionnerRouteur(matrice):
              if (testCoverage(matrice.targetList) == 0):
                  placement = False
              else:
-                 print(((len(matrice.targetList) - testCoverage(matrice.targetList)) / len(matrice.targetList)), " %")
+                 avancement = ((len(matrice.targetList) - testCoverage(matrice.targetList)) / len(matrice.targetList))
+                 print(avancement, " %")
+
+             if(cptRouteursMap >= 10):
+                 afficherMap(matrice)
+                 cptRouteursMap = 0
+
 
          else:
              placement = False
@@ -331,7 +341,7 @@ def calculPoids(matrice, multDistance = Constante.MULTI_POIDS_DISTANCE, multCove
         poids = ((min(distances) * multDistance) / (1 + couverture))
         target.weight = poids #Plus le poids est grand mieux c'est
 
-        print("x : " + str(target.posX) + " y : " + str(target.posY) + " a un poids de : " + str(target.weight))
+##        print("x : " + str(target.posX) + " y : " + str(target.posY) + " a un poids de : " + str(target.weight))
 
 def testCoverage(targetList):
 
@@ -349,6 +359,30 @@ def ecrireLog(logs):
     fichier.close()
 
 
+def afficherMap(matrice):
+    map = []
+    for compteurLignes in range(mat.rows):
+        line = ""
+        for compteurColonnes in range(mat.columns):
+            if (mat.getPoint(compteurLignes, compteurColonnes).typePoint == "."):
+                if (mat.getPoint(compteurLignes, compteurColonnes).isCovered):
+                    if mat.getPoint(compteurLignes, compteurColonnes).isRouter:
+                        line += "R"
+                    else:
+                        line += "-"
+                else:
+                    line += "X"
+            elif (mat.getPoint(compteurLignes, compteurColonnes).typePoint == "#"):
+                line += "#"
+            else:
+                line += "_"
+        map.append(line)
+        print(line)
+    return(map)
+
+
+
+
 if __name__ == '__main__':
 
     start = time.time()
@@ -356,6 +390,7 @@ if __name__ == '__main__':
     mat=lectureFichier("maps/charleston_road.in")
     mat,routeurs=positionnerRouteur(mat)
     #print(routeurs)
+    '''
     map = []
     for compteurLignes in range(mat.rows):
          line = ""
@@ -379,8 +414,10 @@ if __name__ == '__main__':
                     line += "_"
          map.append(line)
          print()
+    '''
     end = time.time()
     exec = end - start
     print("Executed smoothly in ", exec, " seconds")
+    map = afficherMap(mat)
     ecrireFichier(map, exec, routeurs)
 
