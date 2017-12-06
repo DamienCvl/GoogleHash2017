@@ -62,7 +62,7 @@ def distance(xA, yA, xB, yB):
 
 def redWeight(target, x, y):
     dist = distance(target.posX, target.posY, x, y)
-    mult = (((dist/20)+0.32) * math.sin(1/((dist/100)+0.32)))/2.3
+    mult = (((dist/20)+0.32) * math.sin(1/((dist/100)+0.32)))/1.5
     if (mult > 1):
         mult = 1
     target.weight = target.weight * mult
@@ -221,9 +221,16 @@ def covering(matrice, rayon, posLignes, posColonnes, near=False):
 
 def getMaxWeight(targetList):
 
-    maxTarget = targetList[0]
+    newList = []
 
     for target in targetList:
+        if (not target.isCovered):
+            newList.append(target)
+
+
+    maxTarget = newList[0]
+
+    for target in newList:
         if (target.weight > maxTarget.weight):
             maxTarget = target
 
@@ -255,7 +262,7 @@ def positionnerRouteur(matrice):
                  cptRouteursMap += 1
                  maxTarget.isRouter = True
                  covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY, True)
-                 covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY)
+                 covering(matrice,2 * matrice.routerRange, maxTarget.posX, maxTarget.posY)
                  #print(maxTarget.posX, maxTarget.posY, maxTarget.weight)
                  #print("nbrouter = ",cptRouteurs)
              else:
@@ -270,6 +277,7 @@ def positionnerRouteur(matrice):
                  print(avancement, " %")
 
              if((cptRouteursMap >= 30)):
+                 print("nbRouteurs = ", cptRouteurs)
                  afficherMap(matrice)
                  cptRouteursMap = 0
 
