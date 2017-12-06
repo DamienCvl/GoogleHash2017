@@ -6,6 +6,7 @@ from Point import Point
 from constante import Constante
 import math
 import time
+from termcolor import colored
 import os
 
 def lectureFichier(path):
@@ -61,7 +62,9 @@ def distance(xA, yA, xB, yB):
 
 def redWeight(target, x, y):
     dist = distance(target.posX, target.posY, x, y)
-    mult = (Constante.MULTI_POIDS_NEIGH ** int(dist))
+    mult = (((dist/20)+0.32) * math.sin(1/((dist/100)+0.32)))/2.3
+    if (mult > 1):
+        mult = 1
     target.weight = target.weight * mult
 
 
@@ -231,6 +234,8 @@ def positionnerRouteur(matrice):
      cptRouteurs = 0
      cptRouteursMap = 0
 
+     debug = False
+
      calculPoids(matrice)
 
      placement = True
@@ -250,11 +255,12 @@ def positionnerRouteur(matrice):
                  cptRouteursMap += 1
                  maxTarget.isRouter = True
                  covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY, True)
-                 covering(matrice,2 * matrice.routerRange, maxTarget.posX, maxTarget.posY)
+                 covering(matrice, matrice.routerRange, maxTarget.posX, maxTarget.posY)
                  #print(maxTarget.posX, maxTarget.posY, maxTarget.weight)
                  #print("nbrouter = ",cptRouteurs)
              else:
                  maxTarget.weight *= Constante.MULTI_POIDS_NEIGH
+                 debug = True
 
              # test si on continue de placer
              if (testCoverage(matrice.targetList) == 0):
@@ -263,7 +269,7 @@ def positionnerRouteur(matrice):
                  avancement = ((len(matrice.targetList) - testCoverage(matrice.targetList)) / len(matrice.targetList))
                  print(avancement, " %")
 
-             if(cptRouteursMap >= 10):
+             if((cptRouteursMap >= 30)):
                  afficherMap(matrice)
                  cptRouteursMap = 0
 
@@ -358,24 +364,51 @@ def ecrireLog(logs):
     fichier.write(logs)
     fichier.close()
 
+def coloration(char, poids):
+
+    if (0 <= poids < 10):
+        charR = colored(char, 'white')
+    elif (10 <= poids < 30):
+        charR = colored(char, 'cyan')
+    elif (30 <= poids < 80):
+        charR = colored(char, 'blue')
+    elif (80 <= poids < 180):
+        charR = colored(char, 'magenta')
+    elif (180 <= poids < 300):
+        charR = colored(char, 'red')
+    elif (300 <= poids < 500):
+        charR = colored(char, 'yellow')
+    else:
+        charR = colored(char, 'green')
+
+    return(charR)
+
+
 
 def afficherMap(matrice):
     map = []
     for compteurLignes in range(mat.rows):
         line = ""
+        lineWeightR = " R: "
+        lineWeightX = " X: "
         for compteurColonnes in range(mat.columns):
             if (mat.getPoint(compteurLignes, compteurColonnes).typePoint == "."):
+                rW = mat.getPoint(compteurLignes, compteurColonnes).weight
                 if (mat.getPoint(compteurLignes, compteurColonnes).isCovered):
                     if mat.getPoint(compteurLignes, compteurColonnes).isRouter:
-                        line += "R"
+                        line += coloration('R',rW)
+                        lineWeightR = lineWeightR + str(mat.getPoint(compteurLignes, compteurColonnes).weight) + " ; "
                     else:
-                        line += "-"
+                        line += coloration('-',rW)
                 else:
-                    line += "X"
+                    line += coloration("X",rW)
+                    lineWeightX = lineWeightX + str(mat.getPoint(compteurLignes, compteurColonnes).weight) + " ; "
             elif (mat.getPoint(compteurLignes, compteurColonnes).typePoint == "#"):
                 line += "#"
             else:
                 line += "_"
+        line += lineWeightR
+        line += lineWeightX
         map.append(line)
         print(line)
     return(map)
