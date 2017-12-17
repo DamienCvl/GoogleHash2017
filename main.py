@@ -62,13 +62,13 @@ def lectureFichier(path):
 
 #Fonction de couverture autour des routeurs
 def covering(matrice, rayon, posLignes, posColonnes):
-    
+
     #Création de 4 variables permettant de retenir la taille maximal des rayons possibles sur les cardinalités
     rayonNord = rayon
     rayonEst = rayon
     rayonSud = rayon
     rayonOuest = rayon
-    
+
     #Création de 4 variables booléennes permettant de retenir si un mur a été croisé ou non sur les cardinalités
     murNord = False
     murEst = False
@@ -93,7 +93,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 murNord = True
                 #Réduire la taille du rayon associé à la cardinalité
                 rayonNord = i - 1
-                
+
         #Si un mur n'a pas été croisé a l'Est du Router
         if(not murEst):
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == "-":
@@ -108,7 +108,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 murEst = True
                 #Réduire la taille du rayon associé à la cardinalité
                 rayonEst = i - 1
-                
+
         #Si un mur n'a pas été croisé au Sud du Router
         if(not murSud):
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == "-":
@@ -123,7 +123,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 murSud = True
                 #Réduire la taille du rayon associé à la cardinalité
                 rayonSud = i - 1
-                
+
         #Si un mur n'a pas été croisé a l'Ouest du Router
         if(not murOuest):
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == "-":
@@ -145,7 +145,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
     rayonS = rayonSud
     rayonO = rayonOuest
 
-    #Boucle permettant d'itérer sur la taille du nouveau rayon Nord en ligne 
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Nord en ligne
     for i in range(posLignes - 1, posLignes - 1 - rayonNord, -1):
         #Boucle permettant d'itérer sur la taille du nouveau rayon Est en colonne
         for j in range(posColonnes + 1, posColonnes + 1 + rayonE, +1):
@@ -160,7 +160,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 #Arrêt de la boucle
                 break
 
-    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne 
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne
     for j in range(posColonnes + 1, posColonnes + 1 + rayonEst, +1):
         #Boucle permettant d'itérer sur la taille du nouveau rayon Sud en colonne
         for i in range(posLignes + 1, posLignes + 1 + rayonS, +1):
@@ -175,7 +175,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 #Arrêt de la boucle
                 break
 
-    #Boucle permettant d'itérer sur la taille du nouveau rayon Sud en ligne 
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Sud en ligne
     for i in range(posLignes + 1, posLignes + 1 + rayonSud, + 1):
         #Boucle permettant d'itérer sur la taille du nouveau rayon Ouest en colonne
         for j in range(posColonnes - 1, posColonnes - 1 - rayonO, -1):
@@ -190,7 +190,7 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 #Arrêt de la boucle
                 break
 
-    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne 
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne
     for j in range(posColonnes - 1, posColonnes - 1 - rayonOuest, -1):
         #Boucle permettant d'itérer sur la taille du nouveau rayon Nord en colonne
         for i in range(posLignes - 1, posLignes - 1 - rayonN, -1):
@@ -204,10 +204,10 @@ def covering(matrice, rayon, posLignes, posColonnes):
                 rayonN = posLignes - i - 1
                 #Arrêt de la boucle
                 break
-            
+
     #Une fois que toutes les boucles sont finies, le Target correspondante au routeur passe en état Covered
     matrice.getPoint(posLignes, posColonnes).isCovered = True
-    
+
 #Meme méthode que covering cependant celle-ci gère les dictionnaires de targets en transferant les cellules couvertes dans le dictionnaire de wall
 def covering2(matrice, rayon, posLignes, posColonnes):
 
@@ -227,6 +227,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
                 matrice.getPoint(posLignes - i, posColonnes).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if posLignes - i in matrice.wallList2:
                     matrice.wallList2[posLignes - i].append(posColonnes)
                 else:
@@ -243,6 +244,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
                 matrice.getPoint(posLignes, posColonnes + i).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if posLignes in matrice.wallList2:
                     matrice.wallList2[posLignes].append(posColonnes + i)
                 else:
@@ -259,6 +261,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
                 matrice.getPoint(posLignes + i, posColonnes).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if posLignes + i in matrice.wallList2:
                     matrice.wallList2[posLignes + i].append(posColonnes)
                 else:
@@ -275,6 +278,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
                 pass
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
                 matrice.getPoint(posLignes, posColonnes - i).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if posLignes in matrice.wallList2:
                     matrice.wallList2[posLignes].append(posColonnes - i)
                 else:
@@ -299,6 +303,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if i in matrice.wallList2:
                     matrice.wallList2[i].append(j)
                 else:
@@ -316,6 +321,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if i in matrice.wallList2:
                     matrice.wallList2[i].append(j)
                 else:
@@ -334,6 +340,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if i in matrice.wallList2:
                     matrice.wallList2[i].append(j)
                 else:
@@ -351,6 +358,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
+                #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs
                 if i in matrice.wallList2:
                     matrice.wallList2[i].append(j)
                 else:
@@ -364,6 +372,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
 
     matrice.getPoint(posLignes, posColonnes).isCovered = True
+    #On supprime du dictionnaire de targets pour mettre cette cellule dans le dictionnaire de murs, même pour la position du routeur
     if posLignes in matrice.wallList2:
         matrice.wallList2[posLignes].append(posColonnes)
     else:
@@ -372,7 +381,7 @@ def covering2(matrice, rayon, posLignes, posColonnes):
 
         matrice.targetList2[posLignes].remove(posColonnes)
 
-#Meme principe que covering excepté que l'on ne change pas les cellules, on se contente de calculer le nombre de cellules qui peuvent être couvertes
+#Meme principe que covering excepté que l'on ne change pas l'état des cellules, on se contente de calculer le nombre de cellules qui peuvent être couvertes
 def coveringScore(matrice, rayon, posLignes, posColonnes):
 
     rayonNord = rayon
@@ -485,30 +494,33 @@ def coveringScore(matrice, rayon, posLignes, posColonnes):
 
 def positionnerRouteur(mat):
         routersOpti=[]
-        #Parcours des cellules en trouvant les cas maximaux
+        #Parcours des cellules en commençant par trouver les cas où le score est maximal
+        #Pour accelerer ce prétraitement j'ai utilisé des dictionnaires, puisque une matrice aurait été assez compliqué à mettre à jour, voir plus longue
+        ##################
         for i in mat.targetList2.keys(): #parcours les lignes des targets
             j=0
             while j< len(mat.targetList2[i]):
                 murTrouve=False
                 for k in range(i-mat.routerRange,i+mat.routerRange): #parcours les lignes des walls
-                    if k in mat.wallList2.keys():
-                        for l in range(mat.targetList2[i][j]-mat.routerRange,mat.targetList2[i][j] + mat.routerRange): #parcours les colonnes des walls
-                            if l in mat.wallList2[k]:
+                    if k in mat.wallList2.keys(): #On regarde dans le rayon des clés du dictionnaire des murs afin de plus rapidement savoir s'il y a un mur sur la ligne
+                        for l in range(mat.targetList2[i][j]-mat.routerRange,mat.targetList2[i][j] + mat.routerRange):# Ensuite on parcours la liste des colonnes qui est en valeur de la clé dans le dictionnaire
+                            if l in mat.wallList2[k]:                                                                 #Il y a donc moins de données à parcourir puisque il n'y a pas l'intégralité des index
                                 murTrouve=True
                                 break
-                if not murTrouve:#ajout d'un nouveau routeur
+                if not murTrouve:#ajout d'un nouveau routeur si nous n'avons pas trouver de routers
                     mat.getPoint(i,mat.targetList2[i][j]).isRouter=True
                     routersOpti.append([i,mat.targetList2[i][j]])
                     covering2(mat, mat.routerRange,i, mat.targetList2[i][j])
                     j-=1
                 j+=1
-        #Tant qu'il y a des cellules a couvrir (iMax != -1) on recherche le router avec le meilleur score
+        ##################
+        #Tant qu'il y a des cellules a couvrir (targetList2 non-vide) on recherche le router avec le meilleur score
         while mat.targetList2:
-            if len(routersOpti)*mat.routerCost>mat.budget*0.80 :
+            if len(routersOpti)*mat.routerCost>mat.budget*0.80 : #On se laisse une marge de sécurité afin d'avoir de quoi relier les routeurs
                 mat.routerList = routersOpti
                 mat.backboneList = BB_search.main(mat)
                 if len(mat.routerList)*mat.routerCost + len(mat.backboneList)*mat.backboneCost > mat.budget: #Etude du dépassement du budget
-                    mat.routerList.pop()
+                    mat.routerList.pop() #Si on a dépassé alors on retire le dernier router ajouté
                     routersOpti.pop( )
                     mat.backboneList = BB_search.main(mat)
                     #Début de la recherche du placement le plus optimisé avec une certaine distance délimité par la distance induit du budget
@@ -522,27 +534,25 @@ def positionnerRouteur(mat):
                             j=0
 
                             while j< len(mat.targetList2[i]):
-
+                                #recherche du meilleur score
                                 tmp = coveringScore(mat, mat.routerRange,i, mat.targetList2[i][j])
                                 if(nbTargetMax<tmp):
                                     for m in routersOpti:
-                                        if math.sqrt((m[0] - mat.targetList2[i][j])**2+(m[1] - i)**2) < marge *0.75:
+                                        if math.sqrt((m[0] - mat.targetList2[i][j])**2+(m[1] - i)**2) < marge *0.75: #On recherche le meilleur score avec la distance de cable que nous pouvons utiliser
                                             iMax = i
                                             jMax = j
                                             nbTargetMax=tmp
                                             break
 
                                 j+=1
-                        if iMax==-1:
-                            break
                         mat.getPoint(iMax,mat.targetList2[iMax][jMax]).isRouter=True
                         ecrireLog("3 {} - {}   :  {}\n".format(iMax,jMax,nbTargetMax))
                         routersOpti.append([iMax,mat.targetList2[iMax][jMax]])
                         covering2(mat, mat.routerRange,iMax, mat.targetList2[iMax][jMax])
 
                     mat.backboneList = BB_search.main(mat)
-                    return mat
-
+                    return mat #Le return arretera directement la boucle
+            #Cas où il y a suffisamment de budget pour ne pas s'inquieter du dépassement
             iMax=-1
             jMax=-1
             nbTargetMax=0
@@ -550,23 +560,22 @@ def positionnerRouteur(mat):
                 j=0
 
                 while j< len(mat.targetList2[i]):
+                    #recherche du meilleur score
                     tmp = coveringScore(mat, mat.routerRange,i, mat.targetList2[i][j])
                     if(nbTargetMax<tmp):
                         iMax = i
                         jMax = j
                         nbTargetMax=tmp
                     j+=1
-            if iMax==-1:
+            if iMax==-1: #Pour éviter de placer un router alors qu'il n'y a plus de case à couvrir
                 break
             mat.getPoint(iMax,mat.targetList2[iMax][jMax]).isRouter=True
             ecrireLog("2 {} - {}   :  {}\n".format(iMax,jMax,nbTargetMax))
             routersOpti.append([iMax,mat.targetList2[iMax][jMax]])
             covering2(mat, mat.routerRange,iMax, mat.targetList2[iMax][jMax])
 
-        print(len(routersOpti))
         mat.routerList = routersOpti
         mat.backboneList = BB_search.main(mat)
-        print("estPassé")
 
         return mat
 
@@ -612,8 +621,9 @@ if __name__ == '__main__':
     try:
         os.remove("log.txt")
     except: pass
-    mat=lectureFichier("maps/lets_go_higher.in")
+    mat=lectureFichier("maps/charleston_road.in")
     mat=positionnerRouteur(mat)
+    #Affichage du résultat de la couverture wifi pendant notre phase de test
     for compteurLignes in range(mat.rows):
          for compteurColonnes in range(mat.columns):
                 if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
