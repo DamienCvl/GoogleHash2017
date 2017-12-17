@@ -60,112 +60,154 @@ def lectureFichier(path):
     #matrice.toString()
     return matrice
 
+#Fonction de couverture autour des routeurs
 def covering(matrice, rayon, posLignes, posColonnes):
-
+    
+    #Création de 4 variables permettant de retenir la taille maximal des rayons possibles sur les cardinalités
     rayonNord = rayon
     rayonEst = rayon
     rayonSud = rayon
     rayonOuest = rayon
-
+    
+    #Création de 4 variables booléennes permettant de retenir si un mur a été croisé ou non sur les cardinalités
     murNord = False
     murEst = False
     murSud = False
     murOuest = False
 
+    #Boucle permettant d'itérer sur la taille du rayon
     for i in range(1, rayon + 1):
-
+        #Si un mur n'a pas été croisé au Nord du Router
         if(not murNord):
+            #Si le point étudié est un Void
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == "-":
+                #Ne rien faire
                 pass
+            #Si le point étudié est une Target
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
+                #Passer la Target en état Covered
                 matrice.getPoint(posLignes - i, posColonnes).isCovered = True
-
+            #Si le point étudié est un Wall
             if matrice.getPoint(posLignes - i, posColonnes).typePoint == "#":
+                #Passer la variable <murCardinalité> à True
                 murNord = True
+                #Réduire la taille du rayon associé à la cardinalité
                 rayonNord = i - 1
-
+                
+        #Si un mur n'a pas été croisé a l'Est du Router
         if(not murEst):
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == "-":
                 pass
+            #Si le point étudié est une Target
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
+                #Passer la Target en état Covered
                 matrice.getPoint(posLignes, posColonnes + i).isCovered = True
-
+            #Si le point étudié est un Wall
             if matrice.getPoint(posLignes, posColonnes + i).typePoint == "#":
+                #Passer la variable <murCardinalité> à True
                 murEst = True
+                #Réduire la taille du rayon associé à la cardinalité
                 rayonEst = i - 1
-
+                
+        #Si un mur n'a pas été croisé au Sud du Router
         if(not murSud):
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == "-":
                 pass
+            #Si le point étudié est une Target
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
+                #Passer la Target en état Covered
                 matrice.getPoint(posLignes + i, posColonnes).isCovered = True
-
+            #Si le point étudié est un Wall
             if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#":
+                #Passer la variable <murCardinalité> à True
                 murSud = True
+                #Réduire la taille du rayon associé à la cardinalité
                 rayonSud = i - 1
-
+                
+        #Si un mur n'a pas été croisé a l'Ouest du Router
         if(not murOuest):
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == "-":
                 pass
+            #Si le point étudié est une Target
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
+                #Passer la Target en état Covered
                 matrice.getPoint(posLignes, posColonnes - i).isCovered = True
-
+            #Si le point étudié est un Wall
             if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#":
+                #Passer la variable <murCardinalité> à True
                 murOuest = True
+                #Réduire la taille du rayon associé à la cardinalité
                 rayonOuest = i - 1
 
+#Creation de nouvelles variables reprenant la taille des nouveaux rayons
     rayonN = rayonNord
     rayonE = rayonEst
     rayonS = rayonSud
     rayonO = rayonOuest
 
-
-
-    #Nord
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Nord en ligne 
     for i in range(posLignes - 1, posLignes - 1 - rayonNord, -1):
+        #Boucle permettant d'itérer sur la taille du nouveau rayon Est en colonne
         for j in range(posColonnes + 1, posColonnes + 1 + rayonE, +1):
-
+            #Si le point étudié, n'est ni un Void, ni un Wall
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                #Passer la Target en état Covered
                 matrice.getPoint(i, j).isCovered = True
-
+            #Sinon, si le point est un Wall
             elif matrice.getPoint(i, j).typePoint == "#":
+                #Réduire la taille du rayon Est
                 rayonE = j - posColonnes
+                #Arrêt de la boucle
                 break
 
-    #Est
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne 
     for j in range(posColonnes + 1, posColonnes + 1 + rayonEst, +1):
+        #Boucle permettant d'itérer sur la taille du nouveau rayon Sud en colonne
         for i in range(posLignes + 1, posLignes + 1 + rayonS, +1):
-
+            #Si le point étudié, n'est ni un Void, ni un Wall
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                #Passer la Target en état Covered
                 matrice.getPoint(i, j).isCovered = True
-
+            #Sinon, si le point est un Wall
             elif matrice.getPoint(i, j).typePoint == "#":
+                #Réduire la taille du rayon Sud
                 rayonS = i - posLignes
+                #Arrêt de la boucle
                 break
 
-    #Sud
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Sud en ligne 
     for i in range(posLignes + 1, posLignes + 1 + rayonSud, + 1):
+        #Boucle permettant d'itérer sur la taille du nouveau rayon Ouest en colonne
         for j in range(posColonnes - 1, posColonnes - 1 - rayonO, -1):
-
+            #Si le point étudié, n'est ni un Void, ni un Wall
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                #Passer la Target en état Covered
                 matrice.getPoint(i, j).isCovered = True
-
+            #Sinon, si le point est un Wall
             elif matrice.getPoint(i, j).typePoint == "#":
+                #Réduire la taille du rayon Ouest
                 rayonO = posColonnes - j - 1
+                #Arrêt de la boucle
                 break
 
-    #Ouest
+    #Boucle permettant d'itérer sur la taille du nouveau rayon Est en ligne 
     for j in range(posColonnes - 1, posColonnes - 1 - rayonOuest, -1):
+        #Boucle permettant d'itérer sur la taille du nouveau rayon Nord en colonne
         for i in range(posLignes - 1, posLignes - 1 - rayonN, -1):
-
+            #Si le point étudié, n'est ni un Void, ni un Wall
             if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                #Passer la Target en état Covered
                 matrice.getPoint(i, j).isCovered = True
-
+            #Sinon, si le point est un Wall
             elif matrice.getPoint(i, j).typePoint == "#":
+                #Réduire la taille du rayon Nord
                 rayonN = posLignes - i - 1
+                #Arrêt de la boucle
                 break
-
+            
+    #Une fois que toutes les boucles sont finies, le Target correspondante au routeur passe en état Covered
     matrice.getPoint(posLignes, posColonnes).isCovered = True
+    
 #Meme méthode que covering cependant celle-ci gère les dictionnaires de targets en transferant les cellules couvertes dans le dictionnaire de wall
 def covering2(matrice, rayon, posLignes, posColonnes):
 
@@ -440,9 +482,9 @@ def coveringScore(matrice, rayon, posLignes, posColonnes):
 
     score+=1
     return score
+
 def positionnerRouteur(mat):
         routersOpti=[]
-        ##################
         #Parcours des cellules en trouvant les cas maximaux
         for i in mat.targetList2.keys(): #parcours les lignes des targets
             j=0
@@ -460,7 +502,6 @@ def positionnerRouteur(mat):
                     covering2(mat, mat.routerRange,i, mat.targetList2[i][j])
                     j-=1
                 j+=1
-        ##################
         #Tant qu'il y a des cellules a couvrir (iMax != -1) on recherche le router avec le meilleur score
         while mat.targetList2:
             if len(routersOpti)*mat.routerCost>mat.budget*0.80 :
@@ -529,6 +570,7 @@ def positionnerRouteur(mat):
 
         return mat
 
+#Fonction permettant d'ecrire le fichier .OUT
 def ecrireFichier(router = [], backbone = []):
 
     filename = "output" + time.strftime("_%d_%m_%y__%H_%M") + ".out"
@@ -559,23 +601,7 @@ def ecrireFichier(router = [], backbone = []):
 
     f.close()
 
-
-def calculPoids(wall, target, multDistance = 100, multCoverage = 100):
-    for case in target:
-        print(1)
-        distances = []
-        for mur in wall:
-            dist = math.sqrt((case[0] - mur[0])**2 + (case[1] - mur[1])**2)
-            distances.append(dist)
-
-        if (case[2].isCovered):
-            couverture = multCoverage
-        else:
-            couverture = 0
-        poids = (min(distances) * multDistance) / (1 + couverture)
-        case[2].weight = poids #Plus le poids est grand mieu c'est
-        print("x : " + str(case[0]) + " y : " + str(case[1]) + " à un poid de : " + str(poids))
-
+#Fonction permettant d'écrire des logs durant l'execution, afin de s'en servir comme "debug"
 def ecrireLog(logs):
     fichier = open("log.txt", "a")
     fichier.write(logs)
