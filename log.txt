@@ -1,517 +1,2930 @@
-
-Routeur : . | CompteurLignes : 23 | CompteurColonnes : 52 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-24 - 53
-Routeur : . | CompteurLignes : 23 | CompteurColonnes : 73 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-24 - 74
-Routeur : . | CompteurLignes : 23 | CompteurColonnes : 94 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-24 - 95
-Routeur : . | CompteurLignes : 23 | CompteurColonnes : 115 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-24 - 116
-Routeur : . | CompteurLignes : 23 | CompteurColonnes : 131 | Compteur de Targets : 5
-10 - 0 - 4 - 10 - 10
-24 - 132
-Routeur : . | CompteurLignes : 31 | CompteurColonnes : 41 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-32 - 42
-Routeur : . | CompteurLignes : 31 | CompteurColonnes : 136 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-32 - 137
-Routeur : . | CompteurLignes : 34 | CompteurColonnes : 62 | Compteur de Targets : 10
-10 - 10 - 10 - 4 - 10
-35 - 63
-Routeur : . | CompteurLignes : 34 | CompteurColonnes : 83 | Compteur de Targets : 10
-10 - 10 - 10 - 4 - 10
-35 - 84
-Routeur : . | CompteurLignes : 34 | CompteurColonnes : 104 | Compteur de Targets : 10
-10 - 10 - 10 - 4 - 10
-35 - 105
-Routeur : . | CompteurLignes : 34 | CompteurColonnes : 121 | Compteur de Targets : 5
-10 - 10 - 10 - 4 - 10
-35 - 122
-Routeur : . | CompteurLignes : 35 | CompteurColonnes : 40 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-36 - 41
-Routeur : . | CompteurLignes : 36 | CompteurColonnes : 137 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-37 - 138
-Routeur : . | CompteurLignes : 39 | CompteurColonnes : 39 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-40 - 40
-Routeur : . | CompteurLignes : 39 | CompteurColonnes : 138 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-40 - 139
-Routeur : . | CompteurLignes : 41 | CompteurColonnes : 62 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-42 - 63
-Routeur : . | CompteurLignes : 41 | CompteurColonnes : 83 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-42 - 84
-Routeur : . | CompteurLignes : 41 | CompteurColonnes : 104 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-42 - 105
-Routeur : . | CompteurLignes : 41 | CompteurColonnes : 121 | Compteur de Targets : 5
-10 - 0 - 10 - 10 - 10
-42 - 122
-Routeur : . | CompteurLignes : 42 | CompteurColonnes : 38 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-43 - 39
-Routeur : . | CompteurLignes : 42 | CompteurColonnes : 51 | Compteur de Targets : 1
-10 - 10 - 10 - 10 - 10
-43 - 52
-Routeur : . | CompteurLignes : 42 | CompteurColonnes : 139 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-43 - 140
-Routeur : . | CompteurLignes : 44 | CompteurColonnes : 37 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-45 - 38
-Routeur : . | CompteurLignes : 44 | CompteurColonnes : 140 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-45 - 141
-Routeur : . | CompteurLignes : 46 | CompteurColonnes : 36 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-47 - 37
-Routeur : . | CompteurLignes : 46 | CompteurColonnes : 141 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-47 - 142
-Routeur : . | CompteurLignes : 47 | CompteurColonnes : 35 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-48 - 36
-Routeur : . | CompteurLignes : 48 | CompteurColonnes : 142 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-49 - 143
-Routeur : . | CompteurLignes : 49 | CompteurColonnes : 34 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-50 - 35
-Routeur : . | CompteurLignes : 49 | CompteurColonnes : 143 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-50 - 144
-Routeur : . | CompteurLignes : 50 | CompteurColonnes : 33 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-51 - 34
-Routeur : . | CompteurLignes : 50 | CompteurColonnes : 144 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-51 - 145
-Routeur : . | CompteurLignes : 51 | CompteurColonnes : 32 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-52 - 33
-Routeur : . | CompteurLignes : 51 | CompteurColonnes : 145 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-52 - 146
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 31 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-53 - 32
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 72 | Compteur de Targets : 10
-10 - 10 - 10 - 6 - 10
-53 - 73
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 93 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-53 - 94
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 114 | Compteur de Targets : 10
-10 - 10 - 10 - 6 - 10
-53 - 115
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 127 | Compteur de Targets : 2
-10 - 10 - 10 - 6 - 10
-53 - 128
-Routeur : . | CompteurLignes : 52 | CompteurColonnes : 146 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-53 - 147
-Routeur : . | CompteurLignes : 53 | CompteurColonnes : 30 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 0
-54 - 31
-Routeur : . | CompteurLignes : 53 | CompteurColonnes : 55 | Compteur de Targets : 7
-10 - 10 - 10 - 5 - 10
-54 - 56
-Routeur : . | CompteurLignes : 53 | CompteurColonnes : 147 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-54 - 148
-Routeur : . | CompteurLignes : 54 | CompteurColonnes : 29 | Compteur de Targets : 1
-10 - 0 - 10 - 10 - 1
-55 - 30
-Routeur : . | CompteurLignes : 54 | CompteurColonnes : 149 | Compteur de Targets : 1
-10 - 0 - 0 - 10 - 10
-55 - 150
-Routeur : . | CompteurLignes : 55 | CompteurColonnes : 26 | Compteur de Targets : 2
-10 - 0 - 10 - 10 - 2
-56 - 27
-Routeur : . | CompteurLignes : 55 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 0 - 1 - 10 - 10
-56 - 153
-Routeur : . | CompteurLignes : 60 | CompteurColonnes : 44 | Compteur de Targets : 1
-10 - 10 - 0 - 10 - 10
-61 - 45
-Routeur : . | CompteurLignes : 61 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-62 - 57
-Routeur : . | CompteurLignes : 61 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 0 - 6 - 10 - 10
-62 - 76
-Routeur : . | CompteurLignes : 61 | CompteurColonnes : 114 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-62 - 115
-Routeur : . | CompteurLignes : 61 | CompteurColonnes : 130 | Compteur de Targets : 4
-10 - 0 - 3 - 10 - 10
-62 - 131
-Routeur : . | CompteurLignes : 62 | CompteurColonnes : 135 | Compteur de Targets : 1
-10 - 10 - 10 - 10 - 0
-63 - 136
-Routeur : . | CompteurLignes : 63 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-64 - 91
-Routeur : . | CompteurLignes : 63 | CompteurColonnes : 101 | Compteur de Targets : 3
-10 - 2 - 10 - 10 - 3
-64 - 102
-Routeur : . | CompteurLignes : 66 | CompteurColonnes : 29 | Compteur de Targets : 5
-10 - 10 - 10 - 10 - 5
-67 - 30
-Routeur : . | CompteurLignes : 66 | CompteurColonnes : 150 | Compteur de Targets : 4
-10 - 10 - 3 - 10 - 10
-67 - 151
-Routeur : . | CompteurLignes : 71 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-72 - 44
-Routeur : . | CompteurLignes : 72 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-73 - 57
-Routeur : . | CompteurLignes : 72 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-73 - 76
-Routeur : . | CompteurLignes : 72 | CompteurColonnes : 122 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-73 - 123
-Routeur : . | CompteurLignes : 72 | CompteurColonnes : 133 | Compteur de Targets : 1
-10 - 10 - 0 - 10 - 10
-73 - 134
-Routeur : . | CompteurLignes : 73 | CompteurColonnes : 138 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 3
-74 - 139
-Routeur : . | CompteurLignes : 74 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-75 - 91
-Routeur : . | CompteurLignes : 74 | CompteurColonnes : 105 | Compteur de Targets : 7
-10 - 10 - 10 - 10 - 7
-75 - 106
-Routeur : . | CompteurLignes : 77 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-78 - 30
-Routeur : . | CompteurLignes : 77 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-78 - 153
-Routeur : . | CompteurLignes : 82 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-83 - 44
-Routeur : . | CompteurLignes : 83 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-84 - 57
-Routeur : . | CompteurLignes : 83 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-84 - 76
-Routeur : . | CompteurLignes : 83 | CompteurColonnes : 125 | Compteur de Targets : 9
-10 - 10 - 8 - 10 - 10
-84 - 126
-Routeur : . | CompteurLignes : 84 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-85 - 140
-Routeur : . | CompteurLignes : 85 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-86 - 91
-Routeur : . | CompteurLignes : 85 | CompteurColonnes : 107 | Compteur de Targets : 8
-10 - 10 - 10 - 10 - 9
-86 - 108
-Routeur : . | CompteurLignes : 88 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-89 - 30
-Routeur : . | CompteurLignes : 88 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-89 - 153
-Routeur : . | CompteurLignes : 93 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-94 - 44
-Routeur : . | CompteurLignes : 94 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 9 - 10
-95 - 57
-Routeur : . | CompteurLignes : 94 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 9 - 10
-95 - 76
-Routeur : . | CompteurLignes : 94 | CompteurColonnes : 126 | Compteur de Targets : 8
-10 - 10 - 7 - 9 - 10
-95 - 127
-Routeur : . | CompteurLignes : 95 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-96 - 140
-Routeur : . | CompteurLignes : 96 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-97 - 91
-Routeur : . | CompteurLignes : 96 | CompteurColonnes : 107 | Compteur de Targets : 9
-10 - 10 - 10 - 7 - 9
-97 - 108
-Routeur : . | CompteurLignes : 99 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-100 - 30
-Routeur : . | CompteurLignes : 99 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-100 - 153
-Routeur : . | CompteurLignes : 104 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-105 - 44
-Routeur : . | CompteurLignes : 106 | CompteurColonnes : 55 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-107 - 56
-Routeur : . | CompteurLignes : 106 | CompteurColonnes : 75 | Compteur de Targets : 8
-10 - 0 - 10 - 10 - 10
-107 - 76
-Routeur : . | CompteurLignes : 106 | CompteurColonnes : 107 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-107 - 108
-Routeur : . | CompteurLignes : 106 | CompteurColonnes : 128 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-107 - 129
-Routeur : . | CompteurLignes : 106 | CompteurColonnes : 141 | Compteur de Targets : 1
-10 - 10 - 10 - 10 - 10
-107 - 142
-Routeur : . | CompteurLignes : 107 | CompteurColonnes : 92 | Compteur de Targets : 5
-10 - 10 - 10 - 10 - 10
-108 - 93
-Routeur : . | CompteurLignes : 110 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-111 - 30
-Routeur : . | CompteurLignes : 110 | CompteurColonnes : 153 | Compteur de Targets : 1
-10 - 10 - 0 - 10 - 10
-111 - 154
-Routeur : . | CompteurLignes : 115 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 10
-116 - 44
-Routeur : . | CompteurLignes : 117 | CompteurColonnes : 64 | Compteur de Targets : 10
-10 - 10 - 10 - 5 - 10
-118 - 65
-Routeur : . | CompteurLignes : 117 | CompteurColonnes : 79 | Compteur de Targets : 3
-10 - 10 - 10 - 5 - 10
-118 - 80
-Routeur : . | CompteurLignes : 117 | CompteurColonnes : 113 | Compteur de Targets : 10
-10 - 10 - 10 - 5 - 10
-118 - 114
-Routeur : . | CompteurLignes : 117 | CompteurColonnes : 134 | Compteur de Targets : 9
-10 - 10 - 10 - 5 - 10
-118 - 135
-Routeur : . | CompteurLignes : 118 | CompteurColonnes : 97 | Compteur de Targets : 6
-10 - 10 - 10 - 4 - 10
-119 - 98
-Routeur : . | CompteurLignes : 121 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-122 - 30
-Routeur : . | CompteurLignes : 121 | CompteurColonnes : 150 | Compteur de Targets : 4
-10 - 10 - 3 - 10 - 10
-122 - 151
-Routeur : . | CompteurLignes : 123 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-124 - 91
-Routeur : . | CompteurLignes : 123 | CompteurColonnes : 138 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 3
-124 - 139
-Routeur : . | CompteurLignes : 126 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-127 - 44
-Routeur : . | CompteurLignes : 126 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-127 - 57
-Routeur : . | CompteurLignes : 126 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 0 - 6 - 10 - 10
-127 - 76
-Routeur : . | CompteurLignes : 126 | CompteurColonnes : 108 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-127 - 109
-Routeur : . | CompteurLignes : 126 | CompteurColonnes : 127 | Compteur de Targets : 7
-10 - 0 - 6 - 10 - 10
-127 - 128
-Routeur : . | CompteurLignes : 132 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-133 - 30
-Routeur : . | CompteurLignes : 132 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-133 - 153
-Routeur : . | CompteurLignes : 134 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-135 - 91
-Routeur : . | CompteurLignes : 134 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-135 - 140
-Routeur : . | CompteurLignes : 137 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-138 - 44
-Routeur : . | CompteurLignes : 137 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-138 - 57
-Routeur : . | CompteurLignes : 137 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-138 - 76
-Routeur : . | CompteurLignes : 137 | CompteurColonnes : 108 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-138 - 109
-Routeur : . | CompteurLignes : 137 | CompteurColonnes : 127 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-138 - 128
-Routeur : . | CompteurLignes : 143 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-144 - 30
-Routeur : . | CompteurLignes : 143 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-144 - 153
-Routeur : . | CompteurLignes : 145 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-146 - 91
-Routeur : . | CompteurLignes : 145 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-146 - 140
-Routeur : . | CompteurLignes : 148 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-149 - 44
-Routeur : . | CompteurLignes : 148 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-149 - 57
-Routeur : . | CompteurLignes : 148 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-149 - 76
-Routeur : . | CompteurLignes : 148 | CompteurColonnes : 108 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-149 - 109
-Routeur : . | CompteurLignes : 148 | CompteurColonnes : 127 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 10
-149 - 128
-Routeur : . | CompteurLignes : 154 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-155 - 30
-Routeur : . | CompteurLignes : 154 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-155 - 153
-Routeur : . | CompteurLignes : 156 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-157 - 91
-Routeur : . | CompteurLignes : 156 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-157 - 140
-Routeur : . | CompteurLignes : 159 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-160 - 44
-Routeur : . | CompteurLignes : 159 | CompteurColonnes : 56 | Compteur de Targets : 10
-10 - 10 - 10 - 9 - 10
-160 - 57
-Routeur : . | CompteurLignes : 159 | CompteurColonnes : 75 | Compteur de Targets : 7
-10 - 10 - 6 - 9 - 10
-160 - 76
-Routeur : . | CompteurLignes : 159 | CompteurColonnes : 108 | Compteur de Targets : 10
-10 - 10 - 10 - 9 - 10
-160 - 109
-Routeur : . | CompteurLignes : 159 | CompteurColonnes : 127 | Compteur de Targets : 7
-10 - 10 - 6 - 9 - 10
-160 - 128
-Routeur : . | CompteurLignes : 165 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 10 - 5
-166 - 30
-Routeur : . | CompteurLignes : 165 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-166 - 153
-Routeur : . | CompteurLignes : 167 | CompteurColonnes : 90 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 7
-168 - 91
-Routeur : . | CompteurLignes : 167 | CompteurColonnes : 139 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 4
-168 - 140
-Routeur : . | CompteurLignes : 170 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-171 - 44
-Routeur : . | CompteurLignes : 171 | CompteurColonnes : 55 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-172 - 56
-Routeur : . | CompteurLignes : 171 | CompteurColonnes : 75 | Compteur de Targets : 8
-10 - 0 - 10 - 10 - 10
-172 - 76
-Routeur : . | CompteurLignes : 171 | CompteurColonnes : 107 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-172 - 108
-Routeur : . | CompteurLignes : 171 | CompteurColonnes : 127 | Compteur de Targets : 8
-10 - 0 - 10 - 10 - 10
-172 - 128
-Routeur : . | CompteurLignes : 176 | CompteurColonnes : 29 | Compteur de Targets : 4
-10 - 10 - 10 - 8 - 5
-177 - 30
-Routeur : . | CompteurLignes : 176 | CompteurColonnes : 152 | Compteur de Targets : 2
-10 - 10 - 1 - 6 - 10
-177 - 153
-Routeur : . | CompteurLignes : 178 | CompteurColonnes : 92 | Compteur de Targets : 5
-10 - 10 - 10 - 10 - 10
-179 - 93
-Routeur : . | CompteurLignes : 178 | CompteurColonnes : 140 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 10
-179 - 141
-Routeur : . | CompteurLignes : 181 | CompteurColonnes : 43 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 10
-182 - 44
-Routeur : . | CompteurLignes : 182 | CompteurColonnes : 64 | Compteur de Targets : 10
-10 - 10 - 10 - 9 - 10
-183 - 65
-Routeur : . | CompteurLignes : 182 | CompteurColonnes : 79 | Compteur de Targets : 3
-10 - 10 - 10 - 9 - 10
-183 - 80
-Routeur : . | CompteurLignes : 182 | CompteurColonnes : 113 | Compteur de Targets : 10
-10 - 10 - 10 - 9 - 10
-183 - 114
-Routeur : . | CompteurLignes : 182 | CompteurColonnes : 127 | Compteur de Targets : 3
-10 - 10 - 10 - 10 - 10
-183 - 128
-Routeur : . | CompteurLignes : 183 | CompteurColonnes : 151 | Compteur de Targets : 1
-10 - 10 - 0 - 0 - 10
-184 - 152
-Routeur : . | CompteurLignes : 185 | CompteurColonnes : 32 | Compteur de Targets : 1
-10 - 10 - 10 - 2 - 2
-186 - 33
-Routeur : . | CompteurLignes : 189 | CompteurColonnes : 97 | Compteur de Targets : 6
-10 - 10 - 10 - 2 - 10
-190 - 98
-Routeur : . | CompteurLignes : 189 | CompteurColonnes : 141 | Compteur de Targets : 3
-10 - 10 - 2 - 3 - 10
-190 - 142
-Routeur : . | CompteurLignes : 192 | CompteurColonnes : 44 | Compteur de Targets : 8
-10 - 10 - 7 - 10 - 8
-193 - 45
-Routeur : . | CompteurLignes : 193 | CompteurColonnes : 134 | Compteur de Targets : 7
-10 - 10 - 6 - 10 - 8
-194 - 135
-Routeur : . | CompteurLignes : 194 | CompteurColonnes : 62 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-195 - 63
-Routeur : . | CompteurLignes : 194 | CompteurColonnes : 83 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-195 - 84
-Routeur : . | CompteurLignes : 194 | CompteurColonnes : 104 | Compteur de Targets : 10
-10 - 0 - 10 - 10 - 10
-195 - 105
-Routeur : . | CompteurLignes : 194 | CompteurColonnes : 121 | Compteur de Targets : 5
-10 - 0 - 10 - 10 - 10
-195 - 122
-Routeur : . | CompteurLignes : 203 | CompteurColonnes : 47 | Compteur de Targets : 5
-10 - 10 - 10 - 10 - 6
-204 - 48
-Routeur : . | CompteurLignes : 204 | CompteurColonnes : 135 | Compteur de Targets : 2
-10 - 10 - 1 - 10 - 10
-205 - 136
-Routeur : . | CompteurLignes : 205 | CompteurColonnes : 68 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-206 - 69
-Routeur : . | CompteurLignes : 205 | CompteurColonnes : 89 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-206 - 90
-Routeur : . | CompteurLignes : 205 | CompteurColonnes : 110 | Compteur de Targets : 10
-10 - 10 - 10 - 10 - 10
-206 - 111
-Routeur : . | CompteurLignes : 205 | CompteurColonnes : 123 | Compteur de Targets : 2
-10 - 10 - 10 - 10 - 10
-206 - 124
-Routeur : . | CompteurLignes : 214 | CompteurColonnes : 50 | Compteur de Targets : 8
-10 - 10 - 10 - 1 - 8
-215 - 51
-Routeur : . | CompteurLignes : 215 | CompteurColonnes : 135 | Compteur de Targets : 1
-10 - 10 - 0 - 0 - 10
-216 - 136
+2 817 - 66   :  138
+2 118 - 46   :  137
+2 600 - 152   :  137
+2 500 - 14   :  136
+2 598 - 18   :  136
+2 606 - 149   :  136
+2 609 - 20   :  136
+2 611 - 170   :  136
+2 623 - 19   :  136
+2 637 - 107   :  136
+2 662 - 159   :  136
+2 705 - 76   :  136
+2 536 - 46   :  135
+2 549 - 84   :  135
+2 605 - 64   :  135
+2 622 - 72   :  135
+2 633 - 134   :  135
+2 779 - 68   :  135
+2 817 - 85   :  135
+2 822 - 26   :  135
+2 56 - 6   :  134
+2 122 - 10   :  134
+2 592 - 147   :  134
+2 679 - 39   :  134
+2 717 - 104   :  134
+2 761 - 94   :  134
+2 784 - 140   :  134
+2 583 - 7   :  133
+2 599 - 71   :  133
+2 613 - 170   :  133
+2 698 - 188   :  133
+2 239 - 82   :  132
+2 555 - 42   :  132
+2 567 - 68   :  132
+2 609 - 35   :  132
+2 614 - 110   :  132
+2 496 - 163   :  131
+2 535 - 33   :  131
+2 470 - 28   :  130
+2 585 - 64   :  130
+2 639 - 17   :  130
+2 677 - 13   :  130
+2 713 - 9   :  130
+2 826 - 77   :  130
+2 570 - 30   :  129
+2 724 - 9   :  129
+2 730 - 75   :  129
+2 829 - 28   :  129
+2 381 - 16   :  128
+2 386 - 18   :  128
+2 438 - 29   :  128
+2 567 - 36   :  128
+2 577 - 79   :  128
+2 636 - 45   :  128
+2 657 - 64   :  128
+2 668 - 73   :  128
+2 669 - 112   :  128
+2 692 - 172   :  127
+2 701 - 104   :  127
+2 108 - 25   :  126
+2 239 - 19   :  126
+2 548 - 8   :  126
+2 735 - 9   :  126
+2 839 - 159   :  126
+2 346 - 3   :  125
+2 466 - 63   :  125
+2 467 - 68   :  125
+2 658 - 48   :  125
+2 700 - 32   :  125
+2 703 - 161   :  125
+2 704 - 200   :  125
+2 49 - 11   :  124
+2 436 - 56   :  124
+2 440 - 55   :  124
+2 486 - 34   :  124
+2 699 - 156   :  124
+2 746 - 9   :  124
+2 836 - 7   :  124
+2 757 - 8   :  123
+2 795 - 130   :  123
+2 830 - 94   :  122
+2 228 - 60   :  121
+2 311 - 26   :  121
+2 380 - 22   :  121
+2 393 - 29   :  121
+2 649 - 5   :  121
+2 666 - 25   :  121
+2 672 - 20   :  121
+2 685 - 11   :  121
+2 712 - 32   :  121
+2 620 - 38   :  120
+2 626 - 99   :  120
+2 708 - 15   :  120
+2 809 - 29   :  120
+2 524 - 47   :  119
+2 599 - 21   :  119
+2 614 - 110   :  119
+2 238 - 19   :  118
+2 238 - 19   :  118
+2 238 - 19   :  118
+2 238 - 19   :  118
+2 311 - 39   :  118
+2 351 - 37   :  118
+2 411 - 26   :  118
+2 422 - 43   :  118
+2 440 - 58   :  118
+2 445 - 27   :  118
+2 640 - 103   :  118
+2 678 - 152   :  118
+2 58 - 9   :  117
+2 292 - 9   :  117
+2 499 - 53   :  117
+2 614 - 62   :  117
+2 619 - 121   :  117
+2 692 - 152   :  117
+2 715 - 48   :  117
+2 791 - 89   :  117
+2 258 - 25   :  116
+2 453 - 18   :  116
+2 492 - 72   :  116
+2 704 - 10   :  116
+2 716 - 85   :  116
+2 742 - 148   :  116
+2 794 - 45   :  116
+2 461 - 21   :  115
+2 494 - 37   :  115
+2 579 - 26   :  115
+2 701 - 56   :  115
+2 778 - 87   :  115
+2 149 - 12   :  114
+2 328 - 1   :  114
+2 668 - 120   :  114
+2 696 - 90   :  114
+2 703 - 107   :  114
+2 791 - 85   :  114
+2 527 - 85   :  113
+2 654 - 32   :  113
+2 667 - 156   :  113
+2 703 - 145   :  113
+2 738 - 113   :  113
+2 768 - 93   :  113
+2 832 - 21   :  113
+2 65 - 23   :  112
+2 732 - 99   :  112
+2 827 - 64   :  112
+2 669 - 44   :  111
+2 675 - 33   :  111
+2 766 - 140   :  111
+2 805 - 85   :  111
+2 98 - 13   :  110
+2 311 - 35   :  110
+2 444 - 49   :  110
+2 479 - 27   :  110
+2 720 - 46   :  110
+2 251 - 5   :  109
+2 495 - 50   :  109
+2 524 - 76   :  109
+2 595 - 73   :  109
+2 629 - 54   :  109
+2 812 - 71   :  109
+2 539 - 24   :  108
+2 746 - 11   :  108
+2 768 - 20   :  108
+2 118 - 9   :  107
+2 609 - 99   :  107
+2 614 - 71   :  107
+2 133 - 10   :  106
+2 273 - 30   :  106
+2 493 - 64   :  106
+2 493 - 70   :  106
+2 517 - 32   :  106
+2 544 - 16   :  106
+2 595 - 53   :  106
+2 612 - 95   :  106
+2 722 - 43   :  106
+2 782 - 82   :  106
+2 501 - 71   :  105
+2 529 - 85   :  105
+2 596 - 112   :  105
+2 693 - 10   :  105
+2 805 - 46   :  105
+2 133 - 14   :  104
+2 524 - 4   :  104
+2 773 - 97   :  104
+2 822 - 77   :  104
+2 825 - 74   :  104
+2 160 - 19   :  103
+2 228 - 20   :  103
+2 517 - 22   :  103
+2 840 - 132   :  103
+2 468 - 85   :  102
+2 827 - 24   :  102
+2 838 - 99   :  102
+2 389 - 22   :  101
+2 680 - 103   :  101
+2 772 - 91   :  101
+2 181 - 10   :  100
+2 530 - 11   :  100
+2 631 - 93   :  100
+2 300 - 8   :  99
+2 512 - 57   :  99
+2 629 - 92   :  99
+2 631 - 47   :  99
+2 648 - 64   :  99
+2 668 - 69   :  99
+2 698 - 68   :  99
+2 758 - 50   :  99
+2 89 - 11   :  98
+2 203 - 17   :  98
+2 280 - 12   :  98
+2 468 - 47   :  98
+2 680 - 126   :  98
+2 737 - 80   :  98
+2 748 - 54   :  98
+2 565 - 38   :  97
+2 591 - 18   :  97
+2 768 - 6   :  97
+2 790 - 18   :  97
+2 836 - 17   :  97
+2 333 - 30   :  96
+2 424 - 8   :  96
+2 475 - 42   :  96
+2 561 - 10   :  96
+2 607 - 71   :  96
+2 683 - 151   :  96
+2 751 - 87   :  96
+2 812 - 56   :  96
+2 824 - 41   :  96
+2 541 - 80   :  95
+2 641 - 128   :  95
+2 770 - 61   :  95
+2 834 - 36   :  95
+2 117 - 8   :  94
+2 240 - 8   :  94
+2 427 - 18   :  94
+2 438 - 17   :  94
+2 444 - 99   :  94
+2 576 - 50   :  94
+2 640 - 104   :  94
+2 686 - 24   :  94
+2 688 - 66   :  94
+2 839 - 73   :  94
+2 839 - 76   :  94
+2 333 - 18   :  93
+2 479 - 47   :  93
+2 561 - 39   :  93
+2 585 - 17   :  93
+2 735 - 49   :  93
+2 741 - 58   :  93
+2 748 - 45   :  93
+2 785 - 135   :  93
+2 791 - 33   :  93
+2 474 - 22   :  92
+2 518 - 82   :  92
+2 584 - 66   :  92
+2 641 - 38   :  92
+2 641 - 75   :  92
+2 836 - 12   :  92
+2 77 - 17   :  91
+2 78 - 10   :  91
+2 417 - 16   :  91
+2 491 - 55   :  91
+2 573 - 48   :  91
+2 583 - 55   :  91
+2 592 - 9   :  91
+2 605 - 65   :  91
+2 227 - 22   :  90
+2 502 - 26   :  90
+2 701 - 29   :  90
+2 709 - 119   :  90
+2 172 - 11   :  89
+2 402 - 16   :  89
+2 572 - 7   :  89
+2 671 - 110   :  89
+2 721 - 102   :  89
+2 779 - 6   :  89
+2 790 - 47   :  89
+2 816 - 79   :  89
+2 238 - 9   :  88
+2 509 - 54   :  88
+2 518 - 123   :  88
+2 644 - 9   :  88
+2 645 - 121   :  88
+2 669 - 15   :  88
+2 739 - 65   :  88
+2 745 - 32   :  88
+2 754 - 14   :  88
+2 756 - 60   :  88
+2 774 - 29   :  88
+2 776 - 17   :  88
+2 794 - 40   :  88
+2 800 - 58   :  88
+2 836 - 12   :  88
+2 270 - 7   :  87
+2 588 - 17   :  87
+2 654 - 5   :  87
+2 675 - 37   :  87
+2 675 - 55   :  87
+2 62 - 4   :  86
+2 451 - 40   :  86
+2 515 - 5   :  86
+2 633 - 43   :  86
+2 703 - 25   :  86
+2 753 - 32   :  86
+2 758 - 67   :  86
+2 801 - 7   :  86
+2 185 - 8   :  85
+2 543 - 79   :  85
+2 546 - 31   :  85
+2 560 - 45   :  85
+2 656 - 119   :  85
+2 675 - 125   :  85
+2 720 - 16   :  85
+2 158 - 14   :  84
+2 207 - 6   :  84
+2 575 - 32   :  84
+2 604 - 29   :  84
+2 616 - 90   :  84
+2 687 - 136   :  84
+2 752 - 33   :  84
+2 753 - 21   :  84
+2 388 - 33   :  83
+2 678 - 17   :  83
+2 704 - 117   :  83
+2 760 - 8   :  83
+2 779 - 48   :  83
+2 222 - 5   :  82
+2 251 - 5   :  82
+2 251 - 6   :  82
+2 311 - 5   :  82
+2 328 - 9   :  82
+2 335 - 11   :  82
+2 370 - 9   :  82
+2 387 - 24   :  82
+2 412 - 31   :  82
+2 413 - 21   :  82
+2 433 - 9   :  82
+2 548 - 12   :  82
+2 595 - 40   :  82
+2 685 - 55   :  82
+2 790 - 6   :  82
+2 818 - 24   :  82
+2 822 - 40   :  82
+2 234 - 4   :  81
+2 391 - 4   :  81
+2 633 - 33   :  81
+2 656 - 79   :  81
+2 707 - 19   :  81
+2 710 - 139   :  81
+2 229 - 18   :  80
+2 416 - 21   :  80
+2 681 - 92   :  80
+2 693 - 114   :  80
+2 753 - 26   :  80
+2 839 - 59   :  80
+2 100 - 6   :  79
+2 328 - 15   :  79
+2 395 - 25   :  79
+2 462 - 40   :  79
+2 472 - 37   :  79
+2 527 - 13   :  79
+2 662 - 29   :  79
+2 695 - 93   :  79
+2 696 - 37   :  79
+2 706 - 57   :  79
+2 731 - 59   :  79
+2 774 - 35   :  79
+2 780 - 7   :  79
+2 798 - 7   :  79
+2 836 - 48   :  79
+2 369 - 4   :  78
+2 542 - 3   :  78
+2 544 - 65   :  78
+2 585 - 64   :  78
+2 618 - 71   :  78
+2 694 - 36   :  78
+2 752 - 29   :  78
+2 763 - 41   :  78
+2 763 - 41   :  78
+2 764 - 13   :  78
+2 771 - 34   :  78
+2 786 - 16   :  78
+2 87 - 10   :  77
+2 247 - 4   :  77
+2 271 - 5   :  77
+2 490 - 42   :  77
+2 519 - 58   :  77
+2 583 - 61   :  77
+2 753 - 26   :  77
+2 778 - 49   :  77
+2 787 - 66   :  77
+2 837 - 54   :  77
+2 305 - 20   :  76
+2 490 - 27   :  76
+2 492 - 28   :  76
+2 518 - 122   :  76
+2 533 - 54   :  76
+2 616 - 33   :  76
+2 646 - 24   :  76
+2 657 - 38   :  76
+2 151 - 13   :  75
+2 196 - 5   :  75
+2 311 - 4   :  75
+2 345 - 19   :  75
+2 404 - 15   :  75
+2 404 - 62   :  75
+2 444 - 82   :  75
+2 445 - 3   :  75
+2 504 - 17   :  75
+2 547 - 38   :  75
+2 548 - 12   :  75
+2 576 - 50   :  75
+2 651 - 36   :  75
+2 727 - 32   :  75
+2 735 - 9   :  75
+2 181 - 24   :  74
+2 289 - 6   :  74
+2 557 - 10   :  74
+2 591 - 27   :  74
+2 724 - 44   :  74
+2 733 - 48   :  74
+2 818 - 48   :  74
+2 57 - 10   :  73
+2 85 - 10   :  73
+2 444 - 43   :  73
+2 593 - 57   :  73
+2 597 - 39   :  73
+2 614 - 7   :  73
+2 650 - 61   :  73
+2 660 - 34   :  73
+2 678 - 35   :  73
+2 684 - 126   :  73
+2 718 - 102   :  73
+2 825 - 54   :  73
+2 138 - 13   :  72
+2 502 - 60   :  72
+2 575 - 40   :  72
+2 613 - 10   :  72
+2 683 - 37   :  72
+2 344 - 7   :  71
+2 458 - 4   :  71
+2 501 - 12   :  71
+2 618 - 33   :  71
+2 625 - 33   :  71
+2 627 - 70   :  71
+2 667 - 38   :  71
+2 767 - 89   :  71
+2 789 - 37   :  71
+2 159 - 13   :  70
+2 262 - 6   :  70
+2 264 - 2   :  70
+2 324 - 2   :  70
+2 329 - 6   :  70
+2 358 - 8   :  70
+2 441 - 50   :  70
+2 441 - 50   :  70
+2 479 - 6   :  70
+2 494 - 27   :  70
+2 516 - 5   :  70
+2 626 - 14   :  70
+2 641 - 40   :  70
+2 674 - 76   :  70
+2 677 - 43   :  70
+2 682 - 32   :  70
+2 692 - 86   :  70
+2 731 - 7   :  70
+2 785 - 66   :  70
+2 791 - 5   :  70
+2 796 - 70   :  70
+2 806 - 56   :  70
+2 807 - 40   :  70
+2 809 - 11   :  70
+2 814 - 37   :  70
+2 825 - 25   :  70
+2 837 - 13   :  70
+2 404 - 54   :  69
+2 511 - 47   :  69
+2 526 - 31   :  69
+2 570 - 44   :  69
+2 581 - 21   :  69
+2 603 - 32   :  69
+2 668 - 91   :  69
+2 710 - 26   :  69
+2 717 - 47   :  69
+2 747 - 28   :  69
+2 838 - 41   :  69
+2 96 - 3   :  68
+2 308 - 5   :  68
+2 454 - 2   :  68
+2 501 - 40   :  68
+2 512 - 20   :  68
+2 513 - 12   :  68
+2 587 - 21   :  68
+2 596 - 51   :  68
+2 607 - 65   :  68
+2 708 - 50   :  68
+2 107 - 8   :  67
+2 216 - 3   :  67
+2 254 - 5   :  67
+2 440 - 15   :  67
+2 446 - 14   :  67
+2 519 - 56   :  67
+2 615 - 9   :  67
+2 644 - 77   :  67
+2 660 - 13   :  67
+2 672 - 76   :  67
+2 712 - 12   :  67
+2 68 - 8   :  66
+2 114 - 18   :  66
+2 426 - 33   :  66
+2 496 - 36   :  66
+2 506 - 22   :  66
+2 551 - 60   :  66
+2 575 - 16   :  66
+2 587 - 54   :  66
+2 614 - 35   :  66
+2 732 - 65   :  66
+2 734 - 13   :  66
+2 809 - 22   :  66
+2 300 - 2   :  65
+2 519 - 51   :  65
+2 524 - 20   :  65
+2 540 - 9   :  65
+2 549 - 26   :  65
+2 561 - 38   :  65
+2 734 - 73   :  65
+2 769 - 82   :  65
+2 157 - 4   :  64
+2 231 - 13   :  64
+2 507 - 9   :  64
+2 524 - 52   :  64
+2 575 - 12   :  64
+2 751 - 65   :  64
+2 755 - 81   :  64
+2 757 - 3   :  64
+2 779 - 4   :  64
+2 788 - 76   :  64
+2 823 - 8   :  64
+2 662 - 46   :  63
+2 685 - 48   :  63
+2 763 - 66   :  63
+2 784 - 37   :  63
+2 836 - 6   :  63
+2 98 - 4   :  62
+2 506 - 4   :  62
+2 592 - 69   :  62
+2 604 - 21   :  62
+2 615 - 80   :  62
+2 629 - 56   :  62
+2 629 - 80   :  62
+2 634 - 93   :  62
+2 637 - 93   :  62
+2 656 - 88   :  62
+2 659 - 24   :  62
+2 677 - 40   :  62
+2 705 - 11   :  62
+2 725 - 56   :  62
+2 726 - 28   :  62
+2 730 - 35   :  62
+2 742 - 6   :  62
+2 787 - 24   :  62
+2 833 - 14   :  62
+2 134 - 10   :  61
+2 135 - 8   :  61
+2 227 - 3   :  61
+2 312 - 29   :  61
+2 493 - 33   :  61
+2 599 - 54   :  61
+2 611 - 44   :  61
+2 630 - 13   :  61
+2 635 - 107   :  61
+2 679 - 41   :  61
+2 682 - 68   :  61
+2 690 - 75   :  61
+2 699 - 46   :  61
+2 701 - 43   :  61
+2 718 - 29   :  61
+2 742 - 7   :  61
+2 776 - 18   :  61
+2 824 - 3   :  61
+2 359 - 3   :  60
+2 539 - 47   :  60
+2 540 - 39   :  60
+2 707 - 75   :  60
+2 759 - 15   :  60
+2 764 - 11   :  60
+2 766 - 22   :  60
+2 822 - 20   :  60
+2 302 - 5   :  59
+2 424 - 5   :  59
+2 490 - 4   :  59
+2 609 - 20   :  59
+2 688 - 57   :  59
+2 723 - 101   :  59
+2 737 - 10   :  59
+2 756 - 26   :  59
+2 782 - 58   :  59
+2 802 - 33   :  59
+2 829 - 43   :  59
+2 38 - 7   :  58
+2 349 - 17   :  58
+2 369 - 1   :  58
+2 379 - 8   :  58
+2 381 - 12   :  58
+2 428 - 23   :  58
+2 433 - 17   :  58
+2 529 - 21   :  58
+2 552 - 34   :  58
+2 558 - 5   :  58
+2 644 - 69   :  58
+2 662 - 72   :  58
+2 668 - 47   :  58
+2 669 - 80   :  58
+2 697 - 8   :  58
+2 704 - 32   :  58
+2 725 - 44   :  58
+2 757 - 49   :  58
+2 312 - 15   :  57
+2 347 - 22   :  57
+2 518 - 73   :  57
+2 672 - 84   :  57
+2 691 - 41   :  57
+2 745 - 14   :  57
+2 767 - 16   :  57
+2 776 - 49   :  57
+2 49 - 5   :  56
+2 80 - 10   :  56
+2 434 - 21   :  56
+2 471 - 20   :  56
+2 484 - 14   :  56
+2 593 - 64   :  56
+2 636 - 57   :  56
+2 694 - 21   :  56
+2 720 - 17   :  56
+2 828 - 17   :  56
+2 180 - 12   :  55
+2 447 - 7   :  55
+2 591 - 42   :  55
+2 638 - 77   :  55
+2 646 - 46   :  55
+2 652 - 33   :  55
+2 676 - 5   :  55
+2 711 - 77   :  55
+2 750 - 11   :  55
+2 802 - 25   :  55
+2 840 - 23   :  55
+2 89 - 1   :  54
+2 340 - 12   :  54
+2 386 - 6   :  54
+2 387 - 16   :  54
+2 394 - 43   :  54
+2 405 - 12   :  54
+2 464 - 26   :  54
+2 516 - 5   :  54
+2 557 - 32   :  54
+2 611 - 51   :  54
+2 613 - 22   :  54
+2 617 - 65   :  54
+2 618 - 24   :  54
+2 621 - 50   :  54
+2 622 - 36   :  54
+2 626 - 41   :  54
+2 627 - 58   :  54
+2 633 - 13   :  54
+2 633 - 48   :  54
+2 637 - 28   :  54
+2 639 - 62   :  54
+2 643 - 66   :  54
+2 644 - 49   :  54
+2 645 - 81   :  54
+2 649 - 75   :  54
+2 650 - 42   :  54
+2 666 - 54   :  54
+2 704 - 53   :  54
+2 719 - 37   :  54
+2 727 - 41   :  54
+2 736 - 43   :  54
+2 737 - 60   :  54
+2 738 - 44   :  54
+2 743 - 24   :  54
+2 747 - 28   :  54
+2 750 - 31   :  54
+2 753 - 6   :  54
+2 754 - 20   :  54
+2 757 - 23   :  54
+2 761 - 26   :  54
+2 762 - 45   :  54
+2 768 - 30   :  54
+2 769 - 37   :  54
+2 780 - 42   :  54
+2 794 - 50   :  54
+2 801 - 29   :  54
+2 805 - 44   :  54
+2 811 - 26   :  54
+2 816 - 48   :  54
+2 836 - 7   :  54
+2 229 - 8   :  53
+2 402 - 11   :  53
+2 414 - 5   :  53
+2 465 - 42   :  53
+2 477 - 20   :  53
+2 513 - 38   :  53
+2 539 - 30   :  53
+2 614 - 9   :  53
+2 628 - 55   :  53
+2 639 - 36   :  53
+2 645 - 24   :  53
+2 659 - 34   :  53
+2 668 - 69   :  53
+2 691 - 57   :  53
+2 725 - 9   :  53
+2 741 - 33   :  53
+2 794 - 64   :  53
+2 812 - 8   :  53
+2 141 - 8   :  52
+2 283 - 13   :  52
+2 347 - 11   :  52
+2 403 - 28   :  52
+2 423 - 17   :  52
+2 439 - 35   :  52
+2 454 - 27   :  52
+2 481 - 12   :  52
+2 549 - 4   :  52
+2 627 - 25   :  52
+2 635 - 15   :  52
+2 636 - 5   :  52
+2 668 - 5   :  52
+2 668 - 47   :  52
+2 671 - 48   :  52
+2 688 - 33   :  52
+2 693 - 27   :  52
+2 712 - 41   :  52
+2 736 - 4   :  52
+2 737 - 9   :  52
+2 747 - 4   :  52
+2 765 - 5   :  52
+2 776 - 52   :  52
+2 787 - 8   :  52
+2 790 - 41   :  52
+2 793 - 33   :  52
+2 811 - 21   :  52
+2 813 - 3   :  52
+2 826 - 13   :  52
+2 827 - 18   :  52
+2 568 - 42   :  51
+2 626 - 5   :  51
+2 657 - 36   :  51
+2 663 - 15   :  51
+2 714 - 4   :  51
+2 716 - 6   :  51
+2 725 - 4   :  51
+2 735 - 63   :  51
+2 769 - 10   :  51
+2 773 - 10   :  51
+2 124 - 17   :  50
+2 192 - 6   :  50
+2 268 - 11   :  50
+2 436 - 13   :  50
+2 441 - 21   :  50
+2 451 - 14   :  50
+2 470 - 23   :  50
+2 514 - 19   :  50
+2 582 - 16   :  50
+2 585 - 16   :  50
+2 632 - 61   :  50
+2 712 - 18   :  50
+2 804 - 29   :  50
+2 37 - 4   :  49
+2 403 - 9   :  49
+2 404 - 5   :  49
+2 462 - 31   :  49
+2 526 - 15   :  49
+2 557 - 35   :  49
+2 609 - 35   :  49
+2 625 - 5   :  49
+2 641 - 5   :  49
+2 649 - 70   :  49
+2 652 - 11   :  49
+2 679 - 36   :  49
+2 690 - 7   :  49
+2 690 - 53   :  49
+2 693 - 50   :  49
+2 705 - 4   :  49
+2 738 - 40   :  49
+2 796 - 21   :  49
+2 289 - 2   :  48
+2 488 - 17   :  48
+2 505 - 18   :  48
+2 541 - 30   :  48
+2 590 - 19   :  48
+2 624 - 24   :  48
+2 643 - 12   :  48
+2 692 - 34   :  48
+2 717 - 55   :  48
+2 719 - 14   :  48
+2 730 - 22   :  48
+2 100 - 0   :  47
+2 102 - 2   :  47
+2 113 - 6   :  47
+2 204 - 10   :  47
+2 395 - 5   :  47
+2 397 - 18   :  47
+2 465 - 25   :  47
+2 468 - 47   :  47
+2 484 - 13   :  47
+2 533 - 38   :  47
+2 536 - 20   :  47
+2 563 - 19   :  47
+2 596 - 27   :  47
+2 596 - 30   :  47
+2 632 - 59   :  47
+2 638 - 50   :  47
+2 649 - 54   :  47
+2 660 - 50   :  47
+2 666 - 3   :  47
+2 670 - 32   :  47
+2 671 - 34   :  47
+2 672 - 33   :  47
+2 678 - 34   :  47
+2 686 - 5   :  47
+2 687 - 40   :  47
+2 688 - 12   :  47
+2 695 - 5   :  47
+2 715 - 25   :  47
+2 720 - 28   :  47
+2 724 - 50   :  47
+2 730 - 41   :  47
+2 731 - 25   :  47
+2 743 - 34   :  47
+2 749 - 36   :  47
+2 755 - 27   :  47
+2 775 - 27   :  47
+2 781 - 33   :  47
+2 785 - 5   :  47
+2 786 - 25   :  47
+2 787 - 25   :  47
+2 792 - 30   :  47
+2 797 - 9   :  47
+2 798 - 34   :  47
+2 800 - 28   :  47
+2 806 - 33   :  47
+2 811 - 25   :  47
+2 817 - 26   :  47
+2 251 - 0   :  46
+2 318 - 1   :  46
+2 340 - 12   :  46
+2 423 - 1   :  46
+2 465 - 22   :  46
+2 493 - 0   :  46
+2 495 - 34   :  46
+2 535 - 33   :  46
+2 538 - 2   :  46
+2 551 - 13   :  46
+2 590 - 23   :  46
+2 616 - 42   :  46
+2 635 - 32   :  46
+2 640 - 3   :  46
+2 659 - 48   :  46
+2 662 - 9   :  46
+2 672 - 32   :  46
+2 714 - 40   :  46
+2 729 - 59   :  46
+2 748 - 2   :  46
+2 748 - 23   :  46
+2 748 - 34   :  46
+2 773 - 40   :  46
+2 775 - 3   :  46
+2 797 - 4   :  46
+2 234 - 3   :  45
+2 264 - 2   :  45
+2 451 - 22   :  45
+2 569 - 5   :  45
+2 577 - 34   :  45
+2 627 - 31   :  45
+2 632 - 5   :  45
+2 697 - 46   :  45
+2 747 - 11   :  45
+2 380 - 5   :  44
+2 387 - 5   :  44
+2 416 - 2   :  44
+2 426 - 23   :  44
+2 492 - 5   :  44
+2 513 - 9   :  44
+2 595 - 15   :  44
+2 647 - 5   :  44
+2 647 - 43   :  44
+2 661 - 32   :  44
+2 706 - 41   :  44
+2 732 - 17   :  44
+2 772 - 21   :  44
+2 797 - 16   :  44
+2 68 - 4   :  43
+2 146 - 12   :  43
+2 212 - 5   :  43
+2 220 - 16   :  43
+2 303 - 4   :  43
+2 404 - 11   :  43
+2 440 - 13   :  43
+2 450 - 9   :  43
+2 467 - 19   :  43
+2 496 - 30   :  43
+2 521 - 10   :  43
+2 538 - 13   :  43
+2 545 - 35   :  43
+2 609 - 54   :  43
+2 620 - 24   :  43
+2 628 - 26   :  43
+2 672 - 44   :  43
+2 676 - 36   :  43
+2 681 - 5   :  43
+2 720 - 5   :  43
+2 764 - 16   :  43
+2 769 - 3   :  43
+2 787 - 5   :  43
+2 802 - 3   :  43
+2 820 - 7   :  43
+2 84 - 3   :  42
+2 380 - 14   :  42
+2 387 - 9   :  42
+2 455 - 13   :  42
+2 472 - 22   :  42
+2 505 - 17   :  42
+2 516 - 7   :  42
+2 524 - 35   :  42
+2 527 - 15   :  42
+2 562 - 5   :  42
+2 574 - 11   :  42
+2 588 - 22   :  42
+2 597 - 66   :  42
+2 618 - 9   :  42
+2 619 - 26   :  42
+2 627 - 2   :  42
+2 630 - 23   :  42
+2 641 - 18   :  42
+2 675 - 54   :  42
+2 684 - 45   :  42
+2 697 - 5   :  42
+2 710 - 8   :  42
+2 717 - 12   :  42
+2 724 - 16   :  42
+2 735 - 19   :  42
+2 780 - 47   :  42
+2 791 - 32   :  42
+2 28 - 3   :  41
+2 220 - 5   :  41
+2 275 - 11   :  41
+2 425 - 17   :  41
+2 434 - 15   :  41
+2 459 - 9   :  41
+2 469 - 3   :  41
+2 518 - 26   :  41
+2 526 - 30   :  41
+2 546 - 14   :  41
+2 558 - 5   :  41
+2 608 - 47   :  41
+2 621 - 11   :  41
+2 648 - 20   :  41
+2 655 - 37   :  41
+2 673 - 50   :  41
+2 682 - 27   :  41
+2 702 - 46   :  41
+2 742 - 37   :  41
+2 751 - 15   :  41
+2 760 - 3   :  41
+2 837 - 7   :  41
+2 107 - 4   :  40
+2 108 - 5   :  40
+2 111 - 0   :  40
+2 119 - 4   :  40
+2 122 - 0   :  40
+2 133 - 0   :  40
+2 144 - 0   :  40
+2 329 - 1   :  40
+2 467 - 3   :  40
+2 541 - 25   :  40
+2 551 - 29   :  40
+2 560 - 9   :  40
+2 597 - 18   :  40
+2 607 - 13   :  40
+2 656 - 43   :  40
+2 685 - 27   :  40
+2 685 - 34   :  40
+2 696 - 35   :  40
+2 707 - 27   :  40
+2 717 - 18   :  40
+2 725 - 44   :  40
+2 726 - 39   :  40
+2 735 - 26   :  40
+2 741 - 27   :  40
+2 743 - 16   :  40
+2 754 - 22   :  40
+2 760 - 29   :  40
+2 763 - 23   :  40
+2 766 - 29   :  40
+2 774 - 8   :  40
+2 790 - 11   :  40
+2 808 - 7   :  40
+2 815 - 13   :  40
+2 822 - 15   :  40
+2 118 - 3   :  39
+2 347 - 3   :  39
+2 380 - 7   :  39
+2 382 - 7   :  39
+2 391 - 12   :  39
+2 427 - 7   :  39
+2 429 - 11   :  39
+2 441 - 10   :  39
+2 506 - 8   :  39
+2 536 - 1   :  39
+2 556 - 11   :  39
+2 585 - 19   :  39
+2 592 - 14   :  39
+2 617 - 5   :  39
+2 628 - 26   :  39
+2 629 - 38   :  39
+2 633 - 50   :  39
+2 645 - 30   :  39
+2 660 - 27   :  39
+2 663 - 31   :  39
+2 684 - 40   :  39
+2 689 - 10   :  39
+2 695 - 28   :  39
+2 704 - 42   :  39
+2 706 - 23   :  39
+2 710 - 41   :  39
+2 731 - 23   :  39
+2 746 - 19   :  39
+2 756 - 19   :  39
+2 763 - 26   :  39
+2 777 - 12   :  39
+2 781 - 3   :  39
+2 782 - 19   :  39
+2 789 - 11   :  39
+2 792 - 3   :  39
+2 796 - 3   :  39
+2 814 - 3   :  39
+2 74 - 3   :  38
+2 169 - 6   :  38
+2 394 - 9   :  38
+2 447 - 23   :  38
+2 512 - 4   :  38
+2 512 - 4   :  38
+2 534 - 6   :  38
+2 549 - 9   :  38
+2 552 - 20   :  38
+2 584 - 13   :  38
+2 587 - 33   :  38
+2 599 - 5   :  38
+2 601 - 47   :  38
+2 607 - 41   :  38
+2 608 - 15   :  38
+2 609 - 45   :  38
+2 618 - 17   :  38
+2 629 - 22   :  38
+2 661 - 16   :  38
+2 663 - 31   :  38
+2 666 - 33   :  38
+2 672 - 19   :  38
+2 673 - 30   :  38
+2 702 - 20   :  38
+2 725 - 17   :  38
+2 737 - 35   :  38
+2 760 - 3   :  38
+2 778 - 6   :  38
+2 782 - 3   :  38
+2 788 - 17   :  38
+2 796 - 7   :  38
+2 817 - 10   :  38
+2 154 - 4   :  37
+2 197 - 11   :  37
+2 226 - 5   :  37
+2 417 - 36   :  37
+2 435 - 3   :  37
+2 535 - 15   :  37
+2 557 - 15   :  37
+2 578 - 15   :  37
+2 599 - 26   :  37
+2 615 - 6   :  37
+2 621 - 24   :  37
+2 652 - 21   :  37
+2 672 - 24   :  37
+2 676 - 8   :  37
+2 721 - 9   :  37
+2 742 - 30   :  37
+2 747 - 24   :  37
+2 751 - 16   :  37
+2 769 - 20   :  37
+2 799 - 34   :  37
+2 807 - 23   :  37
+2 835 - 3   :  37
+2 74 - 11   :  36
+2 127 - 2   :  36
+2 188 - 16   :  36
+2 402 - 3   :  36
+2 436 - 9   :  36
+2 455 - 2   :  36
+2 463 - 2   :  36
+2 502 - 14   :  36
+2 538 - 6   :  36
+2 555 - 5   :  36
+2 566 - 9   :  36
+2 576 - 6   :  36
+2 653 - 24   :  36
+2 659 - 23   :  36
+2 687 - 6   :  36
+2 691 - 21   :  36
+2 692 - 17   :  36
+2 695 - 27   :  36
+2 697 - 36   :  36
+2 703 - 6   :  36
+2 727 - 39   :  36
+2 729 - 15   :  36
+2 736 - 24   :  36
+2 743 - 15   :  36
+2 82 - 2   :  35
+2 139 - 2   :  35
+2 279 - 5   :  35
+2 340 - 0   :  35
+2 352 - 9   :  35
+2 391 - 0   :  35
+2 422 - 6   :  35
+2 438 - 1   :  35
+2 479 - 26   :  35
+2 517 - 15   :  35
+2 518 - 12   :  35
+2 549 - 18   :  35
+2 563 - 8   :  35
+2 587 - 19   :  35
+2 603 - 18   :  35
+2 610 - 12   :  35
+2 614 - 33   :  35
+2 615 - 13   :  35
+2 616 - 20   :  35
+2 640 - 12   :  35
+2 643 - 19   :  35
+2 646 - 26   :  35
+2 665 - 24   :  35
+2 670 - 17   :  35
+2 675 - 10   :  35
+2 685 - 27   :  35
+2 686 - 8   :  35
+2 705 - 23   :  35
+2 712 - 37   :  35
+2 717 - 20   :  35
+2 728 - 22   :  35
+2 729 - 23   :  35
+2 742 - 16   :  35
+2 748 - 17   :  35
+2 755 - 21   :  35
+2 793 - 19   :  35
+2 813 - 5   :  35
+2 97 - 3   :  34
+2 108 - 3   :  34
+2 174 - 2   :  34
+2 181 - 6   :  34
+2 238 - 0   :  34
+2 269 - 4   :  34
+2 350 - 3   :  34
+2 371 - 2   :  34
+2 394 - 25   :  34
+2 401 - 6   :  34
+2 402 - 4   :  34
+2 413 - 8   :  34
+2 445 - 24   :  34
+2 447 - 3   :  34
+2 459 - 16   :  34
+2 475 - 14   :  34
+2 478 - 21   :  34
+2 492 - 9   :  34
+2 518 - 6   :  34
+2 522 - 5   :  34
+2 529 - 22   :  34
+2 546 - 18   :  34
+2 568 - 16   :  34
+2 579 - 26   :  34
+2 584 - 17   :  34
+2 589 - 10   :  34
+2 599 - 13   :  34
+2 610 - 5   :  34
+2 611 - 28   :  34
+2 612 - 29   :  34
+2 621 - 9   :  34
+2 632 - 12   :  34
+2 638 - 20   :  34
+2 646 - 14   :  34
+2 650 - 13   :  34
+2 671 - 6   :  34
+2 676 - 43   :  34
+2 679 - 34   :  34
+2 680 - 27   :  34
+2 682 - 5   :  34
+2 696 - 19   :  34
+2 696 - 42   :  34
+2 714 - 7   :  34
+2 718 - 12   :  34
+2 719 - 28   :  34
+2 723 - 10   :  34
+2 723 - 48   :  34
+2 724 - 2   :  34
+2 727 - 4   :  34
+2 729 - 15   :  34
+2 736 - 20   :  34
+2 736 - 22   :  34
+2 761 - 5   :  34
+2 775 - 13   :  34
+2 803 - 3   :  34
+2 804 - 3   :  34
+2 826 - 3   :  34
+2 831 - 16   :  34
+2 55 - 4   :  33
+2 126 - 5   :  33
+2 166 - 0   :  33
+2 188 - 0   :  33
+2 220 - 7   :  33
+2 335 - 2   :  33
+2 461 - 20   :  33
+2 510 - 8   :  33
+2 517 - 6   :  33
+2 559 - 5   :  33
+2 564 - 3   :  33
+2 575 - 19   :  33
+2 593 - 22   :  33
+2 621 - 17   :  33
+2 631 - 17   :  33
+2 649 - 10   :  33
+2 655 - 24   :  33
+2 661 - 18   :  33
+2 662 - 21   :  33
+2 696 - 4   :  33
+2 705 - 12   :  33
+2 705 - 27   :  33
+2 723 - 39   :  33
+2 724 - 20   :  33
+2 749 - 13   :  33
+2 775 - 3   :  33
+2 800 - 15   :  33
+2 818 - 0   :  33
+2 424 - 3   :  32
+2 467 - 13   :  32
+2 493 - 8   :  32
+2 600 - 14   :  32
+2 605 - 0   :  32
+2 605 - 27   :  32
+2 609 - 14   :  32
+2 654 - 4   :  32
+2 735 - 2   :  32
+2 781 - 23   :  32
+2 80 - 2   :  31
+2 162 - 2   :  31
+2 333 - 7   :  31
+2 382 - 0   :  31
+2 394 - 16   :  31
+2 524 - 3   :  31
+2 537 - 2   :  31
+2 550 - 2   :  31
+2 551 - 15   :  31
+2 588 - 8   :  31
+2 593 - 17   :  31
+2 637 - 8   :  31
+2 656 - 24   :  31
+2 670 - 8   :  31
+2 696 - 23   :  31
+2 710 - 33   :  31
+2 187 - 5   :  30
+2 303 - 6   :  30
+2 353 - 5   :  30
+2 452 - 14   :  30
+2 470 - 13   :  30
+2 514 - 13   :  30
+2 529 - 16   :  30
+2 536 - 5   :  30
+2 546 - 11   :  30
+2 569 - 18   :  30
+2 581 - 5   :  30
+2 597 - 16   :  30
+2 602 - 24   :  30
+2 604 - 5   :  30
+2 604 - 16   :  30
+2 636 - 11   :  30
+2 650 - 16   :  30
+2 659 - 11   :  30
+2 664 - 5   :  30
+2 664 - 25   :  30
+2 665 - 0   :  30
+2 665 - 14   :  30
+2 667 - 9   :  30
+2 669 - 7   :  30
+2 674 - 5   :  30
+2 678 - 7   :  30
+2 701 - 28   :  30
+2 703 - 16   :  30
+2 710 - 8   :  30
+2 738 - 3   :  30
+2 749 - 6   :  30
+2 753 - 7   :  30
+2 758 - 10   :  30
+2 765 - 16   :  30
+2 768 - 3   :  30
+2 772 - 15   :  30
+2 779 - 12   :  30
+2 781 - 13   :  30
+2 791 - 10   :  30
+2 803 - 21   :  30
+2 804 - 5   :  30
+2 815 - 11   :  30
+2 816 - 7   :  30
+2 819 - 0   :  30
+2 826 - 10   :  30
+2 839 - 6   :  30
+2 355 - 6   :  29
+2 402 - 6   :  29
+2 417 - 18   :  29
+2 450 - 13   :  29
+2 555 - 8   :  29
+2 569 - 9   :  29
+2 575 - 13   :  29
+2 583 - 26   :  29
+2 633 - 23   :  29
+2 653 - 22   :  29
+2 678 - 27   :  29
+2 679 - 10   :  29
+2 683 - 17   :  29
+2 702 - 8   :  29
+2 708 - 8   :  29
+2 728 - 13   :  29
+2 68 - 1   :  28
+2 86 - 3   :  28
+2 179 - 5   :  28
+2 182 - 1   :  28
+2 183 - 0   :  28
+2 243 - 1   :  28
+2 313 - 0   :  28
+2 339 - 3   :  28
+2 408 - 8   :  28
+2 427 - 1   :  28
+2 433 - 6   :  28
+2 446 - 8   :  28
+2 459 - 6   :  28
+2 493 - 1   :  28
+2 518 - 20   :  28
+2 531 - 5   :  28
+2 569 - 1   :  28
+2 576 - 14   :  28
+2 602 - 45   :  28
+2 619 - 2   :  28
+2 653 - 5   :  28
+2 660 - 5   :  28
+2 665 - 4   :  28
+2 688 - 12   :  28
+2 692 - 6   :  28
+2 703 - 18   :  28
+2 716 - 14   :  28
+2 800 - 14   :  28
+2 807 - 0   :  28
+2 171 - 4   :  27
+2 283 - 1   :  27
+2 283 - 2   :  27
+2 374 - 4   :  27
+2 374 - 10   :  27
+2 405 - 9   :  27
+2 415 - 4   :  27
+2 445 - 4   :  27
+2 466 - 1   :  27
+2 484 - 7   :  27
+2 561 - 13   :  27
+2 565 - 5   :  27
+2 572 - 4   :  27
+2 579 - 13   :  27
+2 589 - 5   :  27
+2 649 - 10   :  27
+2 650 - 9   :  27
+2 676 - 12   :  27
+2 692 - 16   :  27
+2 701 - 12   :  27
+2 711 - 9   :  27
+2 811 - 8   :  27
+2 837 - 2   :  27
+2 61 - 4   :  26
+2 143 - 2   :  26
+2 155 - 0   :  26
+2 177 - 0   :  26
+2 199 - 0   :  26
+2 328 - 4   :  26
+2 357 - 1   :  26
+2 389 - 12   :  26
+2 408 - 7   :  26
+2 462 - 21   :  26
+2 478 - 2   :  26
+2 478 - 9   :  26
+2 479 - 4   :  26
+2 501 - 10   :  26
+2 523 - 10   :  26
+2 593 - 5   :  26
+2 621 - 9   :  26
+2 625 - 2   :  26
+2 653 - 16   :  26
+2 660 - 12   :  26
+2 665 - 14   :  26
+2 668 - 36   :  26
+2 687 - 3   :  26
+2 693 - 11   :  26
+2 698 - 23   :  26
+2 709 - 12   :  26
+2 712 - 24   :  26
+2 721 - 13   :  26
+2 722 - 11   :  26
+2 734 - 3   :  26
+2 740 - 25   :  26
+2 742 - 12   :  26
+2 770 - 0   :  26
+2 797 - 7   :  26
+2 803 - 0   :  26
+2 803 - 5   :  26
+2 809 - 4   :  26
+2 812 - 5   :  26
+2 822 - 7   :  26
+2 823 - 12   :  26
+2 838 - 4   :  26
+2 60 - 4   :  25
+2 78 - 4   :  25
+2 171 - 1   :  25
+2 205 - 7   :  25
+2 373 - 0   :  25
+2 374 - 2   :  25
+2 439 - 13   :  25
+2 452 - 16   :  25
+2 461 - 9   :  25
+2 462 - 13   :  25
+2 468 - 3   :  25
+2 483 - 14   :  25
+2 504 - 9   :  25
+2 509 - 6   :  25
+2 523 - 2   :  25
+2 538 - 0   :  25
+2 554 - 3   :  25
+2 560 - 0   :  25
+2 602 - 9   :  25
+2 604 - 14   :  25
+2 607 - 21   :  25
+2 612 - 8   :  25
+2 635 - 9   :  25
+2 681 - 14   :  25
+2 723 - 2   :  25
+2 729 - 7   :  25
+2 754 - 15   :  25
+2 765 - 9   :  25
+2 766 - 2   :  25
+2 780 - 9   :  25
+2 785 - 2   :  25
+2 798 - 1   :  25
+2 68 - 6   :  24
+2 197 - 6   :  24
+2 406 - 15   :  24
+2 421 - 1   :  24
+2 451 - 10   :  24
+2 462 - 9   :  24
+2 467 - 1   :  24
+2 478 - 1   :  24
+2 490 - 4   :  24
+2 494 - 8   :  24
+2 525 - 13   :  24
+2 527 - 6   :  24
+2 541 - 9   :  24
+2 543 - 10   :  24
+2 585 - 5   :  24
+2 597 - 3   :  24
+2 599 - 17   :  24
+2 601 - 0   :  24
+2 604 - 3   :  24
+2 628 - 6   :  24
+2 635 - 1   :  24
+2 648 - 1   :  24
+2 689 - 9   :  24
+2 793 - 7   :  24
+2 153 - 2   :  23
+2 280 - 5   :  23
+2 313 - 10   :  23
+2 327 - 7   :  23
+2 411 - 3   :  23
+2 412 - 1   :  23
+2 475 - 12   :  23
+2 476 - 6   :  23
+2 486 - 5   :  23
+2 502 - 0   :  23
+2 502 - 7   :  23
+2 507 - 19   :  23
+2 507 - 18   :  23
+2 524 - 6   :  23
+2 576 - 4   :  23
+2 581 - 2   :  23
+2 597 - 4   :  23
+2 600 - 10   :  23
+2 627 - 11   :  23
+2 634 - 14   :  23
+2 635 - 6   :  23
+2 648 - 12   :  23
+2 703 - 14   :  23
+2 705 - 10   :  23
+2 771 - 15   :  23
+2 807 - 4   :  23
+2 821 - 8   :  23
+2 79 - 1   :  22
+2 148 - 2   :  22
+2 152 - 1   :  22
+2 205 - 1   :  22
+2 390 - 12   :  22
+2 400 - 3   :  22
+2 430 - 9   :  22
+2 451 - 5   :  22
+2 463 - 2   :  22
+2 491 - 0   :  22
+2 492 - 5   :  22
+2 495 - 12   :  22
+2 525 - 2   :  22
+2 532 - 7   :  22
+2 546 - 16   :  22
+2 567 - 7   :  22
+2 573 - 4   :  22
+2 599 - 26   :  22
+2 611 - 2   :  22
+2 620 - 3   :  22
+2 627 - 1   :  22
+2 662 - 7   :  22
+2 664 - 2   :  22
+2 668 - 15   :  22
+2 676 - 14   :  22
+2 694 - 14   :  22
+2 697 - 3   :  22
+2 704 - 3   :  22
+2 709 - 5   :  22
+2 710 - 6   :  22
+2 715 - 4   :  22
+2 720 - 10   :  22
+2 723 - 9   :  22
+2 728 - 4   :  22
+2 729 - 6   :  22
+2 732 - 8   :  22
+2 756 - 4   :  22
+2 764 - 9   :  22
+2 771 - 1   :  22
+2 785 - 11   :  22
+2 785 - 17   :  22
+2 793 - 0   :  22
+2 814 - 1   :  22
+2 828 - 13   :  22
+2 840 - 5   :  22
+2 85 - 1   :  21
+2 258 - 2   :  21
+2 297 - 1   :  21
+2 312 - 2   :  21
+2 389 - 8   :  21
+2 390 - 5   :  21
+2 514 - 7   :  21
+2 545 - 1   :  21
+2 549 - 1   :  21
+2 556 - 7   :  21
+2 712 - 1   :  21
+2 741 - 10   :  21
+2 743 - 2   :  21
+2 194 - 3   :  20
+2 228 - 7   :  20
+2 229 - 4   :  20
+2 292 - 0   :  20
+2 318 - 1   :  20
+2 319 - 1   :  20
+2 340 - 0   :  20
+2 359 - 0   :  20
+2 398 - 8   :  20
+2 417 - 7   :  20
+2 427 - 4   :  20
+2 451 - 6   :  20
+2 452 - 6   :  20
+2 488 - 8   :  20
+2 491 - 2   :  20
+2 496 - 3   :  20
+2 498 - 2   :  20
+2 526 - 2   :  20
+2 535 - 3   :  20
+2 542 - 5   :  20
+2 550 - 3   :  20
+2 561 - 7   :  20
+2 571 - 2   :  20
+2 586 - 3   :  20
+2 613 - 2   :  20
+2 619 - 19   :  20
+2 621 - 2   :  20
+2 631 - 14   :  20
+2 637 - 7   :  20
+2 671 - 3   :  20
+2 673 - 10   :  20
+2 683 - 0   :  20
+2 694 - 4   :  20
+2 706 - 10   :  20
+2 746 - 2   :  20
+2 784 - 13   :  20
+2 799 - 3   :  20
+2 160 - 4   :  19
+2 195 - 1   :  19
+2 278 - 0   :  19
+2 303 - 4   :  19
+2 388 - 1   :  19
+2 404 - 6   :  19
+2 417 - 0   :  19
+2 428 - 0   :  19
+2 439 - 0   :  19
+2 482 - 1   :  19
+2 519 - 7   :  19
+2 526 - 7   :  19
+2 528 - 1   :  19
+2 530 - 8   :  19
+2 533 - 8   :  19
+2 552 - 7   :  19
+2 580 - 7   :  19
+2 583 - 9   :  19
+2 591 - 9   :  19
+2 597 - 8   :  19
+2 602 - 6   :  19
+2 602 - 6   :  19
+2 604 - 7   :  19
+2 613 - 5   :  19
+2 615 - 10   :  19
+2 658 - 2   :  19
+2 665 - 4   :  19
+2 686 - 21   :  19
+2 690 - 1   :  19
+2 693 - 8   :  19
+2 733 - 11   :  19
+2 744 - 3   :  19
+2 786 - 3   :  19
+2 840 - 7   :  19
+2 157 - 1   :  18
+2 191 - 9   :  18
+2 220 - 5   :  18
+2 228 - 0   :  18
+2 312 - 1   :  18
+2 331 - 1   :  18
+2 352 - 4   :  18
+2 396 - 18   :  18
+2 397 - 6   :  18
+2 404 - 2   :  18
+2 431 - 3   :  18
+2 456 - 5   :  18
+2 474 - 0   :  18
+2 485 - 0   :  18
+2 486 - 3   :  18
+2 502 - 6   :  18
+2 503 - 4   :  18
+2 506 - 9   :  18
+2 563 - 0   :  18
+2 566 - 6   :  18
+2 589 - 6   :  18
+2 591 - 2   :  18
+2 605 - 8   :  18
+2 607 - 9   :  18
+2 616 - 1   :  18
+2 640 - 5   :  18
+2 643 - 10   :  18
+2 672 - 9   :  18
+2 683 - 16   :  18
+2 700 - 31   :  18
+2 713 - 10   :  18
+2 717 - 4   :  18
+2 732 - 13   :  18
+2 736 - 3   :  18
+2 760 - 10   :  18
+2 763 - 5   :  18
+2 764 - 3   :  18
+2 779 - 8   :  18
+2 781 - 1   :  18
+2 794 - 3   :  18
+2 826 - 0   :  18
+2 827 - 3   :  18
+2 836 - 0   :  18
+2 51 - 0   :  17
+2 241 - 1   :  17
+2 416 - 6   :  17
+2 430 - 1   :  17
+2 507 - 5   :  17
+2 521 - 10   :  17
+2 538 - 3   :  17
+2 549 - 4   :  17
+2 557 - 7   :  17
+2 609 - 9   :  17
+2 611 - 8   :  17
+2 631 - 3   :  17
+2 643 - 2   :  17
+2 645 - 9   :  17
+2 668 - 25   :  17
+2 675 - 0   :  17
+2 680 - 14   :  17
+2 683 - 0   :  17
+2 686 - 18   :  17
+2 699 - 18   :  17
+2 712 - 6   :  17
+2 712 - 7   :  17
+2 732 - 3   :  17
+2 737 - 0   :  17
+2 739 - 8   :  17
+2 743 - 7   :  17
+2 759 - 8   :  17
+2 769 - 4   :  17
+2 800 - 0   :  17
+2 828 - 0   :  17
+2 74 - 2   :  16
+2 134 - 2   :  16
+2 173 - 6   :  16
+2 211 - 0   :  16
+2 218 - 0   :  16
+2 225 - 0   :  16
+2 271 - 0   :  16
+2 314 - 3   :  16
+2 379 - 0   :  16
+2 404 - 0   :  16
+2 406 - 5   :  16
+2 408 - 2   :  16
+2 411 - 1   :  16
+2 416 - 3   :  16
+2 419 - 0   :  16
+2 450 - 0   :  16
+2 462 - 4   :  16
+2 470 - 1   :  16
+2 470 - 1   :  16
+2 472 - 7   :  16
+2 477 - 1   :  16
+2 483 - 4   :  16
+2 496 - 0   :  16
+2 498 - 6   :  16
+2 499 - 3   :  16
+2 500 - 0   :  16
+2 502 - 0   :  16
+2 505 - 1   :  16
+2 516 - 0   :  16
+2 530 - 3   :  16
+2 540 - 5   :  16
+2 545 - 0   :  16
+2 566 - 2   :  16
+2 576 - 9   :  16
+2 586 - 9   :  16
+2 588 - 2   :  16
+2 590 - 4   :  16
+2 592 - 2   :  16
+2 595 - 10   :  16
+2 598 - 5   :  16
+2 599 - 11   :  16
+2 599 - 13   :  16
+2 601 - 6   :  16
+2 602 - 11   :  16
+2 603 - 0   :  16
+2 606 - 6   :  16
+2 613 - 3   :  16
+2 618 - 8   :  16
+2 624 - 1   :  16
+2 628 - 5   :  16
+2 643 - 3   :  16
+2 656 - 3   :  16
+2 660 - 0   :  16
+2 677 - 4   :  16
+2 680 - 5   :  16
+2 682 - 10   :  16
+2 698 - 6   :  16
+2 710 - 3   :  16
+2 714 - 3   :  16
+2 724 - 1   :  16
+2 724 - 3   :  16
+2 737 - 2   :  16
+2 761 - 3   :  16
+2 767 - 6   :  16
+2 775 - 3   :  16
+2 818 - 5   :  16
+2 829 - 0   :  16
+2 829 - 0   :  16
+2 840 - 2   :  16
+2 90 - 0   :  15
+2 104 - 1   :  15
+2 398 - 4   :  15
+2 434 - 3   :  15
+2 457 - 0   :  15
+2 580 - 2   :  15
+2 617 - 6   :  15
+2 633 - 5   :  15
+2 656 - 7   :  15
+2 684 - 1   :  15
+2 684 - 4   :  15
+2 691 - 0   :  15
+2 719 - 0   :  15
+2 730 - 0   :  15
+2 786 - 4   :  15
+2 795 - 4   :  15
+2 70 - 1   :  14
+2 166 - 5   :  14
+2 248 - 0   :  14
+2 271 - 4   :  14
+2 327 - 1   :  14
+2 351 - 4   :  14
+2 362 - 0   :  14
+2 388 - 6   :  14
+2 390 - 3   :  14
+2 396 - 10   :  14
+2 426 - 1   :  14
+2 461 - 5   :  14
+2 475 - 5   :  14
+2 488 - 0   :  14
+2 492 - 2   :  14
+2 496 - 4   :  14
+2 501 - 2   :  14
+2 507 - 4   :  14
+2 511 - 1   :  14
+2 513 - 11   :  14
+2 521 - 2   :  14
+2 545 - 4   :  14
+2 555 - 8   :  14
+2 568 - 1   :  14
+2 577 - 0   :  14
+2 577 - 2   :  14
+2 629 - 8   :  14
+2 631 - 7   :  14
+2 634 - 2   :  14
+2 638 - 13   :  14
+2 639 - 8   :  14
+2 639 - 9   :  14
+2 641 - 3   :  14
+2 669 - 9   :  14
+2 672 - 0   :  14
+2 673 - 3   :  14
+2 686 - 1   :  14
+2 693 - 4   :  14
+2 694 - 0   :  14
+2 699 - 2   :  14
+2 699 - 4   :  14
+2 699 - 3   :  14
+2 699 - 3   :  14
+2 709 - 8   :  14
+2 741 - 0   :  14
+2 749 - 3   :  14
+2 752 - 0   :  14
+2 753 - 2   :  14
+2 757 - 4   :  14
+2 758 - 1   :  14
+2 772 - 3   :  14
+2 799 - 1   :  14
+2 808 - 1   :  14
+2 810 - 3   :  14
+2 818 - 4   :  14
+2 823 - 1   :  14
+2 150 - 0   :  13
+2 172 - 0   :  13
+2 270 - 1   :  13
+2 270 - 1   :  13
+2 393 - 2   :  13
+2 433 - 3   :  13
+2 446 - 0   :  13
+2 461 - 0   :  13
+2 473 - 3   :  13
+2 483 - 7   :  13
+2 505 - 0   :  13
+2 519 - 3   :  13
+2 578 - 1   :  13
+2 581 - 3   :  13
+2 585 - 0   :  13
+2 598 - 3   :  13
+2 603 - 2   :  13
+2 606 - 5   :  13
+2 619 - 5   :  13
+2 643 - 5   :  13
+2 645 - 8   :  13
+2 646 - 1   :  13
+2 656 - 11   :  13
+2 666 - 7   :  13
+2 683 - 7   :  13
+2 692 - 1   :  13
+2 696 - 2   :  13
+2 700 - 1   :  13
+2 700 - 5   :  13
+2 707 - 8   :  13
+2 717 - 5   :  13
+2 727 - 7   :  13
+2 731 - 4   :  13
+2 738 - 8   :  13
+2 741 - 9   :  13
+2 761 - 7   :  13
+2 776 - 0   :  13
+2 784 - 6   :  13
+2 829 - 0   :  13
+2 270 - 0   :  12
+2 271 - 0   :  12
+2 285 - 0   :  12
+2 317 - 0   :  12
+2 389 - 0   :  12
+2 393 - 1   :  12
+2 439 - 2   :  12
+2 441 - 1   :  12
+2 445 - 3   :  12
+2 447 - 2   :  12
+2 455 - 2   :  12
+2 479 - 2   :  12
+2 495 - 7   :  12
+2 501 - 2   :  12
+2 519 - 1   :  12
+2 540 - 0   :  12
+2 544 - 3   :  12
+2 548 - 1   :  12
+2 574 - 3   :  12
+2 581 - 5   :  12
+2 599 - 3   :  12
+2 602 - 0   :  12
+2 629 - 0   :  12
+2 645 - 8   :  12
+2 675 - 3   :  12
+2 678 - 15   :  12
+2 679 - 2   :  12
+2 700 - 3   :  12
+2 707 - 8   :  12
+2 716 - 3   :  12
+2 719 - 0   :  12
+2 741 - 0   :  12
+2 755 - 0   :  12
+2 764 - 2   :  12
+2 773 - 2   :  12
+2 778 - 0   :  12
+2 791 - 0   :  12
+2 805 - 3   :  12
+2 806 - 3   :  12
+2 830 - 0   :  12
+2 841 - 0   :  12
+2 43 - 2   :  11
+2 62 - 0   :  11
+2 119 - 0   :  11
+2 202 - 0   :  11
+2 205 - 0   :  11
+2 282 - 5   :  11
+2 315 - 2   :  11
+2 348 - 4   :  11
+2 406 - 0   :  11
+2 499 - 7   :  11
+2 511 - 4   :  11
+2 518 - 8   :  11
+2 555 - 2   :  11
+2 573 - 2   :  11
+2 598 - 3   :  11
+2 611 - 5   :  11
+2 620 - 4   :  11
+2 647 - 3   :  11
+2 651 - 5   :  11
+2 652 - 8   :  11
+2 653 - 4   :  11
+2 655 - 0   :  11
+2 663 - 2   :  11
+2 667 - 2   :  11
+2 668 - 3   :  11
+2 669 - 5   :  11
+2 675 - 13   :  11
+2 677 - 4   :  11
+2 678 - 2   :  11
+2 678 - 12   :  11
+2 686 - 8   :  11
+2 704 - 7   :  11
+2 706 - 2   :  11
+2 709 - 5   :  11
+2 714 - 2   :  11
+2 715 - 2   :  11
+2 718 - 2   :  11
+2 729 - 2   :  11
+2 729 - 2   :  11
+2 740 - 2   :  11
+2 748 - 4   :  11
+2 755 - 1   :  11
+2 761 - 5   :  11
+2 777 - 2   :  11
+2 796 - 0   :  11
+2 798 - 3   :  11
+2 799 - 3   :  11
+2 811 - 5   :  11
+2 820 - 2   :  11
+2 820 - 2   :  11
+2 829 - 3   :  11
+2 71 - 2   :  10
+2 83 - 1   :  10
+2 128 - 0   :  10
+2 163 - 0   :  10
+2 191 - 0   :  10
+2 196 - 1   :  10
+2 260 - 0   :  10
+2 282 - 0   :  10
+2 301 - 0   :  10
+2 323 - 0   :  10
+2 325 - 0   :  10
+2 334 - 4   :  10
+2 354 - 0   :  10
+2 397 - 0   :  10
+2 406 - 3   :  10
+2 423 - 2   :  10
+2 441 - 1   :  10
+2 447 - 0   :  10
+2 449 - 1   :  10
+2 452 - 0   :  10
+2 454 - 0   :  10
+2 458 - 4   :  10
+2 464 - 3   :  10
+2 467 - 4   :  10
+2 469 - 1   :  10
+2 472 - 0   :  10
+2 476 - 2   :  10
+2 480 - 3   :  10
+2 483 - 0   :  10
+2 495 - 0   :  10
+2 499 - 0   :  10
+2 513 - 1   :  10
+2 547 - 0   :  10
+2 562 - 1   :  10
+2 567 - 0   :  10
+2 574 - 0   :  10
+2 593 - 0   :  10
+2 599 - 4   :  10
+2 620 - 0   :  10
+2 638 - 4   :  10
+2 653 - 1   :  10
+2 656 - 2   :  10
+2 667 - 3   :  10
+2 676 - 4   :  10
+2 678 - 3   :  10
+2 687 - 7   :  10
+2 690 - 2   :  10
+2 697 - 5   :  10
+2 699 - 6   :  10
+2 699 - 8   :  10
+2 703 - 0   :  10
+2 704 - 1   :  10
+2 710 - 4   :  10
+2 730 - 0   :  10
+2 740 - 4   :  10
+2 752 - 1   :  10
+2 755 - 0   :  10
+2 759 - 0   :  10
+2 760 - 1   :  10
+2 769 - 0   :  10
+2 782 - 0   :  10
+2 785 - 4   :  10
+2 786 - 1   :  10
+2 792 - 0   :  10
+2 811 - 3   :  10
+2 814 - 0   :  10
+2 819 - 0   :  10
+2 823 - 3   :  10
+2 824 - 0   :  10
+2 825 - 0   :  10
+2 65 - 1   :  9
+2 166 - 1   :  9
+2 213 - 0   :  9
+2 395 - 1   :  9
+2 443 - 2   :  9
+2 513 - 4   :  9
+2 584 - 6   :  9
+2 585 - 3   :  9
+2 607 - 5   :  9
+2 609 - 2   :  9
+2 617 - 1   :  9
+2 618 - 1   :  9
+2 622 - 1   :  9
+2 622 - 0   :  9
+2 632 - 3   :  9
+2 633 - 6   :  9
+2 638 - 0   :  9
+2 675 - 13   :  9
+2 684 - 2   :  9
+2 684 - 1   :  9
+2 697 - 1   :  9
+2 699 - 4   :  9
+2 707 - 6   :  9
+2 710 - 0   :  9
+2 711 - 2   :  9
+2 718 - 2   :  9
+2 750 - 1   :  9
+2 753 - 1   :  9
+2 763 - 0   :  9
+2 772 - 1   :  9
+2 775 - 2   :  9
+2 776 - 0   :  9
+2 780 - 3   :  9
+2 789 - 4   :  9
+2 808 - 3   :  9
+2 43 - 1   :  8
+2 88 - 1   :  8
+2 132 - 1   :  8
+2 143 - 1   :  8
+2 145 - 0   :  8
+2 146 - 1   :  8
+2 153 - 0   :  8
+2 168 - 0   :  8
+2 172 - 1   :  8
+2 175 - 1   :  8
+2 201 - 0   :  8
+2 205 - 2   :  8
+2 216 - 0   :  8
+2 256 - 0   :  8
+2 272 - 1   :  8
+2 334 - 0   :  8
+2 346 - 0   :  8
+2 387 - 0   :  8
+2 394 - 3   :  8
+2 396 - 2   :  8
+2 396 - 4   :  8
+2 404 - 0   :  8
+2 406 - 1   :  8
+2 412 - 0   :  8
+2 415 - 2   :  8
+2 415 - 1   :  8
+2 470 - 2   :  8
+2 480 - 5   :  8
+2 510 - 0   :  8
+2 518 - 4   :  8
+2 530 - 6   :  8
+2 531 - 1   :  8
+2 537 - 1   :  8
+2 542 - 2   :  8
+2 555 - 0   :  8
+2 579 - 2   :  8
+2 581 - 0   :  8
+2 583 - 0   :  8
+2 583 - 3   :  8
+2 587 - 4   :  8
+2 587 - 4   :  8
+2 590 - 3   :  8
+2 601 - 3   :  8
+2 605 - 0   :  8
+2 605 - 0   :  8
+2 609 - 2   :  8
+2 613 - 4   :  8
+2 629 - 1   :  8
+2 631 - 1   :  8
+2 635 - 1   :  8
+2 636 - 1   :  8
+2 639 - 1   :  8
+2 643 - 3   :  8
+2 645 - 6   :  8
+2 647 - 4   :  8
+2 651 - 3   :  8
+2 652 - 0   :  8
+2 660 - 0   :  8
+2 666 - 2   :  8
+2 668 - 2   :  8
+2 668 - 6   :  8
+2 674 - 3   :  8
+2 674 - 8   :  8
+2 675 - 0   :  8
+2 675 - 1   :  8
+2 677 - 4   :  8
+2 678 - 4   :  8
+2 681 - 2   :  8
+2 682 - 6   :  8
+2 686 - 2   :  8
+2 688 - 0   :  8
+2 698 - 3   :  8
+2 699 - 7   :  8
+2 702 - 4   :  8
+2 725 - 0   :  8
+2 727 - 4   :  8
+2 733 - 2   :  8
+2 740 - 1   :  8
+2 744 - 1   :  8
+2 744 - 3   :  8
+2 747 - 0   :  8
+2 751 - 1   :  8
+2 765 - 3   :  8
+2 771 - 0   :  8
+2 784 - 2   :  8
+2 789 - 0   :  8
+2 803 - 0   :  8
+2 821 - 0   :  8
+2 70 - 0   :  7
+2 216 - 0   :  7
+2 390 - 0   :  7
+2 397 - 0   :  7
+2 419 - 0   :  7
+2 419 - 1   :  7
+2 450 - 1   :  7
+2 457 - 0   :  7
+2 526 - 0   :  7
+2 532 - 2   :  7
+2 534 - 0   :  7
+2 538 - 2   :  7
+2 634 - 0   :  7
+2 674 - 4   :  7
+2 679 - 2   :  7
+2 31 - 1   :  6
+2 56 - 1   :  6
+2 77 - 1   :  6
+2 110 - 1   :  6
+2 124 - 0   :  6
+2 128 - 0   :  6
+2 136 - 1   :  6
+2 141 - 0   :  6
+2 178 - 0   :  6
+2 182 - 1   :  6
+2 184 - 0   :  6
+2 185 - 0   :  6
+2 195 - 1   :  6
+2 206 - 0   :  6
+2 222 - 0   :  6
+2 263 - 0   :  6
+2 292 - 0   :  6
+2 315 - 0   :  6
+2 329 - 0   :  6
+2 377 - 0   :  6
+2 388 - 2   :  6
+2 392 - 0   :  6
+2 412 - 0   :  6
+2 425 - 1   :  6
+2 429 - 0   :  6
+2 440 - 1   :  6
+2 445 - 2   :  6
+2 451 - 0   :  6
+2 452 - 1   :  6
+2 454 - 0   :  6
+2 457 - 0   :  6
+2 458 - 0   :  6
+2 463 - 0   :  6
+2 464 - 0   :  6
+2 468 - 0   :  6
+2 474 - 0   :  6
+2 479 - 0   :  6
+2 480 - 3   :  6
+2 481 - 1   :  6
+2 484 - 0   :  6
+2 496 - 1   :  6
+2 499 - 2   :  6
+2 507 - 2   :  6
+2 507 - 2   :  6
+2 509 - 1   :  6
+2 515 - 2   :  6
+2 518 - 0   :  6
+2 520 - 0   :  6
+2 524 - 2   :  6
+2 528 - 0   :  6
+2 538 - 3   :  6
+2 539 - 1   :  6
+2 545 - 1   :  6
+2 552 - 3   :  6
+2 552 - 2   :  6
+2 556 - 0   :  6
+2 559 - 1   :  6
+2 562 - 1   :  6
+2 569 - 0   :  6
+2 571 - 1   :  6
+2 580 - 2   :  6
+2 589 - 1   :  6
+2 594 - 0   :  6
+2 607 - 0   :  6
+2 609 - 2   :  6
+2 616 - 0   :  6
+2 616 - 0   :  6
+2 624 - 3   :  6
+2 634 - 2   :  6
+2 639 - 0   :  6
+2 646 - 2   :  6
+2 648 - 3   :  6
+2 648 - 2   :  6
+2 651 - 2   :  6
+2 658 - 1   :  6
+2 662 - 2   :  6
+2 664 - 2   :  6
+2 678 - 1   :  6
+2 691 - 1   :  6
+2 698 - 2   :  6
+2 699 - 1   :  6
+2 700 - 3   :  6
+2 702 - 1   :  6
+2 705 - 3   :  6
+2 706 - 3   :  6
+2 712 - 3   :  6
+2 714 - 1   :  6
+2 718 - 2   :  6
+2 719 - 3   :  6
+2 724 - 1   :  6
+2 727 - 0   :  6
+2 728 - 2   :  6
+2 731 - 1   :  6
+2 733 - 0   :  6
+2 735 - 0   :  6
+2 738 - 1   :  6
+2 739 - 2   :  6
+2 739 - 2   :  6
+2 740 - 0   :  6
+2 740 - 1   :  6
+2 743 - 0   :  6
+2 747 - 0   :  6
+2 747 - 0   :  6
+2 749 - 0   :  6
+2 751 - 1   :  6
+2 752 - 1   :  6
+2 758 - 0   :  6
+2 759 - 1   :  6
+2 762 - 2   :  6
+2 780 - 1   :  6
+2 782 - 1   :  6
+2 784 - 1   :  6
+2 785 - 3   :  6
+2 788 - 1   :  6
+2 803 - 0   :  6
+2 806 - 1   :  6
+2 807 - 0   :  6
+2 810 - 0   :  6
+2 812 - 0   :  6
+2 828 - 1   :  6
+2 829 - 0   :  6
+2 472 - 1   :  5
+2 506 - 0   :  5
+2 512 - 2   :  5
+2 552 - 1   :  5
+2 583 - 0   :  5
+2 595 - 6   :  5
+2 604 - 2   :  5
+2 645 - 1   :  5
+2 667 - 0   :  5
+2 667 - 0   :  5
+2 668 - 3   :  5
+2 701 - 4   :  5
+2 702 - 0   :  5
+2 735 - 1   :  5
+2 55 - 0   :  4
+2 62 - 0   :  4
+2 71 - 0   :  4
+2 101 - 0   :  4
+2 114 - 0   :  4
+2 136 - 0   :  4
+2 140 - 0   :  4
+2 151 - 0   :  4
+2 155 - 0   :  4
+2 159 - 0   :  4
+2 162 - 0   :  4
+2 163 - 0   :  4
+2 175 - 0   :  4
+2 188 - 0   :  4
+2 194 - 1   :  4
+2 205 - 0   :  4
+2 210 - 0   :  4
+2 257 - 0   :  4
+2 279 - 0   :  4
+2 279 - 0   :  4
+2 290 - 0   :  4
+2 347 - 0   :  4
+2 348 - 0   :  4
+2 351 - 0   :  4
+2 351 - 0   :  4
+2 377 - 0   :  4
+2 384 - 0   :  4
+2 384 - 0   :  4
+2 389 - 0   :  4
+2 396 - 0   :  4
+2 396 - 0   :  4
+2 398 - 1   :  4
+2 399 - 0   :  4
+2 406 - 0   :  4
+2 408 - 1   :  4
+2 415 - 0   :  4
+2 417 - 0   :  4
+2 423 - 0   :  4
+2 426 - 0   :  4
+2 428 - 1   :  4
+2 437 - 0   :  4
+2 438 - 0   :  4
+2 439 - 1   :  4
+2 441 - 1   :  4
+2 448 - 0   :  4
+2 449 - 1   :  4
+2 459 - 0   :  4
+2 462 - 0   :  4
+2 462 - 0   :  4
+2 467 - 2   :  4
+2 470 - 0   :  4
+2 474 - 0   :  4
+2 475 - 0   :  4
+2 476 - 0   :  4
+2 479 - 0   :  4
+2 490 - 1   :  4
+2 492 - 0   :  4
+2 494 - 1   :  4
+2 504 - 0   :  4
+2 511 - 0   :  4
+2 512 - 0   :  4
+2 515 - 0   :  4
+2 518 - 0   :  4
+2 522 - 1   :  4
+2 527 - 1   :  4
+2 528 - 0   :  4
+2 530 - 0   :  4
+2 531 - 0   :  4
+2 532 - 0   :  4
+2 532 - 0   :  4
+2 533 - 0   :  4
+2 535 - 1   :  4
+2 538 - 0   :  4
+2 540 - 0   :  4
+2 541 - 0   :  4
+2 542 - 0   :  4
+2 544 - 0   :  4
+2 545 - 0   :  4
+2 549 - 0   :  4
+2 551 - 0   :  4
+2 551 - 1   :  4
+2 553 - 1   :  4
+2 553 - 1   :  4
+2 556 - 0   :  4
+2 558 - 0   :  4
+2 561 - 1   :  4
+2 569 - 0   :  4
+2 570 - 2   :  4
+2 570 - 2   :  4
+2 571 - 0   :  4
+2 575 - 0   :  4
+2 577 - 0   :  4
+2 580 - 0   :  4
+2 582 - 0   :  4
+2 584 - 0   :  4
+2 589 - 0   :  4
+2 589 - 0   :  4
+2 589 - 0   :  4
+2 594 - 0   :  4
+2 595 - 0   :  4
+2 595 - 0   :  4
+2 597 - 1   :  4
+2 597 - 1   :  4
+2 599 - 0   :  4
+2 603 - 0   :  4
+2 604 - 0   :  4
+2 605 - 1   :  4
+2 607 - 0   :  4
+2 609 - 0   :  4
+2 611 - 2   :  4
+2 615 - 1   :  4
+2 617 - 1   :  4
+2 619 - 1   :  4
+2 623 - 0   :  4
+2 626 - 0   :  4
+2 627 - 1   :  4
+2 628 - 1   :  4
+2 630 - 0   :  4
+2 631 - 1   :  4
+2 634 - 0   :  4
+2 634 - 0   :  4
+2 635 - 3   :  4
+2 637 - 0   :  4
+2 639 - 0   :  4
+2 640 - 2   :  4
+2 641 - 1   :  4
+2 644 - 0   :  4
+2 645 - 1   :  4
+2 645 - 1   :  4
+2 648 - 2   :  4
+2 649 - 0   :  4
+2 650 - 1   :  4
+2 651 - 0   :  4
+2 656 - 0   :  4
+2 656 - 0   :  4
+2 657 - 0   :  4
+2 659 - 0   :  4
+2 661 - 0   :  4
+2 662 - 1   :  4
+2 662 - 1   :  4
+2 662 - 1   :  4
+2 663 - 0   :  4
+2 665 - 0   :  4
+2 668 - 0   :  4
+2 668 - 0   :  4
+2 668 - 0   :  4
+2 670 - 0   :  4
+2 670 - 0   :  4
+2 672 - 0   :  4
+2 674 - 0   :  4
+2 674 - 0   :  4
+2 674 - 0   :  4
+2 675 - 0   :  4
+2 677 - 0   :  4
+2 679 - 0   :  4
+2 679 - 0   :  4
+2 681 - 0   :  4
+2 682 - 0   :  4
+2 682 - 0   :  4
+2 686 - 1   :  4
+2 686 - 1   :  4
+2 687 - 1   :  4
+2 691 - 1   :  4
+2 692 - 1   :  4
+2 693 - 0   :  4
+2 694 - 1   :  4
+2 694 - 1   :  4
+2 695 - 1   :  4
+2 695 - 1   :  4
+2 696 - 3   :  4
+2 699 - 2   :  4
+2 701 - 1   :  4
+2 703 - 0   :  4
+2 706 - 0   :  4
+2 707 - 1   :  4
+2 707 - 1   :  4
+2 709 - 0   :  4
+2 711 - 2   :  4
+2 716 - 0   :  4
+2 717 - 0   :  4
+2 718 - 1   :  4
+2 720 - 0   :  4
+2 721 - 0   :  4
+2 722 - 0   :  4
+2 723 - 1   :  4
+2 726 - 0   :  4
+2 726 - 1   :  4
+2 729 - 0   :  4
+2 730 - 1   :  4
+2 731 - 1   :  4
+2 733 - 1   :  4
+2 736 - 0   :  4
+2 736 - 0   :  4
+2 743 - 0   :  4
+2 748 - 0   :  4
+2 751 - 0   :  4
+2 763 - 0   :  4
+2 765 - 1   :  4
+2 769 - 0   :  4
+2 773 - 0   :  4
+2 774 - 0   :  4
+2 779 - 2   :  4
+2 784 - 1   :  4
+2 787 - 0   :  4
+2 788 - 0   :  4
+2 788 - 0   :  4
+2 789 - 0   :  4
+2 790 - 0   :  4
+2 794 - 0   :  4
+2 794 - 0   :  4
+2 795 - 0   :  4
+2 795 - 0   :  4
+2 796 - 1   :  4
+2 809 - 0   :  4
+2 809 - 0   :  4
+2 816 - 0   :  4
+2 833 - 0   :  4
+2 840 - 0   :  4
+2 840 - 0   :  4
+2 164 - 0   :  3
+2 172 - 0   :  3
+2 439 - 1   :  3
+2 524 - 0   :  3
+2 526 - 0   :  3
+2 526 - 0   :  3
+2 613 - 1   :  3
+2 624 - 0   :  3
+2 669 - 1   :  3
+2 711 - 0   :  3
+2 723 - 0   :  3
+2 754 - 1   :  3
+2 779 - 1   :  3
+2 32 - 0   :  2
+2 39 - 0   :  2
+2 50 - 0   :  2
+2 51 - 0   :  2
+2 55 - 0   :  2
+2 59 - 0   :  2
+2 64 - 0   :  2
+2 72 - 0   :  2
+2 74 - 0   :  2
+2 74 - 0   :  2
+2 83 - 0   :  2
+2 91 - 0   :  2
+2 94 - 0   :  2
+2 99 - 0   :  2
+2 102 - 0   :  2
+2 110 - 0   :  2
+2 111 - 0   :  2
+2 112 - 0   :  2
+2 121 - 0   :  2
+2 124 - 0   :  2
+2 132 - 0   :  2
+2 147 - 0   :  2
+2 156 - 0   :  2
+2 157 - 0   :  2
+2 162 - 0   :  2
+2 165 - 0   :  2
+2 165 - 0   :  2
+2 169 - 0   :  2
+2 173 - 0   :  2
+2 189 - 0   :  2
+2 194 - 0   :  2
+2 196 - 0   :  2
+2 213 - 0   :  2
+2 215 - 0   :  2
+2 228 - 0   :  2
+2 234 - 0   :  2
+2 276 - 0   :  2
+2 308 - 0   :  2
+2 314 - 0   :  2
+2 322 - 0   :  2
+2 335 - 0   :  2
+2 375 - 0   :  2
+2 376 - 0   :  2
+2 381 - 0   :  2
+2 381 - 0   :  2
+2 382 - 0   :  2
+2 387 - 0   :  2
+2 388 - 0   :  2
+2 388 - 0   :  2
+2 390 - 0   :  2
+2 391 - 0   :  2
+2 396 - 0   :  2
+2 398 - 0   :  2
+2 400 - 0   :  2
+2 402 - 0   :  2
+2 405 - 0   :  2
+2 408 - 0   :  2
+2 409 - 0   :  2
+2 411 - 0   :  2
+2 414 - 0   :  2
+2 418 - 0   :  2
+2 422 - 0   :  2
+2 425 - 0   :  2
+2 428 - 0   :  2
+2 428 - 0   :  2
+2 430 - 0   :  2
+2 430 - 0   :  2
+2 430 - 0   :  2
+2 432 - 0   :  2
+2 434 - 0   :  2
+2 437 - 0   :  2
+2 439 - 0   :  2
+2 441 - 0   :  2
+2 443 - 0   :  2
+2 444 - 0   :  2
+2 444 - 0   :  2
+2 445 - 0   :  2
+2 449 - 0   :  2
+2 450 - 0   :  2
+2 452 - 0   :  2
+2 455 - 0   :  2
+2 467 - 0   :  2
+2 467 - 0   :  2
+2 468 - 0   :  2
+2 472 - 0   :  2
+2 478 - 0   :  2
+2 478 - 0   :  2
+2 480 - 0   :  2
+2 480 - 0   :  2
+2 481 - 0   :  2
+2 482 - 0   :  2
+2 482 - 0   :  2
+2 485 - 0   :  2
+2 485 - 0   :  2
+2 490 - 0   :  2
+2 494 - 0   :  2
+2 496 - 0   :  2
+2 496 - 0   :  2
+2 499 - 0   :  2
+2 499 - 0   :  2
+2 499 - 0   :  2
+2 500 - 0   :  2
+2 502 - 0   :  2
+2 502 - 0   :  2
+2 506 - 0   :  2
+2 507 - 0   :  2
+2 508 - 0   :  2
+2 510 - 0   :  2
+2 513 - 0   :  2
+2 514 - 0   :  2
+2 514 - 0   :  2
+2 518 - 0   :  2
+2 518 - 0   :  2
+2 520 - 0   :  2
+2 520 - 0   :  2
+2 520 - 0   :  2
+2 521 - 0   :  2
+2 522 - 0   :  2
+2 524 - 0   :  2
+2 527 - 0   :  2
+2 532 - 0   :  2
+2 534 - 0   :  2
+2 535 - 0   :  2
+2 536 - 0   :  2
+2 538 - 0   :  2
+2 539 - 0   :  2
+2 539 - 0   :  2
+2 540 - 0   :  2
+2 541 - 0   :  2
+2 543 - 0   :  2
+2 544 - 0   :  2
+2 546 - 0   :  2
+2 547 - 0   :  2
+2 548 - 0   :  2
+2 550 - 0   :  2
+2 550 - 0   :  2
+2 551 - 0   :  2
+2 553 - 0   :  2
+2 554 - 0   :  2
+2 561 - 0   :  2
+2 562 - 0   :  2
+2 563 - 0   :  2
+2 564 - 0   :  2
+2 566 - 0   :  2
+2 567 - 0   :  2
+2 568 - 0   :  2
+2 568 - 0   :  2
+2 570 - 0   :  2
+2 570 - 0   :  2
+2 572 - 0   :  2
+2 575 - 0   :  2
+2 576 - 0   :  2
+2 576 - 0   :  2
+2 577 - 0   :  2
+2 578 - 0   :  2
+2 579 - 0   :  2
+2 579 - 0   :  2
+2 581 - 0   :  2
+2 581 - 0   :  2
+2 583 - 0   :  2
+2 584 - 0   :  2
+2 587 - 0   :  2
+2 587 - 0   :  2
+2 587 - 0   :  2
+2 590 - 0   :  2
+2 592 - 0   :  2
+2 593 - 0   :  2
+2 593 - 0   :  2
+2 595 - 0   :  2
+2 595 - 0   :  2
+2 597 - 0   :  2
+2 597 - 0   :  2
+2 599 - 0   :  2
+2 601 - 0   :  2
+2 601 - 0   :  2
+2 601 - 0   :  2
+2 602 - 0   :  2
+2 603 - 0   :  2
+2 605 - 0   :  2
+2 606 - 0   :  2
+2 607 - 0   :  2
+2 607 - 0   :  2
+2 610 - 0   :  2
+2 611 - 0   :  2
+2 611 - 0   :  2
+2 611 - 0   :  2
+2 612 - 0   :  2
+2 612 - 0   :  2
+2 612 - 0   :  2
+2 613 - 0   :  2
+2 613 - 0   :  2
+2 614 - 0   :  2
+2 614 - 0   :  2
+2 615 - 0   :  2
+2 617 - 0   :  2
+2 617 - 0   :  2
+2 619 - 0   :  2
+2 619 - 0   :  2
+2 620 - 0   :  2
+2 621 - 0   :  2
+2 624 - 0   :  2
+2 627 - 0   :  2
+2 628 - 0   :  2
+2 628 - 0   :  2
+2 631 - 0   :  2
+2 633 - 0   :  2
+2 633 - 0   :  2
+2 633 - 0   :  2
+2 633 - 0   :  2
+2 633 - 0   :  2
+2 635 - 0   :  2
+2 635 - 0   :  2
+2 635 - 0   :  2
+2 638 - 0   :  2
+2 638 - 0   :  2
+2 639 - 0   :  2
+2 640 - 0   :  2
+2 640 - 0   :  2
+2 641 - 0   :  2
+2 641 - 0   :  2
+2 642 - 0   :  2
+2 643 - 0   :  2
+2 645 - 0   :  2
+2 646 - 0   :  2
+2 646 - 0   :  2
+2 647 - 0   :  2
+2 647 - 0   :  2
+2 648 - 0   :  2
+2 648 - 0   :  2
+2 650 - 0   :  2
+2 653 - 0   :  2
+2 653 - 0   :  2
+2 654 - 0   :  2
+2 655 - 0   :  2
+2 656 - 0   :  2
+2 662 - 0   :  2
+2 663 - 0   :  2
+2 664 - 0   :  2
+2 666 - 0   :  2
+2 666 - 0   :  2
+2 666 - 0   :  2
+2 667 - 0   :  2
+2 669 - 0   :  2
+2 671 - 0   :  2
+2 673 - 0   :  2
+2 674 - 0   :  2
+2 676 - 0   :  2
+2 676 - 0   :  2
+2 678 - 0   :  2
+2 678 - 0   :  2
+2 680 - 0   :  2
+2 681 - 0   :  2
+2 682 - 0   :  2
+2 682 - 0   :  2
+2 683 - 0   :  2
+2 683 - 0   :  2
+2 684 - 0   :  2
+2 684 - 0   :  2
+2 684 - 0   :  2
+2 686 - 0   :  2
+2 686 - 0   :  2
+2 686 - 0   :  2
+2 687 - 0   :  2
+2 687 - 0   :  2
+2 687 - 0   :  2
+2 689 - 0   :  2
+2 689 - 0   :  2
+2 689 - 0   :  2
+2 689 - 0   :  2
+2 690 - 0   :  2
+2 690 - 0   :  2
+2 691 - 0   :  2
+2 692 - 0   :  2
+2 694 - 0   :  2
+2 695 - 0   :  2
+2 696 - 0   :  2
+2 696 - 0   :  2
+2 696 - 0   :  2
+2 699 - 0   :  2
+2 699 - 0   :  2
+2 700 - 0   :  2
+2 700 - 0   :  2
+2 701 - 0   :  2
+2 702 - 0   :  2
+2 703 - 0   :  2
+2 704 - 0   :  2
+2 704 - 0   :  2
+2 704 - 0   :  2
+2 705 - 0   :  2
+2 705 - 0   :  2
+2 706 - 0   :  2
+2 706 - 0   :  2
+2 706 - 0   :  2
+2 706 - 0   :  2
+2 707 - 0   :  2
+2 708 - 0   :  2
+2 709 - 0   :  2
+2 709 - 0   :  2
+2 710 - 0   :  2
+2 710 - 0   :  2
+2 711 - 0   :  2
+2 712 - 0   :  2
+2 712 - 0   :  2
+2 713 - 0   :  2
+2 717 - 0   :  2
+2 717 - 0   :  2
+2 718 - 0   :  2
+2 719 - 0   :  2
+2 719 - 0   :  2
+2 719 - 0   :  2
+2 720 - 0   :  2
+2 725 - 0   :  2
+2 726 - 0   :  2
+2 728 - 0   :  2
+2 730 - 0   :  2
+2 731 - 0   :  2
+2 732 - 0   :  2
+2 732 - 0   :  2
+2 732 - 0   :  2
+2 733 - 0   :  2
+2 735 - 0   :  2
+2 737 - 0   :  2
+2 738 - 0   :  2
+2 740 - 0   :  2
+2 742 - 0   :  2
+2 744 - 0   :  2
+2 745 - 0   :  2
+2 747 - 0   :  2
+2 749 - 0   :  2
+2 749 - 0   :  2
+2 753 - 0   :  2
+2 753 - 0   :  2
+2 754 - 0   :  2
+2 754 - 0   :  2
+2 759 - 0   :  2
+2 759 - 0   :  2
+2 760 - 0   :  2
+2 762 - 0   :  2
+2 765 - 0   :  2
+2 766 - 0   :  2
+2 767 - 0   :  2
+2 770 - 0   :  2
+2 771 - 0   :  2
+2 774 - 0   :  2
+2 776 - 0   :  2
+2 777 - 0   :  2
+2 779 - 0   :  2
+2 779 - 0   :  2
+2 780 - 0   :  2
+2 781 - 0   :  2
+2 782 - 0   :  2
+2 784 - 0   :  2
+2 785 - 0   :  2
+2 785 - 0   :  2
+2 785 - 0   :  2
+2 786 - 0   :  2
+2 787 - 0   :  2
+2 791 - 0   :  2
+2 792 - 0   :  2
+2 793 - 0   :  2
+2 796 - 0   :  2
+2 798 - 0   :  2
+2 799 - 0   :  2
+2 801 - 0   :  2
+2 804 - 0   :  2
+2 805 - 0   :  2
+2 806 - 0   :  2
+2 808 - 0   :  2
+2 811 - 0   :  2
+2 815 - 0   :  2
+2 820 - 0   :  2
+2 827 - 0   :  2
+2 828 - 0   :  2
+2 830 - 0   :  2
+2 831 - 0   :  2
+2 831 - 0   :  2
+2 831 - 0   :  2
+2 831 - 0   :  2
+2 836 - 0   :  2
+2 842 - 0   :  2

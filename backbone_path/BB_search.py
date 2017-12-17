@@ -3,68 +3,103 @@ from backbone_path.Tree import Tree
 from backbone_path.Router import Router
 from operator import attrgetter
 
-def link2Points(p1,p2): #cherche le chemin le plus court entre 2 points, return une liste de coordonnées
-    if p1[1]>p2[1]: #tri du y le plus petit, p1 a le plus petit y
-        p1,p2 = p2,p1
-    path = [] #coord chemin parcouru
+def link2Points(path,p1,p2): #cherche le chemin le plus court entre 2 points, return une liste de coordonnées
     x = p1[0]
     y = p1[1]
 
-    if p1[0]<p2[0]: #si on a un décalage en diagonale en descente, on se déplace en diagonal vers le bas
-        while x<p2[0] and y<p2[1]:#on se déplace jusqu'à tomber sur la même ligne ou même colonne
-            y += 1
-            x += 1
-            path.append((x,y))
+    if p1[1]<p2[1]: #si on a un décalage à droite
+        if p1[0]<p2[0]: #si on a un décalage en descente, on se déplace a droite vers le bas
+            while x<p2[0] and y<p2[1]:#on se déplace jusqu'à tomber sur la même colonne
+                y += 1
+                x += 1
+                addCoord(x,y,path)
 
-        if p2[0]==x: #cas sur la même ligne, deplacement que sur la ligne
+            if p2[1]==y: #cas sur la même colonne, descente
+                for i in range(x+1,p2[0]):
+                    addCoord(i,y,path)
+
+        elif p1[0]>p2[0]: #si on a un décalage en montée, on se déplace à droite vers le haut
+            while x>p2[0] and y<p2[1]:#on se déplace jusqu'à tomber sur la même colonne
+                y += 1
+                x -= 1
+                addCoord(x,y,path)
+
+            if p2[1]==y: #cas sur la même colonne, montée
+                for i in range(x-1,p2[0],-1):
+                    addCoord(i,y,path)
+
+        if p2[0]==x: #si on est sur la même ligne, deplacement que sur la ligne vers la droite
             for i in range(y+1,p2[1]):
-                path.append((x,i))
+                addCoord(x,i,path)
 
-        if p2[1]==y: #cas sur la même colonne, deplacement uniquement en x
-            for i in range(x+1,p2[0]): #descente vers p2
-                path.append((i,y))
+    elif p1[1]>=p2[1]:#si on a un décalage à gauche ou sur la même colonne
+        if p1[0]<p2[0]: #si on a un décalage en descente, on se déplace a gauche vers le bas
+            while x<p2[0] and y>p2[1]:#on se déplace jusqu'à tomber sur la même colonne
+                y -= 1
+                x += 1
+                addCoord(x,y,path)
 
-    elif p1[0]>p2[0]: #si on a un décalage en diagonale en montée, on se déplace en diagonal vers le haut
-        while x>p2[0] and y<p2[1]:#on se déplace jusqu'à tomber sur la même ligne ou même colonne
-            y += 1
-            x -= 1
-            path.append((x,y))
+            if p2[1]==y: #cas sur la même colonne, descente
+                for i in range(x+1,p2[0]):
+                    addCoord(i,y,path)
 
-        if p2[0]==x: #cas sur la même ligne, deplacement que sur la ligne
-            for i in range(y+1,p2[1]):
-                path.append((x,i))
+        elif p1[0]>p2[0]: #si on a un décalage en montée, on se déplace à gauche vers le haut
+            while x>p2[0] and y>p2[1]:#on se déplace jusqu'à tomber sur la même colonne
+                y -= 1
+                x -= 1
+                addCoord(x,y,path)
 
-        if p2[1]==y: #cas sur la même colonne, deplacement uniquement en x
-            for i in range(x-1,p2[0],-1): #montée vers p2
-                path.append((i,y))
+            if p2[1]==y: #cas sur la même colonne, montée
+                for i in range(x-1,p2[0],-1):
+                    addCoord(i,y,path)
 
-    return path
+        if p2[0]==x: #si on est sur la même ligne, deplacement que sur la ligne vers la gauche
+            for i in range(y-1,p2[1],-1):
+                addCoord(x,i,path)
 
-def sortEdge(ListRouter):
+    addCoord(p2[0],p2[1],path)
+
+def addCoord(x,y,path):
+    if (x,y) not in path:
+        path.append((x,y))
+
+def makeEdges(ListRouter,testRouter):
 
     ListEdge = []
-    ListR=ListRouter[:]
-    for A in ListR:
-        ListR = ListR[1:len(ListR)]
-        for B in ListR:
+    for A in ListRouter:
 
-            xA = A.pos[0]
-            yA = A.pos[1]
-            xB = B.pos[0]
-            yB = B.pos[1]
+        xA = A.pos[0]
+        yA = A.pos[1]
+        xB = testRouter.pos[0]
+        yB = testRouter.pos[1]
 
-            dist = max(abs(yB-yA),abs(xB-xA))
+        dist = max(abs(yB-yA),abs(xB-xA))
 
-            ListEdge.append(Edge(A,B,dist))
-
-    ListEdge.sort(key=attrgetter("distance"))
+        ListEdge.append(Edge(testRouter,A,dist))
     return ListEdge
 
 def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un arbre couvrant minimal (Algo de Prim)
     #AllRouter doit être une liste d'objet Router de même que initBackbone est un objet Router
-    ListEdgeSorted = sortEdge(AllRouter)
-    trees = []
-    edgeToLink = []
+    n = len(AllRouter)
+    EdgeToLink = []
+    ListEdge = []
+    testRouter = AllRouter[0]
+    while len(EdgeToLink) != n-1:
+        AllRouter.remove(testRouter)
+        ListEdge += makeEdges(AllRouter,testRouter)
+        ListEdge.sort(key=attrgetter("distance"))
+        for e in ListEdge:
+            if e.router2 in AllRouter:
+                EdgeToLink.append(e)
+                testRouter = e.router2
+                ListEdge.remove(e)
+                break
+            else:
+                ListEdge.remove(e)
+        ListEdge = ListEdge[:10*n]
+    return EdgeToLink
+    #systeme d'arbre
+    '''trees = []
     numTree = 0
     for edge in ListEdgeSorted: # permet de placer les aretes et les routeurs dans des arbres sans faire de boucle
         numtree1 = edge.router1.inWhichTree
@@ -97,9 +132,7 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
         edgeToLink.append(edge) # on ajoute l'arête dans la liste d'arêtes à connecter
 
         if len(edgeToLink) == len(AllRouter)-1: #condition d'arret pour ne pas faire toute les aretes. On s'arrête dès qu'on a n-1 arêtes, car on aura n sommet connectés
-            break
-
-    return edgeToLink
+            break'''
 
                                                                                                                                   # |
 '''def clearRightAngle(paths,mat):  # à pour but d'optimiser le nombre de backbones en enlevant les angles droits (ex de liaison possible   B - b - B où b est inutiles (à cause des diagonales), l'enlever réduit le budjet
@@ -107,30 +140,25 @@ def edgePlacement(AllRouter): # sélectionne les arêtes à placer pour avoir un
     for l in paths:
         x=l[0]
         y=l[1]
-        print("opti en cours")
-        if (mat.getPoint(x+1,y).onBB == True or mat.getPoint(x-1,y).onBB == True) and (mat.getPoint(x,y+1).onBB == True or mat.getPoint(x,y-1).onBB == True):
+        if (mat.getPoint(x+1,y).onBB == True or mat.getPoint(x-1,y).onBB == True) and (mat.getPoint(x,y+1).onBB == True or mat.getPoint(x,y-1).onBB == True) and ((x,y) not in mat.routerList):
             mat.getPoint(x,y).onBB == False
-            print("bb {} {} supprimer".format(x,y))
-            paths.remove(l)  # supprime le backbone de la liste
-    print("opti fini")
+            paths.remove(l)# supprime le backbone de la liste
     return 1'''
 
 def main(mat):
-    AllPoint = []
-    AllCoord = mat.routerList[:]
-    AllCoord.append(mat.backboneInit)
-    for c in AllCoord:
-        AllPoint.append(Router(c[0],c[1]))
+    AllPoint = [Router(mat.backboneInit[0],mat.backboneInit[1])]
     paths = []
+    for c in mat.routerList:
+        AllPoint.append(Router(c[0],c[1]))
     edges = edgePlacement(AllPoint)
 
     for edge in edges:
-        paths += link2Points(edge.router1.pos,edge.router2.pos)
-    
+        link2Points(paths,edge.router1.pos,edge.router2.pos)
+
     for b in paths:
         x=b[0]
         y=b[1]
         mat.matrice[x][y].onBB = True
-        
-    backbones = mat.routerList + paths
-    return backbones
+
+    # clearRightAngle(paths,mat) , opti impossible à cause de la lecture des coord par le simulateur
+    return paths

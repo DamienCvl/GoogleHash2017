@@ -13,6 +13,8 @@ class Matrice:
         self.budget = -1
         self.backboneInit = []
         self.wallList = []
+        self.wallList2 = {}
+        self.targetList2 = {}
         self.targetList = []
         self.routerList = []
         self.backboneList = []

@@ -7,6 +7,7 @@ from backbone_path import BB_search
 import math
 import time
 import os
+import math
 
 def lectureFichier(path):
     lineNumber = 0 # Numero de la ligne
@@ -16,6 +17,8 @@ def lectureFichier(path):
     matrice = Matrice()
     with open(path) as f: # On ouvre le fichier et on traite ligne par ligne
         for line in f:
+            columnListTarget=[]
+            columnListWall=[]
             #On split les Vertical dans les 3 premiers cas pour recuperer toutes les informations nécessaires tel
             #que le budget, le rayon, le cout, etc...
             if(lineNumber == 0):
@@ -41,10 +44,16 @@ def lectureFichier(path):
                     elif char == '#': #si c'est un hashtag on crée un wall
                         matrice.setPoint(rowCount, columnCount, Point("#"))
                         matrice.wallList.append((rowCount,columnCount))
+                        columnListWall.append(columnCount)
                     elif char == '.':
                         matrice.setPoint(rowCount, columnCount, Target())#Sinon si c'est un point on crée un target
                         matrice.targetList.append((rowCount,columnCount,Target()))
+                        columnListTarget.append(columnCount)
                     columnCount += 1 #On incrémente le nombre de colonne
+                if columnListWall:
+                    matrice.wallList2[rowCount]=columnListWall
+                if columnListTarget:
+                    matrice.targetList2[rowCount]=columnListTarget
                 rowCount += 1 #On incrémente le nombre de ligne
                 #matrice.setLine()
             lineNumber += 1 #On incrémente le numéro de ligne
@@ -110,25 +119,24 @@ def covering(matrice, rayon, posLignes, posColonnes):
     rayonS = rayonSud
     rayonO = rayonOuest
 
-    ecrireLog("\n{} - {} - {} - {} - {}".format(rayon, rayonN, rayonE, rayonS, rayonO))
-    ecrireLog("\n{} - {}".format(posLignes + 1, posColonnes + 1))
+
 
     #Nord
     for i in range(posLignes - 1, posLignes - 1 - rayonNord, -1):
         for j in range(posColonnes + 1, posColonnes + 1 + rayonE, +1):
 
-            if not matrice.getPoint(i, j).typePoint == "-" or not matrice.getPoint(i, j).typePoint == "#":
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
 
             elif matrice.getPoint(i, j).typePoint == "#":
-                rayonE = posColonnes - j
+                rayonE = j - posColonnes
                 break
 
     #Est
     for j in range(posColonnes + 1, posColonnes + 1 + rayonEst, +1):
         for i in range(posLignes + 1, posLignes + 1 + rayonS, +1):
 
-            if not matrice.getPoint(i, j).typePoint == "-" or not matrice.getPoint(i, j).typePoint == "#":
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
 
             elif matrice.getPoint(i, j).typePoint == "#":
@@ -139,73 +147,387 @@ def covering(matrice, rayon, posLignes, posColonnes):
     for i in range(posLignes + 1, posLignes + 1 + rayonSud, + 1):
         for j in range(posColonnes - 1, posColonnes - 1 - rayonO, -1):
 
-            if not matrice.getPoint(i, j).typePoint == "-" or not matrice.getPoint(i, j).typePoint == "#":
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
 
             elif matrice.getPoint(i, j).typePoint == "#":
-                rayonO = j - posColonnes
+                rayonO = posColonnes - j - 1
                 break
 
     #Ouest
     for j in range(posColonnes - 1, posColonnes - 1 - rayonOuest, -1):
         for i in range(posLignes - 1, posLignes - 1 - rayonN, -1):
 
-            if not matrice.getPoint(i, j).typePoint == "-" or not matrice.getPoint(i, j).typePoint == "#":
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
                 matrice.getPoint(i, j).isCovered = True
 
             elif matrice.getPoint(i, j).typePoint == "#":
-                rayonN = posLignes - i
+                rayonN = posLignes - i - 1
                 break
 
     matrice.getPoint(posLignes, posColonnes).isCovered = True
+#Meme méthode que covering cependant celle-ci gère les dictionnaires de targets en transferant les cellules couvertes dans le dictionnaire de wall
+def covering2(matrice, rayon, posLignes, posColonnes):
 
-def positionnerRouteur(matrice):
-     compteurDeTarget = 0 #Permet de placer le router
-     routers = [] #liste des positions des routeurs
-     cptRouteurs = 0
-     #calculPoids(matrice.wallList,matrice.targetList)
-     for compteurLignes in range(matrice.rows):
-         for compteurColonnes in range(matrice.columns):
-             if(cptRouteurs < (matrice.budget // matrice.routerCost)):
-                 if compteurDeTarget < (matrice.routerRange * 2) and not (matrice.getPoint(compteurLignes, compteurColonnes).typePoint == "-" or matrice.getPoint(compteurLignes, compteurColonnes).typePoint == "#"):
-                    if not matrice.getPoint(compteurLignes,compteurColonnes).isCovered :
-                        compteurDeTarget = compteurDeTarget + 1 #incrément de la zone à couvrir
+    rayonNord = rayon
+    rayonEst = rayon
+    rayonSud = rayon
+    rayonOuest = rayon
 
-                    elif compteurDeTarget !=0: #Dans le cas où il y a des zones difficiles d'accès
-                        if compteurDeTarget == 1:
-                            matrice.getPoint(compteurLignes, compteurColonnes  - 1).isRouter = True
-                            routers.append([compteurLignes, compteurColonnes - 1]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
-                            ecrireLog("\n")
-                            ecrireLog("Routeur : {} | CompteurLignes : {} | CompteurColonnes : {} | Compteur de Targets : {}".format(matrice.getPoint(compteurLignes, compteurColonnes - 1).typePoint, compteurLignes, compteurColonnes  - 1, 1))
-                            covering(matrice, matrice.routerRange, compteurLignes, compteurColonnes  - 1)# On change les cellules concernées en Covered
-                            cptRouteurs +=1
-                        elif compteurDeTarget > 1:
-                            matrice.getPoint(compteurLignes, compteurColonnes  - (compteurDeTarget // 2)).isRouter = True
-                            routers.append([compteurLignes, compteurColonnes - (compteurDeTarget // 2)]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
-                            ecrireLog("\n")
-                            ecrireLog("Routeur : {} | CompteurLignes : {} | CompteurColonnes : {} | Compteur de Targets : {}".format(matrice.getPoint(compteurLignes, compteurColonnes - (compteurDeTarget // 2)).typePoint, compteurLignes, compteurColonnes  - (compteurDeTarget // 2), compteurDeTarget // 2))
-                            covering(matrice, matrice.routerRange, compteurLignes, compteurColonnes  - (compteurDeTarget // 2))# On change les cellules concernées en Covered
-                            cptRouteurs +=1
-                        compteurDeTarget = 0
+    murNord = False
+    murEst = False
+    murSud = False
+    murOuest = False
 
-                 else:
-                    if compteurDeTarget == 1:
-                        matrice.getPoint(compteurLignes, compteurColonnes  - 1).isRouter = True
-                        routers.append([compteurLignes, compteurColonnes - 1]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
-                        ecrireLog("\n")
-                        ecrireLog("Routeur : {} | CompteurLignes : {} | CompteurColonnes : {} | Compteur de Targets : {}".format(matrice.getPoint(compteurLignes, compteurColonnes - 1).typePoint, compteurLignes, compteurColonnes  - 1, 1))
-                        covering(matrice, matrice.routerRange, compteurLignes, compteurColonnes  - 1)# On change les cellules concernées en Covered
-                        cptRouteurs +=1
-                    elif compteurDeTarget > 1:
-                        matrice.getPoint(compteurLignes, compteurColonnes  - (compteurDeTarget // 2)).isRouter = True
-                        routers.append([compteurLignes, compteurColonnes - (compteurDeTarget // 2)]) # On pose le router au centre de la zone et la rajoute dans la liste de routers
-                        ecrireLog("\n")
-                        ecrireLog("Routeur : {} | CompteurLignes : {} | CompteurColonnes : {} | Compteur de Targets : {}".format(matrice.getPoint(compteurLignes, compteurColonnes - (compteurDeTarget // 2)).typePoint, compteurLignes, compteurColonnes  - (compteurDeTarget // 2), compteurDeTarget // 2))
-                        covering(matrice, matrice.routerRange, compteurLignes, compteurColonnes  - (compteurDeTarget // 2))# On change les cellules concernées en Covered
-                        cptRouteurs +=1
-                    compteurDeTarget = 0
-     #print(cptRouteurs)
-     return matrice,routers
+    for i in range(1, rayon+1):
+        if(not murNord):
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
+                matrice.getPoint(posLignes - i, posColonnes).isCovered = True
+                if posLignes - i in matrice.wallList2:
+                    matrice.wallList2[posLignes - i].append(posColonnes)
+                else:
+                    matrice.wallList2[posLignes - i]=[posColonnes]
+                if(posColonnes in matrice.targetList2[posLignes - i]):
+                    matrice.targetList2[posLignes - i].remove(posColonnes)
+
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "#":
+                murNord = True
+                rayonNord = i
+
+        if(not murEst):
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
+                matrice.getPoint(posLignes, posColonnes + i).isCovered = True
+                if posLignes in matrice.wallList2:
+                    matrice.wallList2[posLignes].append(posColonnes + i)
+                else:
+                    matrice.wallList2[posLignes]=[posColonnes + i]
+                if(posColonnes + i in matrice.targetList2[posLignes]):
+                    matrice.targetList2[posLignes].remove(posColonnes + i)
+
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == "#":
+                murEst = True
+                rayonEst = i
+
+        if(not murSud):
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
+                matrice.getPoint(posLignes + i, posColonnes).isCovered = True
+                if posLignes + i in matrice.wallList2:
+                    matrice.wallList2[posLignes + i].append(posColonnes)
+                else:
+                    matrice.wallList2[posLignes + i]=[posColonnes]
+                if(posColonnes in matrice.targetList2[posLignes + i]):
+                    matrice.targetList2[posLignes + i].remove(posColonnes)
+
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#":
+                murSud = True
+                rayonSud = i
+
+        if(not murOuest):
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
+                matrice.getPoint(posLignes, posColonnes - i).isCovered = True
+                if posLignes in matrice.wallList2:
+                    matrice.wallList2[posLignes].append(posColonnes - i)
+                else:
+                    matrice.wallList2[posLignes]=[posColonnes - i]
+                if(posColonnes - i in matrice.targetList2[posLignes]):
+                    matrice.targetList2[posLignes].remove(posColonnes - i)
+
+
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#":
+                murOuest = True
+                rayonOuest = i
+
+    rayonN = rayonNord
+    rayonE = rayonEst
+    rayonS = rayonSud
+    rayonO = rayonOuest
+
+
+    #Nord
+    for i in range(posLignes- 1, posLignes - 1 - rayonNord, -1):
+        for j in range(posColonnes + 1, posColonnes + 1+  rayonE, +1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                matrice.getPoint(i, j).isCovered = True
+                if i in matrice.wallList2:
+                    matrice.wallList2[i].append(j)
+                else:
+                    matrice.wallList2[i]=[j]
+                if(j in matrice.targetList2[i]):
+                    matrice.targetList2[i].remove(j)
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonE = j - posColonnes
+                break
+
+    #Est
+    for j in range(posColonnes + 1 , posColonnes + 1 + rayonEst, +1):
+        for i in range(posLignes + 1, posLignes + 1 + rayonS, +1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                matrice.getPoint(i, j).isCovered = True
+                if i in matrice.wallList2:
+                    matrice.wallList2[i].append(j)
+                else:
+                    matrice.wallList2[i]=[j]
+
+                if(j in matrice.targetList2[i]):
+                    matrice.targetList2[i].remove(j)
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonS = i - posLignes
+                break
+
+    #Sud
+    for i in range(posLignes + 1, posLignes + 1 + rayonSud, + 1):
+        for j in range(posColonnes - 1, posColonnes -1 - rayonO, -1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                matrice.getPoint(i, j).isCovered = True
+                if i in matrice.wallList2:
+                    matrice.wallList2[i].append(j)
+                else:
+                    matrice.wallList2[i]=[j]
+                if(j in matrice.targetList2[i]):
+                    matrice.targetList2[i].remove(j)
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonO = posColonnes - j - 1
+                break
+
+    #Ouest
+    for j in range(posColonnes - 1, posColonnes - 1 - rayonOuest, -1):
+        for i in range(posLignes - 1, posLignes - 1 - rayonN, -1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                matrice.getPoint(i, j).isCovered = True
+                if i in matrice.wallList2:
+                    matrice.wallList2[i].append(j)
+                else:
+                    matrice.wallList2[i]=[j]
+                if(j in matrice.targetList2[i]):
+                    matrice.targetList2[i].remove(j)
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonN = posLignes - i - 1
+                break
+
+
+    matrice.getPoint(posLignes, posColonnes).isCovered = True
+    if posLignes in matrice.wallList2:
+        matrice.wallList2[posLignes].append(posColonnes)
+    else:
+        matrice.wallList2[posLignes]=[posColonnes]
+    if(posColonnes in matrice.targetList2[posLignes]):
+
+        matrice.targetList2[posLignes].remove(posColonnes)
+
+#Meme principe que covering excepté que l'on ne change pas les cellules, on se contente de calculer le nombre de cellules qui peuvent être couvertes
+def coveringScore(matrice, rayon, posLignes, posColonnes):
+
+    rayonNord = rayon
+    rayonEst = rayon
+    rayonSud = rayon
+    rayonOuest = rayon
+    score = 0
+    murNord = False
+    murEst = False
+    murSud = False
+    murOuest = False
+
+    for i in range(1, rayon+1):
+        if(not murNord):
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == ".":
+                if not matrice.getPoint(posLignes - i, posColonnes).isCovered:
+                    score+=1
+
+            if matrice.getPoint(posLignes - i, posColonnes).typePoint == "#":
+                murNord = True
+                rayonNord = i
+
+        if(not murEst):
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes, posColonnes + i).typePoint == ".":
+                if not matrice.getPoint(posLignes, posColonnes + i).isCovered:
+                    score+=1
+
+        if(not murSud):
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == ".":
+                if not matrice.getPoint(posLignes + i, posColonnes).isCovered:
+                    score+=1
+
+            if matrice.getPoint(posLignes + i, posColonnes).typePoint == "#":
+                murSud = True
+                rayonSud = i
+
+        if(not murOuest):
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "-":
+                pass
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == ".":
+                if not matrice.getPoint(posLignes, posColonnes - i).isCovered:
+                    score+=1
+
+            if matrice.getPoint(posLignes, posColonnes - i).typePoint == "#":
+                murOuest = True
+                rayonOuest = i
+
+    rayonN = rayonNord
+    rayonE = rayonEst
+    rayonS = rayonSud
+    rayonO = rayonOuest
+
+
+    #Nord
+    for i in range(posLignes, posLignes - 1 - rayonNord, -1):
+        for j in range(posColonnes + 1, posColonnes + 1+  rayonE, +1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                if not matrice.getPoint(i,j).isCovered:
+                    score+=1
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonE = j - posColonnes
+                break
+
+    #Est
+    for j in range(posColonnes +1 , posColonnes + 1 + rayonEst, +1):
+        for i in range(posLignes + 1, posLignes + 1 + rayonS, +1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                if not matrice.getPoint(i,j).isCovered:
+                    score+=1
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonS = i - posLignes
+                break
+
+    #Sud
+    for i in range(posLignes, posLignes + 1 + rayonSud, + 1):
+        for j in range(posColonnes, posColonnes -1 - rayonO, -1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                if not matrice.getPoint(i,j).isCovered:
+                    score+=1
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonO = posColonnes - j - 1
+                break
+
+    #Ouest
+    for j in range(posColonnes, posColonnes - 1 - rayonOuest, -1):
+        for i in range(posLignes - 1, posLignes - 1 - rayonN, -1):
+
+            if not matrice.getPoint(i, j).typePoint == "-" and not matrice.getPoint(i, j).typePoint == "#":
+                if not matrice.getPoint(i,j).isCovered:
+                    score+=1
+
+            elif matrice.getPoint(i, j).typePoint == "#":
+                rayonN = posLignes - i - 1
+                break
+
+    score+=1
+    return score
+def positionnerRouteur(mat):
+        routersOpti=[]
+        ##################
+        #Parcours des cellules en trouvant les cas maximaux
+        for i in mat.targetList2.keys(): #parcours les lignes des targets
+            j=0
+            while j< len(mat.targetList2[i]):
+                murTrouve=False
+                for k in range(i-mat.routerRange,i+mat.routerRange): #parcours les lignes des walls
+                    if k in mat.wallList2.keys():
+                        for l in range(mat.targetList2[i][j]-mat.routerRange,mat.targetList2[i][j] + mat.routerRange): #parcours les colonnes des walls
+                            if l in mat.wallList2[k]:
+                                murTrouve=True
+                                break
+                if not murTrouve:#ajout d'un nouveau routeur
+                    mat.getPoint(i,mat.targetList2[i][j]).isRouter=True
+                    routersOpti.append([i,mat.targetList2[i][j]])
+                    covering2(mat, mat.routerRange,i, mat.targetList2[i][j])
+                    j-=1
+                j+=1
+        ##################
+        #Tant qu'il y a des cellules a couvrir (iMax != -1) on recherche le router avec le meilleur score
+        while mat.targetList2:
+            if len(routersOpti)*mat.routerCost>mat.budget*0.80 :
+                mat.routerList = routersOpti
+                mat.backboneList = BB_search.main(mat)
+                if len(mat.routerList)*mat.routerCost + len(mat.backboneList)*mat.backboneCost > mat.budget: #Etude du dépassement du budget
+                    mat.routerList.pop()
+                    routersOpti.pop( )
+                    mat.backboneList = BB_search.main(mat)
+                    #Début de la recherche du placement le plus optimisé avec une certaine distance délimité par la distance induit du budget
+
+                    marge = mat.budget - (len(mat.routerList)+1)*mat.routerCost - len(mat.backboneList)*mat.backboneCost
+                    if marge > 0:
+                        iMax=-1
+                        jMax=-1
+                        nbTargetMax=0
+                        for i in mat.targetList2.keys(): #parcours les lignes des targets
+                            j=0
+
+                            while j< len(mat.targetList2[i]):
+
+                                tmp = coveringScore(mat, mat.routerRange,i, mat.targetList2[i][j])
+                                if(nbTargetMax<tmp):
+                                    for m in routersOpti:
+                                        if math.sqrt((m[0] - mat.targetList2[i][j])**2+(m[1] - i)**2) < marge *0.75:
+                                            iMax = i
+                                            jMax = j
+                                            nbTargetMax=tmp
+                                            break
+
+                                j+=1
+                        if iMax==-1:
+                            break
+                        mat.getPoint(iMax,mat.targetList2[iMax][jMax]).isRouter=True
+                        ecrireLog("3 {} - {}   :  {}\n".format(iMax,jMax,nbTargetMax))
+                        routersOpti.append([iMax,mat.targetList2[iMax][jMax]])
+                        covering2(mat, mat.routerRange,iMax, mat.targetList2[iMax][jMax])
+
+                    mat.backboneList = BB_search.main(mat)
+                    return mat
+
+            iMax=-1
+            jMax=-1
+            nbTargetMax=0
+            for i in mat.targetList2.keys(): #parcours les lignes des targets
+                j=0
+
+                while j< len(mat.targetList2[i]):
+                    tmp = coveringScore(mat, mat.routerRange,i, mat.targetList2[i][j])
+                    if(nbTargetMax<tmp):
+                        iMax = i
+                        jMax = j
+                        nbTargetMax=tmp
+                    j+=1
+            if iMax==-1:
+                break
+            mat.getPoint(iMax,mat.targetList2[iMax][jMax]).isRouter=True
+            ecrireLog("2 {} - {}   :  {}\n".format(iMax,jMax,nbTargetMax))
+            routersOpti.append([iMax,mat.targetList2[iMax][jMax]])
+            covering2(mat, mat.routerRange,iMax, mat.targetList2[iMax][jMax])
+
+        print(len(routersOpti))
+        mat.routerList = routersOpti
+        mat.backboneList = BB_search.main(mat)
+        print("estPassé")
+
+        return mat
 
 def ecrireFichier(router = [], backbone = []):
 
@@ -215,7 +537,7 @@ def ecrireFichier(router = [], backbone = []):
         os.mkdir("output")
     except:
         pass
-    
+
     os.chdir("output/")
     f = open(filename,'a')
 
@@ -264,10 +586,8 @@ if __name__ == '__main__':
     try:
         os.remove("log.txt")
     except: pass
-    mat=lectureFichier("maps/charleston_road.in")
-    mat,mat.routerList=positionnerRouteur(mat)
-    #print(routeurs)
-    mat.backboneList = BB_search.main(mat)
+    mat=lectureFichier("maps/lets_go_higher.in")
+    mat=positionnerRouteur(mat)
     for compteurLignes in range(mat.rows):
          for compteurColonnes in range(mat.columns):
                 if(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "."):
@@ -275,12 +595,12 @@ if __name__ == '__main__':
                         if mat.getPoint(compteurLignes,compteurColonnes).isRouter:
                             print("R",end='')
                         else:
-                            print("-",end='')
+                            print(".",end='')
                     else:
                         print("X",end='')
                 elif(mat.getPoint(compteurLignes,compteurColonnes).typePoint == "#"):
                     print("#",end='')
                 else:
-                    print("_",end='')
+                    print("-",end='')
          print()
     ecrireFichier(mat.routerList,mat.backboneList)
